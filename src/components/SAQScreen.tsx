@@ -409,15 +409,10 @@ export default function SAQScreen({
               {/* Mnemonic table / summaries */}
               {currentQuestion.mnemonics && currentQuestion.mnemonics.map((mn, mIdx) => (
                 <div key={mIdx} className="mt-2.5 pt-2 border-t border-amber-200/60 space-y-2">
-                  <div className="flex items-center justify-between">
+                  <div>
                     <span className="text-xs sm:text-sm font-bold text-amber-900">
                       {mn.title}
                     </span>
-                    {mn.source && (
-                      <span className="text-xs text-amber-700 font-medium">
-                        Source: {mn.source}
-                      </span>
-                    )}
                   </div>
 
                   {mn.summary && (
@@ -440,7 +435,7 @@ export default function SAQScreen({
                                   key={thIdx}
                                   className={`p-1.5 sm:p-2.5 border-b border-amber-200/80 break-words ${colWidth}`}
                                 >
-                                  {th}
+                                  {thIdx === 0 ? '' : th}
                                 </th>
                               );
                             })}
@@ -481,7 +476,9 @@ export default function SAQScreen({
           {currentQuestion.warningNotice && (
             <div className="p-3.5 sm:p-4 bg-rose-50/90 border border-rose-200 rounded-2xl flex items-start gap-2.5 text-[14px] sm:text-[15px] text-rose-950 leading-relaxed sm:leading-[1.7]">
               <AlertTriangle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />
-              <p className="font-medium">{currentQuestion.warningNotice}</p>
+              <p className="font-medium">
+                {currentQuestion.warningNotice.replace(/^[\s⚠️!]+/, '').trim()}
+              </p>
             </div>
           )}
 
