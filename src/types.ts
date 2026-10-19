@@ -17,9 +17,15 @@ export type SourceType =
   | 'original_true_false'
   | 'derived_saq'
   | 'derived_laq'
-  | 'lecture_notes';
+  | 'lecture_notes'
+  | 'generated_mcq'
+  | 'practice_mcq';
 
-export type PaperCategory = 'Block 1' | 'Respiratory Disorders' | 'Trauma and Emergency Nursing';
+export type PaperCategory =
+  | 'Block 1'
+  | 'Respiratory Disorders'
+  | 'Trauma and Emergency Nursing'
+  | 'Pharmacology 1';
 
 export type AppNavTab = 'home' | 'papers' | 'tnh_practice' | 'saqs' | 'review';
 

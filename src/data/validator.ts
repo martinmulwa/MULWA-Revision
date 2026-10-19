@@ -34,13 +34,15 @@ const ALLOWED_SOURCE_TYPES: Set<SourceType> = new Set([
   'original_true_false',
   'derived_saq',
   'derived_laq',
-  'lecture_notes'
+  'lecture_notes',
+  'generated_mcq'
 ]);
 
 const ALLOWED_CATEGORIES = new Set<string>([
   'Block 1',
   'Respiratory Disorders',
-  'Trauma and Emergency Nursing'
+  'Trauma and Emergency Nursing',
+  'Pharmacology 1'
 ]);
 
 /**

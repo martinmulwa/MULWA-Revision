@@ -157,7 +157,7 @@ export default function HomeDashboard({
                   MCQ Bank
                 </h3>
                 <p className="text-[11px] font-medium text-slate-500 truncate mt-0.5">
-                  {BOARD_PAST_PAPERS.length} Papers · 410 Questions
+                  {BOARD_PAST_PAPERS.length} Papers · {BOARD_PAST_PAPERS.reduce((acc, p) => acc + (p.questions?.length || p.totalQuestions || 0), 0)} Questions
                 </p>
               </div>
             </div>
@@ -215,7 +215,7 @@ export default function HomeDashboard({
                   TNH Practice
                 </h3>
                 <p className="text-[11px] font-medium text-slate-500 truncate mt-0.5">
-                  {TNH_PRACTICE_PAPERS.length} Practice Papers · 179 Questions
+                  MCQ & SAQ Banks · {TNH_PRACTICE_PAPERS.reduce((acc, p) => acc + (p.questions?.length || p.totalQuestions || 0), 0)} Questions
                 </p>
               </div>
             </div>
