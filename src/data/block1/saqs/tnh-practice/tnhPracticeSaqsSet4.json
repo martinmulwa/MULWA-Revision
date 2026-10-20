@@ -1,0 +1,2191 @@
+{
+  "id": "tnh-practice-trauma-emergency-saqs-4",
+  "title": "TNH Practice: Trauma and Emergency Nursing SAQ Question Bank (Set 4 of 4)",
+  "subtitle": "Burns II, BLS and paediatric resuscitation II, first aid II, and snake bite, drowning, stroke and poisoning II. Ordered by predicted probability of being tested.",
+  "author": "TNH Practice Question Bank",
+  "version": "1.0.0",
+  "totalQuestions": 23,
+  "totalPastPaperSaqs": 12,
+  "rankingMethod": "Topics are ranked by predicted probability of being set as short answer questions. The ranking weighs (1) how often the topic or its sibling questions appeared in the 5 Block One papers (September 2022 to April 2025 classes), (2) how much space the topic takes in the lecture notes, and (3) topics that have only appeared as MCQs so far and are due to cross over into the SAQ section. Every question is answerable from the attached lecture notes only; the research additions are confined to the memory aids and exam tips. Question wording follows the command words of the real papers (State, Outline, List, Explain).",
+  "papersAnalysed": [
+    {
+      "paperId": "krn-block1-sept2022-trauma-emergency-nursing",
+      "paper": "September 2022 Class, Block One Exam (sat 13 March 2023)"
+    },
+    {
+      "paperId": "krn-block1-sept2023-trauma-emergency-nursing",
+      "paper": "September 2023 Class, First Block Exam (sat 2 April 2024)"
+    },
+    {
+      "paperId": "krn-block1-april2024-trauma-emergency-nursing",
+      "paper": "April 2024 Class, First Block Exam (sat 16 November 2023)"
+    },
+    {
+      "paperId": "krn-block1-sept2024-trauma-emergency-nursing",
+      "paper": "September 2024 Class, First Block Exam (sat 10 March 2025)"
+    },
+    {
+      "paperId": "krn-block1-april2025-trauma-emergency-nursing",
+      "paper": "April 2025 Class, Block One (sat 14 October 2025)"
+    }
+  ],
+  "parts": [
+    {
+      "id": "burns-ii",
+      "partNumber": 13,
+      "title": "Burns: Classification, Pathophysiology and Care",
+      "shortTitle": "Burns II",
+      "condition": "Burns",
+      "tier": "Tier 2",
+      "frequencyBadge": "Predicted: High · Burns appeared as an SAQ in April 2025 and in the MCQs in 2 papers",
+      "frequencyRank": 13,
+      "description": "Depth, extent, systemic response, phases, acute care, topical agents and complications.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set4_50",
+          "qNumber": "Q50",
+          "partId": "burns-ii",
+          "partTitle": "Burns: Classification, Pathophysiology and Care",
+          "tier": "Tier 2",
+          "topic": "Burn Depth",
+          "text": "Differentiate between a superficial partial-thickness burn and a full-thickness burn.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: High · Burn depth was an MCQ in April 2025 and has never been set as an SAQ",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q50",
+              "marks": 4,
+              "wording": "Differentiate between a superficial partial-thickness burn and a full-thickness burn."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Burns are classified by depth according to the layers of skin that are damaged. Depth decides the appearance, the pain, the healing time and the need for grafting.",
+            "subsections": [
+              {
+                "heading": "A. Four points to write (2 marks for each burn)",
+                "points": [
+                  "1. Superficial partial-thickness burn: involves the epidermis and part of the dermis; the skin is wet, shiny and weeping with blisters, painful, and it blanches (appendages are intact).",
+                  "2. It heals in about 2 weeks with minimal scarring.",
+                  "3. Full-thickness burn: involves the entire dermis and possibly fat, muscle and bone; the skin is pale white, brown or charred and leathery, painless, does not blanch, and the vessels are thrombosed (follicles and glands are destroyed).",
+                  "4. It needs grafting or amputation and leaves scarring and contractures."
+                ]
+              },
+              {
+                "heading": "B. Other depths from the notes",
+                "points": [
+                  "5. Superficial (first degree), for example sunburn: epidermis only, red, dry and painful, no blisters; it peels in 3 to 7 days without scarring.",
+                  "6. Deep partial-thickness: blisters that open easily, oedema, no blanching; it heals in 2 to 4 weeks with scarring and contractures and may convert to full thickness if infected.",
+                  "7. Severity can be deceiving, because full-thickness burns are painless."
+                ]
+              }
+            ],
+            "conclusion": "Use two columns or two short paragraphs, one for each burn, and compare layers, appearance, pain and healing.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burn Depth section)."
+          },
+          "warningNotice": "Exam trap: the full-thickness burn is PAINLESS because the nerve endings are destroyed. A burn that is white, leathery and painless (as in the April 2025 MCQ) is full thickness.",
+          "memoryTips": [
+            "Memory tip 1: Wet and weeping with pain is superficial partial thickness; dry, leathery and painless is full thickness.",
+            "Memory tip 2: Painful means nerves alive; painless means nerves destroyed.",
+            "Memory tip 3: Healing time rises with depth: 3 to 7 days, about 2 weeks, 2 to 4 weeks, then grafting."
+          ],
+          "mnemonics": [
+            {
+              "title": "Burn depth compared",
+              "summary": "All four depths from the lecture notes.",
+              "source": "Lecture notes (classification by depth)",
+              "table": {
+                "headers": [
+                  "Depth",
+                  "Layers",
+                  "Features",
+                  "Healing"
+                ],
+                "rows": [
+                  [
+                    "Superficial (1st degree)",
+                    "Epidermis only",
+                    "Red, dry, painful, no blisters, blanches",
+                    "3 to 7 days, no scarring"
+                  ],
+                  [
+                    "Superficial partial-thickness (2nd)",
+                    "Epidermis and part of dermis",
+                    "Wet, shiny, weeping, blisters, painful, blanches",
+                    "About 2 weeks, minimal scarring"
+                  ],
+                  [
+                    "Deep partial-thickness",
+                    "Epidermis, upper and deeper dermis",
+                    "Blisters easily opened, oedema, no blanching",
+                    "2 to 4 weeks, scarring, may convert to full thickness"
+                  ],
+                  [
+                    "Full-thickness",
+                    "Entire dermis, possibly fat, muscle, bone",
+                    "Pale white, brown or charred, leathery, painless, no blanching",
+                    "Needs grafting or amputation"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "WET-DRY-PAIN hook (study aid)",
+              "summary": "A quick way to tell the depths apart. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Look",
+                  "Depth"
+                ],
+                "rows": [
+                  [
+                    "Red, dry, painful",
+                    "Superficial"
+                  ],
+                  [
+                    "Wet, shiny, weeping, painful",
+                    "Superficial partial-thickness"
+                  ],
+                  [
+                    "Blisters that open, no blanching",
+                    "Deep partial-thickness"
+                  ],
+                  [
+                    "White or charred, leathery, painless",
+                    "Full-thickness"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 2 marks for each burn when you give two or more features of each.",
+              "Keywords the examiner looks for: epidermis, dermis, wet and weeping, blisters, blanches, painful, leathery, painless, grafting.",
+              "Note that some slides call deep partial thickness 'third degree' and full thickness 'fourth degree'; use the layer description to avoid confusion.",
+              "Related question: classification by extent (next question)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_51",
+          "qNumber": "Q51",
+          "partId": "burns-ii",
+          "partTitle": "Burns: Classification, Pathophysiology and Care",
+          "tier": "Tier 2",
+          "topic": "Burn Extent",
+          "text": "Describe three (3) methods of estimating the extent of a burn (percentage of total body surface area).",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: High · The Rule of Nines is needed for every Parkland calculation",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q51",
+              "marks": 4,
+              "wording": "Describe three (3) methods of estimating the extent of a burn (percentage of total body surface area)."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The extent of a burn is expressed as the percentage of the total body surface area (TBSA) that is burned. The estimate is made on arrival and revised within 72 hours, when the depth becomes clearer.",
+            "subsections": [
+              {
+                "heading": "A. Four points to write",
+                "points": [
+                  "1. Rule of Nines (adults): head and neck 9%, each arm 9%, each leg 18%, anterior trunk 18%, posterior trunk 18% and genitalia 1%.",
+                  "2. Lund and Browder chart: the gold standard and the best for children, because it uses age-specific percentages (a child's head is relatively larger and the legs smaller; the head is 19% at 0 to 1 year, 17% at 1 to 4, 13% at 5 to 9, 11% at 10 to 14, 9% at 15 and 7% in adults).",
+                  "3. Palmar method: the patient's palm with fingers is about 1% TBSA (the palm alone about 0.5%); it is used for scattered or small burns and quick prehospital estimates.",
+                  "4. The estimate is made on arrival and revised within 72 hours."
+                ]
+              },
+              {
+                "heading": "B. Cautions",
+                "points": [
+                  "5. The palmar method may over- or underestimate, for example in obesity."
+                ]
+              }
+            ],
+            "conclusion": "Name each method, say who it is for and give one figure.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burn Extent section)."
+          },
+          "warningNotice": "Exam trap: do not use the Rule of Nines for children. The head of a child is a larger proportion of the body than that of an adult.",
+          "memoryTips": [
+            "Memory tip 1: Nines: 9, 9, 18, 18, 18, 1 add up to 100.",
+            "Memory tip 2: Children need Lund and Browder because the head is big and the legs are small.",
+            "Memory tip 3: A palm is about 1% of the body surface."
+          ],
+          "mnemonics": [
+            {
+              "title": "Methods of estimating TBSA",
+              "summary": "The three methods in the lecture notes.",
+              "source": "Lecture notes (classification by extent)",
+              "table": {
+                "headers": [
+                  "Method",
+                  "Best for",
+                  "Key figures"
+                ],
+                "rows": [
+                  [
+                    "Rule of Nines",
+                    "Adults",
+                    "Head 9, arm 9 each, leg 18 each, trunk front 18, back 18, genitalia 1"
+                  ],
+                  [
+                    "Lund and Browder",
+                    "Children (gold standard)",
+                    "Head 19% at 0 to 1 year down to 7% in adults"
+                  ],
+                  [
+                    "Palmar method",
+                    "Scattered or small burns",
+                    "Palm with fingers about 1%"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per method with a detail, and 1 for the timing of the estimate.",
+              "Keywords the examiner looks for: Rule of Nines, Lund and Browder, palmar method, children, 1% TBSA, revise within 72 hours.",
+              "Related question: Parkland calculation (Q15)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_52",
+          "qNumber": "Q52",
+          "partId": "burns-ii",
+          "partTitle": "Burns: Classification, Pathophysiology and Care",
+          "tier": "Tier 2",
+          "topic": "Burns: Systemic Response",
+          "text": "State five (5) systemic responses to a major burn (more than 20% TBSA).",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · The systemic response is the longest part of the burn pathophysiology in the notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q52",
+              "marks": 5,
+              "wording": "State five (5) systemic responses to a major burn (more than 20% TBSA)."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "A burn of more than 20% TBSA is a major burn and causes a response in the whole body, not just in the skin.",
+            "subsections": [
+              {
+                "heading": "A. Five responses to write (1 mark each)",
+                "points": [
+                  "1. Cardiovascular: rapid plasma loss reduces cardiac output and blood pressure, which is the onset of burn shock; catecholamines cause vasoconstriction and tachycardia, and haemoconcentration increases the risk of thrombosis.",
+                  "2. Electrolytes: hyponatraemia, hyperkalaemia and metabolic acidosis.",
+                  "3. Gastrointestinal: paralytic ileus and Curling's ulcer.",
+                  "4. Renal: hypovolaemia and free haemoglobin and myoglobin block the tubules and can cause acute tubular necrosis and renal failure.",
+                  "5. Thermoregulation: loss of skin causes heat loss and hypothermia."
+                ]
+              },
+              {
+                "heading": "B. Other systemic points",
+                "points": [
+                  "6. Pulmonary: inhalation injury causes airway oedema and hypoxaemia.",
+                  "7. Fluid shifts: the maximum leak is in the first 24 to 36 hours, peaking at 6 to 8 hours; remobilisation follows at about 24 to 48 hours, and red cell destruction may cause anaemia."
+                ]
+              }
+            ],
+            "conclusion": "Name the system and one effect for each point.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burns: Systemic Response section)."
+          },
+          "warningNotice": "Exam trap: the LOCAL response (oedema, evaporation, haematocrit) is for burns of 20% or less and is a separate answer.",
+          "memoryTips": [
+            "Memory tip 1: Systems: Heart, Salts, Gut, Kidney, Temperature (and lungs).",
+            "Memory tip 2: Sodium is lost into the tissue (hyponatraemia), but potassium is released from cells (hyperkalaemia)."
+          ],
+          "mnemonics": [
+            {
+              "title": "HSGKT (study aid for systemic burn response)",
+              "summary": "A home-made memory aid. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "H",
+                    "Heart and circulation: burn shock",
+                    "Plasma loss, low output, vasoconstriction"
+                  ],
+                  [
+                    "S",
+                    "Salts: electrolytes",
+                    "Low sodium, high potassium, acidosis"
+                  ],
+                  [
+                    "G",
+                    "Gut",
+                    "Paralytic ileus, Curling's ulcer"
+                  ],
+                  [
+                    "K",
+                    "Kidney",
+                    "Acute tubular necrosis from haemoglobin and myoglobin"
+                  ],
+                  [
+                    "T",
+                    "Temperature",
+                    "Heat loss, hypothermia"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per system with an effect.",
+              "Keywords the examiner looks for: burn shock, hyponatraemia, hyperkalaemia, metabolic acidosis, paralytic ileus, Curling's ulcer, acute tubular necrosis, hypothermia.",
+              "Related question: Curling's ulcer (Q18)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_53",
+          "qNumber": "Q53",
+          "partId": "burns-ii",
+          "partTitle": "Burns: Classification, Pathophysiology and Care",
+          "tier": "Tier 2",
+          "topic": "Phases of Burn Management",
+          "text": "Outline the three (3) phases of burn management.",
+          "marks": 3,
+          "marksText": "3 marks",
+          "frequencyText": "Predicted probability: High · The phase is the key to every 'emergent phase' or 'acute phase' question",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q53",
+              "marks": 3,
+              "wording": "Outline the three (3) phases of burn management."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Burn management is divided into three phases. Knowing the phase tells the nurse which interventions belong in the answer.",
+            "subsections": [
+              {
+                "heading": "A. Three phases to write (1 mark each)",
+                "points": [
+                  "1. Emergent (resuscitative) phase: from the time of injury to the completion of fluid resuscitation (24 to 48 hours).",
+                  "2. Acute (intermediate) phase: from the start of diuresis to near wound closure (48 hours to weeks).",
+                  "3. Rehabilitation phase: from wound closure to optimal physical and psychosocial adjustment."
+                ]
+              },
+              {
+                "heading": "B. Focus of each phase",
+                "points": [
+                  "4. Emergent: first aid, fluid resuscitation, preventing respiratory distress and pain control.",
+                  "5. Acute: infection prevention, wound care, nutrition and preventing contractures.",
+                  "6. Rehabilitation: pressure garments, scar management and psychosocial recovery."
+                ]
+              }
+            ],
+            "conclusion": "Name each phase with its timing.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Phases of Burn Management section)."
+          },
+          "warningNotice": "Exam trap: skin grafting and topical antibacterials belong to the acute phase, not the emergent phase.",
+          "memoryTips": [
+            "Memory tip 1: Resuscitate, Heal, Rehabilitate: R-H-R.",
+            "Memory tip 2: Emergent 24 to 48 hours; acute from 48 hours; rehabilitation after wound closure."
+          ],
+          "mnemonics": [
+            {
+              "title": "Phases of burn care",
+              "summary": "The three phases and their main nursing focus.",
+              "source": "Lecture notes (burns: management)",
+              "table": {
+                "headers": [
+                  "Phase",
+                  "Timing",
+                  "Focus"
+                ],
+                "rows": [
+                  [
+                    "Emergent",
+                    "Injury to 24 to 48 h",
+                    "Resuscitate: airway, fluids, pain, warmth"
+                  ],
+                  [
+                    "Acute",
+                    "48 h to weeks",
+                    "Heal: infection prevention, wound care, nutrition, splinting"
+                  ],
+                  [
+                    "Rehabilitation",
+                    "Wound closure onwards",
+                    "Rehabilitate: garments, scar care, psychological support"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per phase with its timing.",
+              "Keywords the examiner looks for: emergent or resuscitative, acute or intermediate, rehabilitation, 24 to 48 hours, diuresis, wound closure."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_54",
+          "qNumber": "Q54",
+          "partId": "burns-ii",
+          "partTitle": "Burns: Classification, Pathophysiology and Care",
+          "tier": "Tier 2",
+          "topic": "Burns: Acute Phase",
+          "text": "Outline five (5) nursing interventions in the acute phase of burn management.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · The emergent phase was asked in 2025, so the acute phase is the natural next question",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q54",
+              "marks": 5,
+              "wording": "Outline five (5) nursing interventions in the acute phase of burn management."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "In the acute phase, which starts at about 48 to 72 hours, the aims are to keep up support, prevent infection and help the wound to heal.",
+            "subsections": [
+              {
+                "heading": "A. Five interventions to write (1 mark each)",
+                "points": [
+                  "1. Prevent infection: use PPE and aseptic technique, apply topical antibacterials and isolate the patient in a positive-pressure room.",
+                  "2. Wound care: debridement, hydrotherapy, grafting, escharotomy, and dressings that keep the wound warm and moist.",
+                  "3. Prevent contractures with daily exercise and splinting, and elevate burned upper limbs above the heart to reduce oedema.",
+                  "4. Give nutrition: enteral feeding within 24 to 48 hours to prevent ileus, and parenteral nutrition if enteral feeding is not tolerated.",
+                  "5. Continue pain and anxiety management, and give tetanus prophylaxis and antibiotics for contaminated wounds."
+                ]
+              },
+              {
+                "heading": "B. Other interventions",
+                "points": [
+                  "6. Continue respiratory, circulatory, fluid, electrolyte and gastrointestinal support.",
+                  "7. Check weight daily to avoid fluid overload, and take photographs to document the burn."
+                ]
+              }
+            ],
+            "conclusion": "Write only acute phase actions.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burns: Acute Phase section)."
+          },
+          "warningNotice": "Exam trap: do not write the Parkland formula, humidified oxygen or cooling, which belong to the emergent phase.",
+          "memoryTips": [
+            "Memory tip 1: INFECT-HEAL: Infection control, Wound care, Splint and exercise, Nutrition, Pain relief.",
+            "Memory tip 2: Positive-pressure room keeps germs out; the patient is the one who needs protecting."
+          ],
+          "mnemonics": [
+            {
+              "title": "Acute phase checklist",
+              "summary": "The five core interventions with a key detail.",
+              "source": "Lecture notes (burns: phase 2)",
+              "table": {
+                "headers": [
+                  "Intervention",
+                  "Key detail"
+                ],
+                "rows": [
+                  [
+                    "Infection prevention",
+                    "PPE, aseptic technique, topical antibacterials, positive-pressure room"
+                  ],
+                  [
+                    "Wound care",
+                    "Debridement, hydrotherapy, grafting, escharotomy, warm moist dressings"
+                  ],
+                  [
+                    "Contracture prevention",
+                    "Daily exercise, splinting, elevate burned upper limbs"
+                  ],
+                  [
+                    "Nutrition",
+                    "Enteral feeding within 24 to 48 h; parenteral if not tolerated"
+                  ],
+                  [
+                    "Pain and prophylaxis",
+                    "Analgesia, anxiety management, tetanus prophylaxis"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per intervention.",
+              "Keywords the examiner looks for: aseptic technique, topical antibacterials, positive-pressure room, debridement, splinting, exercise, enteral feeding, tetanus.",
+              "Related question: topical antibacterial agents (next question)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_55",
+          "qNumber": "Q55",
+          "partId": "burns-ii",
+          "partTitle": "Burns: Classification, Pathophysiology and Care",
+          "tier": "Tier 2",
+          "topic": "Topical Antibacterials",
+          "text": "State four (4) topical antibacterial agents used in burn care and one important nursing consideration for each.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · The agent table is the largest table in the burn notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q55",
+              "marks": 4,
+              "wording": "State four (4) topical antibacterial agents used in burn care and one important nursing consideration for each."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Topical antibacterial agents are applied to the burn wound in the acute phase to prevent infection. Each agent has its own precautions.",
+            "subsections": [
+              {
+                "heading": "A. Four agents to write (1 mark each)",
+                "points": [
+                  "1. Silver sulfadiazine 1%: most bactericidal, minimal eschar penetration; watch for leukopenia (2 to 3 days) and pseudo-eschar.",
+                  "2. Mafenide acetate 5 to 10%: penetrates eschar and is the agent of choice for electrical burns; it causes severe pain (premedicate) and is a carbonic anhydrase inhibitor, so monitor for metabolic acidosis.",
+                  "3. Silver nitrate 0.5%: bacteriostatic and fungicidal, does not penetrate eschar; keep the dressing wet, monitor sodium and potassium (hypotonic), and note that it stains black.",
+                  "4. Acticoat: silver-impregnated dressing; moisten with sterile water only (never saline); it can stay on for 3 to 5 days (Acticoat 7: up to 7 days) and no oil-based products are used."
+                ]
+              },
+              {
+                "heading": "B. Extra",
+                "points": [
+                  "5. Silver sulfadiazine is applied as a 1/16-inch layer 1 to 3 times a day."
+                ]
+              }
+            ],
+            "conclusion": "Give the agent and one consideration.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Topical Antibacterials section)."
+          },
+          "warningNotice": "Exam trap: mafenide hurts and acidifies; silver nitrate stains and dilutes the electrolytes; silver sulfadiazine lowers the white cells; Acticoat is moistened with water, not saline.",
+          "memoryTips": [
+            "Memory tip 1: Mafenide Makes pain and Metabolic acidosis; silver Nitrate Notches the sodium and stains black; Sulfadiazine Subdues white cells.",
+            "Memory tip 2: Mafenide is chosen for electrical burns because it penetrates eschar."
+          ],
+          "mnemonics": [
+            {
+              "title": "Topical agents (study aid)",
+              "summary": "The four agents with the one thing to remember about each.",
+              "source": "Lecture notes (topical antibacterial agents)",
+              "table": {
+                "headers": [
+                  "Agent",
+                  "Key strength",
+                  "Key nursing consideration"
+                ],
+                "rows": [
+                  [
+                    "Silver sulfadiazine 1%",
+                    "Most bactericidal; minimal eschar penetration",
+                    "Leukopenia at 2 to 3 days; pseudo-eschar"
+                  ],
+                  [
+                    "Mafenide acetate 5 to 10%",
+                    "Penetrates eschar; electrical burns",
+                    "Severe pain; metabolic acidosis"
+                  ],
+                  [
+                    "Silver nitrate 0.5%",
+                    "Bacteriostatic and fungicidal",
+                    "Keep wet; check Na+ and K+; stains black"
+                  ],
+                  [
+                    "Acticoat",
+                    "Silver-impregnated dressing",
+                    "Moisten with sterile water only; 3 to 5 days"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per agent with a consideration.",
+              "Keywords the examiner looks for: silver sulfadiazine, mafenide acetate, silver nitrate, Acticoat, leukopenia, pain, acidosis, stains black, sterile water."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_56",
+          "qNumber": "Q56",
+          "partId": "burns-ii",
+          "partTitle": "Burns: Classification, Pathophysiology and Care",
+          "tier": "Tier 2",
+          "topic": "Burn Complications",
+          "text": "State five (5) complications of burns.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · A complete complications list is in the notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q56",
+              "marks": 5,
+              "wording": "State five (5) complications of burns."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Burn complications can affect the skin, the gut, the blood, the nerves and the mind. Some are prevented by good nursing care.",
+            "subsections": [
+              {
+                "heading": "A. Five complications to write (1 mark each)",
+                "points": [
+                  "1. Contractures (prevented by positioning and exercise).",
+                  "2. Curling's ulcer.",
+                  "3. Paralytic ileus.",
+                  "4. Sepsis.",
+                  "5. Hypertrophic and keloid scars."
+                ]
+              },
+              {
+                "heading": "B. Other complications",
+                "points": [
+                  "6. Emotional damage, anaemia, peripheral neuropathies and amputation.",
+                  "7. Eschar or compartment syndrome: a deep circumferential burn forms inelastic eschar that acts like a tourniquet and is relieved by an escharotomy (a surgical incision into the eschar)."
+                ]
+              }
+            ],
+            "conclusion": "State each complication in one line.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burn Complications section)."
+          },
+          "warningNotice": "Exam trap: do not write the emergent phase complications (shock, hyperkalaemia) as if they were late complications unless the question asks for them.",
+          "memoryTips": [
+            "Memory tip 1: Skin, Gut, Blood, Mind (SGBM): scars and contractures; ulcer and ileus; anaemia and sepsis; emotional damage and neuropathy.",
+            "Memory tip 2: Escharotomy releases the tourniquet effect of the eschar."
+          ],
+          "mnemonics": [
+            {
+              "title": "Burn complications grouped",
+              "summary": "The complications list from the notes grouped by body system.",
+              "source": "Lecture notes (complications of burns)",
+              "table": {
+                "headers": [
+                  "Group",
+                  "Complications"
+                ],
+                "rows": [
+                  [
+                    "Skin",
+                    "Contractures, hypertrophic and keloid scars, amputation"
+                  ],
+                  [
+                    "Gut",
+                    "Curling's ulcer, paralytic ileus"
+                  ],
+                  [
+                    "Blood and infection",
+                    "Anaemia, sepsis"
+                  ],
+                  [
+                    "Mind and nerves",
+                    "Emotional damage, peripheral neuropathies"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per complication.",
+              "Keywords the examiner looks for: contractures, Curling's ulcer, paralytic ileus, sepsis, hypertrophic scars, keloid, anaemia, neuropathy, amputation."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 7,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "bls-paediatric-ii",
+      "partNumber": 14,
+      "title": "BLS and Paediatric Resuscitation II",
+      "shortTitle": "BLS and Paediatrics II",
+      "condition": "Resuscitation",
+      "tier": "Tier 2",
+      "frequencyBadge": "Predicted: High · BLS in the MCQs in 4 of 5 papers",
+      "frequencyRank": 14,
+      "description": "BLS sequence, definitions, BVM breaths, infant CPR, paediatric obstruction and the paediatric algorithm.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set4_57",
+          "qNumber": "Q57",
+          "partId": "bls-paediatric-ii",
+          "partTitle": "BLS and Paediatric Resuscitation II",
+          "tier": "Tier 2",
+          "topic": "Adult BLS Sequence",
+          "text": "Outline the adult basic life support (BLS) sequence from scene safety to rescue breaths.",
+          "marks": 6,
+          "marksText": "6 marks",
+          "frequencyText": "Predicted probability: High · BLS sequence steps appeared in the MCQs in 3 of 5 papers",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q57",
+              "marks": 6,
+              "wording": "Outline the adult basic life support (BLS) sequence from scene safety to rescue breaths."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The adult BLS sequence is: Safety, Stimulate, Shout, Check pulse and breathing, Airway, Breathing. It is followed whenever a collapsed person is found.",
+            "subsections": [
+              {
+                "heading": "A. Six steps to write (1 mark each)",
+                "points": [
+                  "1. Safety: check the scene, yourself and the victim; wear PPE and use barrier devices; do not risk your life.",
+                  "2. Stimulate: tap and shout 'are you OK?' on both sides and tap or shake the shoulders.",
+                  "3. Shout for help: state the location and ask for an AED and a BVM, or call emergency services.",
+                  "4. Check pulse and breathing: carotid pulse and chest rise for 5 to 10 seconds. If there is no pulse, start CPR; if there is a pulse but no normal breathing, give 1 breath every 6 seconds.",
+                  "5. Airway: head-tilt chin-lift, or jaw thrust if head or neck injury is suspected.",
+                  "6. Breathing: give 2 breaths, each over 1 second with visible chest rise, by mouth-to-mask, bag-valve mask or mouth-to-mouth."
+                ]
+              },
+              {
+                "heading": "B. After the sequence",
+                "points": [
+                  "7. If breathing and pulse are present, monitor until help arrives and use the recovery position if unconscious.",
+                  "8. High-quality CPR then follows (30:2, 100 to 120 per minute, at least 5 cm)."
+                ]
+              }
+            ],
+            "conclusion": "Write the six steps in order with one detail each.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Adult BLS Sequence section)."
+          },
+          "warningNotice": "Exam trap: the sequence is for finding and starting; high-quality CPR is a separate question (Q13). Gasping is not effective breathing.",
+          "memoryTips": [
+            "Memory tip 1: Safety, Stimulate, Shout, Check, Airway, Breathing: 4 S-words then A and B.",
+            "Memory tip 2: The 2025 MCQ: after an unresponsive finding, the next step is to shout for help.",
+            "Memory tip 3: Check the pulse for no more than 10 seconds."
+          ],
+          "mnemonics": [
+            {
+              "title": "SSSCAB (study aid for the BLS sequence)",
+              "summary": "A home-made memory hook for the six steps. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "S",
+                    "Safety",
+                    "Scene, self, victim; PPE"
+                  ],
+                  [
+                    "S",
+                    "Stimulate",
+                    "Tap and shout"
+                  ],
+                  [
+                    "S",
+                    "Shout for help",
+                    "AED, BVM, emergency services"
+                  ],
+                  [
+                    "C",
+                    "Check pulse and breathing",
+                    "5 to 10 seconds"
+                  ],
+                  [
+                    "A",
+                    "Airway",
+                    "Head-tilt chin-lift or jaw thrust"
+                  ],
+                  [
+                    "B",
+                    "Breathing",
+                    "2 breaths, 1 second each, visible chest rise"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per step.",
+              "Keywords the examiner looks for: scene safety, stimulate, shout for help, carotid pulse, 5 to 10 seconds, head-tilt chin-lift, jaw thrust, 2 breaths.",
+              "For a choking adult who collapses, the next step is to start chest compressions (September 2022 MCQ: next intervention after the collapse)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_58",
+          "qNumber": "Q58",
+          "partId": "bls-paediatric-ii",
+          "partTitle": "BLS and Paediatric Resuscitation II",
+          "tier": "Tier 2",
+          "topic": "BLS Definitions",
+          "text": "Define the following terms: (a) cardiac arrest, (b) respiratory arrest, (c) cardiopulmonary resuscitation (CPR), (d) automated external defibrillator (AED).",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · BLS definitions are the first block of the BLS notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q58",
+              "marks": 4,
+              "wording": "Define the following terms: (a) cardiac arrest, (b) respiratory arrest, (c) cardiopulmonary resuscitation (CPR), (d) automated external defibrillator (AED)."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "These definitions are short and exact, so learn the wording of the notes.",
+            "subsections": [
+              {
+                "heading": "A. Four definitions to write (1 mark each)",
+                "points": [
+                  "1. Cardiac arrest: cessation of the heartbeat.",
+                  "2. Respiratory arrest: cessation of breathing, leading to cardiac arrest within minutes. Gasping is not effective breathing.",
+                  "3. CPR: external maintenance of circulation and respiration through chest compressions and artificial ventilation.",
+                  "4. AED: a portable computerised device that identifies shockable rhythms and delivers a shock to restore a normal rhythm."
+                ]
+              },
+              {
+                "heading": "B. Related definition and goals",
+                "points": [
+                  "5. BLS: rapid interventions by health workers or laypeople to recognise sudden cardiac arrest and collapse due to foreign body airway obstruction, heart attack or stroke.",
+                  "6. Goals of BLS: restore cardiorespiratory function, maintain brain viability, optimise survival and prevent cardiac arrest."
+                ]
+              }
+            ],
+            "conclusion": "One sentence per term.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (BLS Definitions section)."
+          },
+          "warningNotice": "Exam trap: do not define CPR as only chest compressions; it also includes artificial ventilation.",
+          "memoryTips": [
+            "Memory tip 1: Cardiac arrest = heart stops. Respiratory arrest = breathing stops, heart stops soon after.",
+            "Memory tip 2: AED = a machine that finds a shockable rhythm and shocks it."
+          ],
+          "mnemonics": [
+            {
+              "title": "BLS definitions",
+              "summary": "The four terms from the notes.",
+              "source": "Lecture notes (adult BLS)",
+              "table": {
+                "headers": [
+                  "Term",
+                  "Definition"
+                ],
+                "rows": [
+                  [
+                    "Cardiac arrest",
+                    "Cessation of heartbeat"
+                  ],
+                  [
+                    "Respiratory arrest",
+                    "Cessation of breathing, leading to cardiac arrest within minutes"
+                  ],
+                  [
+                    "CPR",
+                    "External maintenance of circulation and respiration through chest compressions and artificial ventilation"
+                  ],
+                  [
+                    "AED",
+                    "Portable computerised device that identifies shockable rhythms and delivers a shock"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per accurate definition.",
+              "Keywords the examiner looks for: cessation of heartbeat, cessation of breathing, chest compressions and artificial ventilation, shockable rhythm."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_59",
+          "qNumber": "Q59",
+          "partId": "bls-paediatric-ii",
+          "partTitle": "BLS and Paediatric Resuscitation II",
+          "tier": "Tier 2",
+          "topic": "Rescue Breaths",
+          "text": "Describe how to give rescue breaths using a bag-valve mask (BVM), and what to do if the chest does not rise.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · The BVM technique is detailed in the notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q59",
+              "marks": 5,
+              "wording": "Describe how to give rescue breaths using a bag-valve mask (BVM), and what to do if the chest does not rise."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The bag-valve mask is the preferred way to give rescue breaths in a healthcare setting. Each breath must give a visible chest rise.",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. Use a transparent mask with a good seal over the nose and mouth.",
+                  "2. Use a C-E clamp grip to hold the mask.",
+                  "3. Attach an oxygen reservoir.",
+                  "4. Give each breath over 1 second with visible chest rise (2 breaths after 30 compressions).",
+                  "5. If the chest does not rise: reposition the head, adjust the fingers and seal, check for obstruction and consider an airway adjunct."
+                ]
+              },
+              {
+                "heading": "B. Other methods and airway opening",
+                "points": [
+                  "6. Other methods are mouth-to-mask and mouth-to-mouth.",
+                  "7. Open the airway with head-tilt chin-lift, or jaw thrust if neck injury is suspected (use head-tilt chin-lift if the jaw thrust fails)."
+                ]
+              }
+            ],
+            "conclusion": "State the technique and the troubleshooting.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Rescue Breaths section)."
+          },
+          "warningNotice": "Exam trap: a good seal and a visible chest rise are the two keywords.",
+          "memoryTips": [
+            "Memory tip 1: C-E clamp: C is the thumb and index finger on the mask, E is the other three fingers lifting the jaw.",
+            "Memory tip 2: No rise? Head, seal, obstruction, adjunct: H-S-O-A."
+          ],
+          "mnemonics": [
+            {
+              "title": "BVM checklist (study aid)",
+              "summary": "What to do and what to check.",
+              "source": "Lecture notes (adult BLS: breathing)",
+              "table": {
+                "headers": [
+                  "Step",
+                  "Detail"
+                ],
+                "rows": [
+                  [
+                    "Mask",
+                    "Transparent, good seal over nose and mouth"
+                  ],
+                  [
+                    "Grip",
+                    "C-E clamp"
+                  ],
+                  [
+                    "Oxygen",
+                    "Attach reservoir"
+                  ],
+                  [
+                    "Breath",
+                    "1 second each, visible chest rise"
+                  ],
+                  [
+                    "No rise",
+                    "Reposition head, adjust fingers and seal, check obstruction, consider adjunct"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per point.",
+              "Keywords the examiner looks for: transparent mask, seal, C-E clamp, oxygen reservoir, 1 second, chest rise, reposition, obstruction, airway adjunct."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_60",
+          "qNumber": "Q60",
+          "partId": "bls-paediatric-ii",
+          "partTitle": "BLS and Paediatric Resuscitation II",
+          "tier": "Tier 2",
+          "topic": "Infant CPR",
+          "text": "Outline five (5) points in the technique of cardiopulmonary resuscitation in an infant.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · The infant ratio (15:2 with two rescuers) was an MCQ in April 2025",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q60",
+              "marks": 5,
+              "wording": "Outline five (5) points in the technique of cardiopulmonary resuscitation in an infant."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Infancy ends at 1 year. Cardiac arrest in children is commonly due to respiratory arrest.",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. Place the infant on a firm surface and check the brachial pulse (carotid in a child) for up to 10 seconds.",
+                  "2. Compress the lower sternum just below the nipple line, with two fingers or the heel of one hand, or with the two-thumb encircling-hands technique.",
+                  "3. Compress to a depth of one-third of the chest (about 4 cm) at 100 to 120 per minute, with full recoil.",
+                  "4. Use a ratio of 30:2 for a single rescuer and 15:2 with two rescuers.",
+                  "5. A healthcare professional first gives 5 rescue breaths if the infant is not breathing normally; reassess after every 5 cycles."
+                ]
+              },
+              {
+                "heading": "B. Child differences",
+                "points": [
+                  "6. In a child, use the heel of one hand on the lower half of the sternum, avoiding the xiphoid.",
+                  "7. An off-duty rescuer finding an unresponsive child gives BLS for about 2 minutes and then calls EMS."
+                ]
+              }
+            ],
+            "conclusion": "Write the site, the depth, the rate and the ratio.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Infant CPR section)."
+          },
+          "warningNotice": "Exam trap: adult depth is at least 5 cm; infant depth is one-third of the chest. The two-rescuer ratio for infants and children is 15:2, not 30:2.",
+          "memoryTips": [
+            "Memory tip 1: Infant: lower sternum below the nipple line, one-third depth, 15:2 with two rescuers.",
+            "Memory tip 2: Adult 30:2 always; child and infant 15:2 only with two rescuers."
+          ],
+          "mnemonics": [
+            {
+              "title": "CPR: adult, child and infant",
+              "summary": "A comparison of the main figures.",
+              "source": "Lecture notes (adult and paediatric BLS)",
+              "table": {
+                "headers": [
+                  "Feature",
+                  "Adult",
+                  "Child",
+                  "Infant"
+                ],
+                "rows": [
+                  [
+                    "Pulse check",
+                    "Carotid",
+                    "Carotid",
+                    "Brachial"
+                  ],
+                  [
+                    "Hand position",
+                    "Heel of hand, lower half of sternum",
+                    "Heel of one hand, lower half of sternum",
+                    "Two fingers, heel of one hand, or two thumbs below nipple line"
+                  ],
+                  [
+                    "Depth",
+                    "At least 5 cm",
+                    "One-third of chest",
+                    "One-third of chest (about 4 cm)"
+                  ],
+                  [
+                    "Rate",
+                    "100 to 120/min",
+                    "100 to 120/min",
+                    "100 to 120/min"
+                  ],
+                  [
+                    "Ratio",
+                    "30:2",
+                    "30:2 (single); 15:2 (two rescuers)",
+                    "30:2 (single); 15:2 (two rescuers)"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per point with its figure.",
+              "Keywords the examiner looks for: brachial pulse, below the nipple line, one-third of the chest, 4 cm, 100 to 120, 15:2, 30:2."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_61",
+          "qNumber": "Q61",
+          "partId": "bls-paediatric-ii",
+          "partTitle": "BLS and Paediatric Resuscitation II",
+          "tier": "Tier 2",
+          "topic": "Paediatric Airway Obstruction",
+          "text": "State four (4) signs of severe airway obstruction in a child and name two (2) infections that can cause airway obstruction.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · FBAO signs complete the paediatric notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q61",
+              "marks": 5,
+              "wording": "State four (4) signs of severe airway obstruction in a child and name two (2) infections that can cause airway obstruction."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Airway obstruction in children is caused by croup (a viral infection below the vocal cords), epiglottitis (an infection above the cords) or a foreign body.",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. Ineffective (silent) cough.",
+                  "2. Inability to cry or speak.",
+                  "3. Increasing difficulty with stridor.",
+                  "4. Cyanosis or loss of consciousness.",
+                  "5. Infections that cause airway obstruction: croup and epiglottitis."
+                ]
+              },
+              {
+                "heading": "B. General signs of airway obstruction",
+                "points": [
+                  "6. Reduced or absent breath sounds, stridor, retractions and difficulty speaking.",
+                  "7. If the cough is effective, encourage coughing and monitor for deterioration."
+                ]
+              }
+            ],
+            "conclusion": "Write the four signs and the two infections.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Paediatric Airway Obstruction section)."
+          },
+          "warningNotice": "Exam trap: epiglottitis is above the vocal cords and croup is below them.",
+          "memoryTips": [
+            "Memory tip 1: Silent cough, no cry, stridor, blue: S-N-S-B.",
+            "Memory tip 2: Croup is below the cords; epiglottitis is above."
+          ],
+          "mnemonics": [
+            {
+              "title": "Effective versus ineffective cough",
+              "summary": "How to decide whether to intervene.",
+              "source": "Lecture notes (paediatric airway obstruction)",
+              "table": {
+                "headers": [
+                  "Effective cough",
+                  "Ineffective cough"
+                ],
+                "rows": [
+                  [
+                    "Encourage coughing and monitor",
+                    "Silent cough, cannot cry, stridor, cyanosis: start FBAO treatment"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per sign or infection.",
+              "Keywords the examiner looks for: ineffective cough, cannot cry, stridor, cyanosis, loss of consciousness, croup, epiglottitis."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_62",
+          "qNumber": "Q62",
+          "partId": "bls-paediatric-ii",
+          "partTitle": "BLS and Paediatric Resuscitation II",
+          "tier": "Tier 2",
+          "topic": "Paediatric BLS Algorithm",
+          "text": "Outline the healthcare professional's algorithm for a child who is not breathing.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · The healthcare professional algorithm has specific numbers",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q62",
+              "marks": 4,
+              "wording": "Outline the healthcare professional's algorithm for a child who is not breathing."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Cardiac arrest in children is commonly due to respiratory arrest, so the first priority is the airway and breathing.",
+            "subsections": [
+              {
+                "heading": "A. Four steps to write (1 mark each)",
+                "points": [
+                  "1. Shout for help and open the airway.",
+                  "2. Give 5 rescue breaths if the child is not breathing normally.",
+                  "3. If there are still no signs of circulation, give 15 compressions to 2 breaths.",
+                  "4. Call the resuscitation team after 1 minute, then continue CPR."
+                ]
+              },
+              {
+                "heading": "B. Off-duty rescuer",
+                "points": [
+                  "5. An off-duty rescuer finding an unresponsive child gives BLS for about 2 minutes and then calls EMS."
+                ]
+              }
+            ],
+            "conclusion": "Write the numbers: 5 breaths, 15:2, 1 minute.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Paediatric BLS Algorithm section)."
+          },
+          "warningNotice": "Exam trap: do not use the adult ratio of 30:2 for the healthcare professional.",
+          "memoryTips": [
+            "Memory tip 1: 5 breaths, then 15 and 2; call after one minute."
+          ],
+          "mnemonics": [
+            {
+              "title": "Paediatric algorithm",
+              "summary": "Step order.",
+              "source": "Lecture notes (paediatric BLS)",
+              "table": {
+                "headers": [
+                  "Step",
+                  "Action"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Shout for help, open the airway"
+                  ],
+                  [
+                    "2",
+                    "5 rescue breaths"
+                  ],
+                  [
+                    "3",
+                    "15 compressions : 2 breaths"
+                  ],
+                  [
+                    "4",
+                    "Call the resuscitation team after 1 minute and continue CPR"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per step.",
+              "Keywords the examiner looks for: 5 rescue breaths, 15:2, resuscitation team, 1 minute."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 6,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "first-aid-ii",
+      "partNumber": 15,
+      "title": "First Aid II",
+      "shortTitle": "First Aid II",
+      "condition": "First Aid",
+      "tier": "Tier 2",
+      "frequencyBadge": "Predicted: High · First aid is the growing SAQ trend",
+      "frequencyRank": 15,
+      "description": "Seizures, fractures, bee stings, spinal injury and hyperglycaemia.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set4_63",
+          "qNumber": "Q63",
+          "partId": "first-aid-ii",
+          "partTitle": "First Aid II",
+          "tier": "Tier 2",
+          "topic": "Seizures",
+          "text": "State five (5) causes of seizures and outline the hospital care of a patient who has continuous convulsions.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Seizure first aid was set in April 2025; causes and hospital care have not been",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q63",
+              "marks": 5,
+              "wording": "State five (5) causes of seizures and outline the hospital care of a patient who has continuous convulsions."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "A seizure is an episode of abnormal motor, sensory, autonomic or psychic activity caused by a sudden excessive neuronal discharge.",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. Causes: idiopathic or genetic, cerebrovascular disease and hypoxaemia.",
+                  "2. Causes: childhood fever and head injury.",
+                  "3. Causes: hypertension, brain tumour, drug or alcohol withdrawal and allergies.",
+                  "4. Hospital care: suction if needed, give oxygen and place the bed low with padded side rails.",
+                  "5. Give IV diazepam 10 mg only if convulsions are continuous or recur."
+                ]
+              },
+              {
+                "heading": "B. Remember",
+                "points": [
+                  "6. First aid is about safety and airway; drugs belong to hospital care."
+                ]
+              }
+            ],
+            "conclusion": "Group the causes into two or three lines.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Seizures section)."
+          },
+          "warningNotice": "Exam trap: do not write first aid steps (stay with the person, cushion the head) when the question asks for hospital care.",
+          "memoryTips": [
+            "Memory tip 1: Causes: Genetic, Vascular, Hypoxia, Fever, Head injury, High BP, Tumour, Withdrawal, Allergy.",
+            "Memory tip 2: Diazepam only if convulsions continue or recur."
+          ],
+          "mnemonics": [
+            {
+              "title": "Seizure causes and hospital care",
+              "summary": "From the lecture notes.",
+              "source": "Lecture notes (first aid: seizures)",
+              "table": {
+                "headers": [
+                  "Group",
+                  "Items"
+                ],
+                "rows": [
+                  [
+                    "Causes",
+                    "Idiopathic or genetic, cerebrovascular disease, hypoxaemia, childhood fever, head injury, hypertension, brain tumour, drug or alcohol withdrawal, allergies"
+                  ],
+                  [
+                    "Hospital care",
+                    "Suction, oxygen, bed low with padded side rails, IV diazepam 10 mg if continuous or recurring"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per cause or measure.",
+              "Keywords the examiner looks for: fever, head injury, hypoxaemia, withdrawal, suction, oxygen, padded rails, diazepam."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_64",
+          "qNumber": "Q64",
+          "partId": "first-aid-ii",
+          "partTitle": "First Aid II",
+          "tier": "Tier 2",
+          "topic": "Fractures",
+          "text": "Define a fracture and outline the first aid of a soft-tissue injury or closed fracture using the PRICE approach.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · PRICE is the fracture first aid in the notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q64",
+              "marks": 5,
+              "wording": "Define a fracture and outline the first aid of a soft-tissue injury or closed fracture using the PRICE approach."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "A fracture is a break in the structural continuity of a bone, from a hairline crack to a complete break. It can be caused by trauma, overuse or weakening conditions.",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. P: Protect the injured area from further injury.",
+                  "2. R: Rest the limb.",
+                  "3. I: Ice, applied as a wrapped pack.",
+                  "4. C: Comfortable support, for example a bandage.",
+                  "5. E: Elevate the limb."
+                ]
+              },
+              {
+                "heading": "B. Definition",
+                "points": [
+                  "6. Fracture: a break in the structural continuity of a bone."
+                ]
+              }
+            ],
+            "conclusion": "Define first, then list the five letters.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Fractures section)."
+          },
+          "warningNotice": "Exam trap: ice is wrapped, never applied directly. (Ice is forbidden in snake bite, burns and other conditions.)",
+          "memoryTips": [
+            "Memory tip 1: PRICE is the price of a break: Protect, Rest, Ice, Comfort, Elevate."
+          ],
+          "mnemonics": [
+            {
+              "title": "PRICE",
+              "summary": "The letters from the notes.",
+              "source": "Lecture notes (first aid: fractures)",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning"
+                ],
+                "rows": [
+                  [
+                    "P",
+                    "Protect"
+                  ],
+                  [
+                    "R",
+                    "Rest"
+                  ],
+                  [
+                    "I",
+                    "Ice (wrapped pack)"
+                  ],
+                  [
+                    "C",
+                    "Comfortable support (bandage)"
+                  ],
+                  [
+                    "E",
+                    "Elevate"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per letter.",
+              "Keywords the examiner looks for: protect, rest, ice, comfortable support, elevate."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_65",
+          "qNumber": "Q65",
+          "partId": "first-aid-ii",
+          "partTitle": "First Aid II",
+          "tier": "Tier 2",
+          "topic": "Insect Bites and Stings",
+          "text": "Outline five (5) first aid measures for a bee sting.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Bee stings were the scenario in 2 MCQs",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q65",
+              "marks": 5,
+              "wording": "Outline five (5) first aid measures for a bee sting."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Most insect bites cause local itching, swelling and pain, but some cause anaphylaxis or transmit disease.",
+            "subsections": [
+              {
+                "heading": "A. Five measures to write (1 mark each)",
+                "points": [
+                  "1. Check ABCs and scene safety.",
+                  "2. Remove the stinger without squeezing it.",
+                  "3. Wash with soap and water.",
+                  "4. Watch for allergic reactions.",
+                  "5. Apply a cold compress for 15 to 20 minutes and elevate the limb; give paracetamol or ibuprofen for pain and antihistamines for itch."
+                ]
+              },
+              {
+                "heading": "B. Seek care for",
+                "points": [
+                  "6. Difficulty breathing, throat swelling, dizziness, widespread rash, signs of infection (pus, necrosis) or increasing pain, redness or swelling."
+                ]
+              }
+            ],
+            "conclusion": "Write actions in order.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Insect Bites and Stings section)."
+          },
+          "warningNotice": "Exam trap: if there is airway swelling or hypotension, treat as anaphylaxis with IM epinephrine (Q11).",
+          "memoryTips": [
+            "Memory tip 1: Check, Remove, Wash, Watch, Cool."
+          ],
+          "mnemonics": [
+            {
+              "title": "Bee sting steps",
+              "summary": "Order of actions.",
+              "source": "Lecture notes (insect bites and stings)",
+              "table": {
+                "headers": [
+                  "Step",
+                  "Action"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Check ABCs and scene"
+                  ],
+                  [
+                    "2",
+                    "Remove stinger, do not squeeze"
+                  ],
+                  [
+                    "3",
+                    "Wash with soap and water"
+                  ],
+                  [
+                    "4",
+                    "Watch for allergy"
+                  ],
+                  [
+                    "5",
+                    "Cold compress 15 to 20 min, elevate"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per measure.",
+              "Keywords the examiner looks for: stinger, do not squeeze, wash, cold compress, watch for anaphylaxis."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_66",
+          "qNumber": "Q66",
+          "partId": "first-aid-ii",
+          "partTitle": "First Aid II",
+          "tier": "Tier 2",
+          "topic": "Spinal Injuries",
+          "text": "State four (4) signs of a spinal injury and outline the first aid.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Spinal injury links with C-spine care and neurogenic shock",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q66",
+              "marks": 5,
+              "wording": "State four (4) signs of a spinal injury and outline the first aid."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Spinal injury can lead to paralysis. Moving the patient wrongly can worsen it.",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. Signs: awkward body position.",
+                  "2. Signs: cool, clammy skin and tingling or absent sensation.",
+                  "3. Signs: incontinence and inability to move the limbs.",
+                  "4. First aid: keep the head in line with the neck and avoid twisting.",
+                  "5. Support the neck with a rolled cloth or towel and do not move the patient unless there is an urgent need."
+                ]
+              },
+              {
+                "heading": "B. Link",
+                "points": [
+                  "6. In hospital the C-spine is immobilised in a neutral position as part of the airway step."
+                ]
+              }
+            ],
+            "conclusion": "Group signs and actions.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Spinal Injuries section)."
+          },
+          "warningNotice": "Exam trap: do not tilt the head back.",
+          "memoryTips": [
+            "Memory tip 1: Head in line, neck supported, do not move."
+          ],
+          "mnemonics": [
+            {
+              "title": "Spinal injury",
+              "summary": "Signs and first aid.",
+              "source": "Lecture notes (first aid: spinal injuries)",
+              "table": {
+                "headers": [
+                  "Signs",
+                  "First aid"
+                ],
+                "rows": [
+                  [
+                    "Awkward position, cool clammy skin, tingling or absent sensation, incontinence, cannot move limbs",
+                    "Keep head in line, support neck, avoid moving"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per point.",
+              "Keywords the examiner looks for: awkward position, tingling, incontinence, cannot move limbs, neck support."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_67",
+          "qNumber": "Q67",
+          "partId": "first-aid-ii",
+          "partTitle": "First Aid II",
+          "tier": "Tier 2",
+          "topic": "Diabetic Emergencies",
+          "text": "State four (4) signs of hyperglycaemia and outline the first aid.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · The counterpart to hypoglycaemia (Q21)",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q67",
+              "marks": 5,
+              "wording": "State four (4) signs of hyperglycaemia and outline the first aid."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Hyperglycaemia is caused by too much food, too little medication, less exercise or infection.",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. Warm, dry skin.",
+                  "2. Rapid pulse and breathing.",
+                  "3. Fruity breath and excessive thirst.",
+                  "4. Drowsiness, then unresponsiveness (diabetic coma).",
+                  "5. First aid: call for emergency help, check for a medical bracelet or card, monitor breathing, pulse and responsiveness, and prepare for CPR if unresponsive."
+                ]
+              },
+              {
+                "heading": "B. Contrast",
+                "points": [
+                  "6. Hypoglycaemia: cold clammy skin, sweating and trembling; give sugar if alert."
+                ]
+              }
+            ],
+            "conclusion": "Write the signs, then the actions.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Diabetic Emergencies section)."
+          },
+          "warningNotice": "Exam trap: do not give sugar to a hyperglycaemic patient.",
+          "memoryTips": [
+            "Memory tip 1: Hot and dry, sugar is high; cold and clammy, give candy."
+          ],
+          "mnemonics": [
+            {
+              "title": "Hypo versus hyper",
+              "summary": "Recap.",
+              "source": "Lecture notes (diabetic emergencies)",
+              "table": {
+                "headers": [
+                  "Feature",
+                  "Hypoglycaemia",
+                  "Hyperglycaemia"
+                ],
+                "rows": [
+                  [
+                    "Skin",
+                    "Cold, clammy",
+                    "Warm, dry"
+                  ],
+                  [
+                    "Breath",
+                    "Normal",
+                    "Fruity"
+                  ],
+                  [
+                    "Action",
+                    "Sugar if alert",
+                    "Call emergency help"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per point.",
+              "Keywords the examiner looks for: warm dry skin, fruity breath, thirst, drowsiness, call emergency help, medical bracelet."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 5,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "environmental-stroke-poisoning",
+      "partNumber": 16,
+      "title": "Snake Bite, Drowning, Stroke and Poisoning II",
+      "shortTitle": "Environmental, Stroke and Poisoning II",
+      "condition": "Environmental Emergencies",
+      "tier": "Tier 3",
+      "frequencyBadge": "Predicted: Medium · Each condition has appeared once as an SAQ",
+      "frequencyRank": 16,
+      "description": "Snake bite severity and antivenin, drowning signs, stroke risk factors and poisoning definitions.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set4_68",
+          "qNumber": "Q68",
+          "partId": "environmental-stroke-poisoning",
+          "partTitle": "Snake Bite, Drowning, Stroke and Poisoning II",
+          "tier": "Tier 3",
+          "topic": "Snake Bite Severity",
+          "text": "State five (5) factors that determine the severity of a snake bite.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Snake bite was set in September 2024 (management); severity has not been asked",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q68",
+              "marks": 5,
+              "wording": "State five (5) factors that determine the severity of a snake bite."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Not every snake bite is equally dangerous. A venomous bite ranges from local pain and swelling to bleeding, kidney failure and death.",
+            "subsections": [
+              {
+                "heading": "A. Five factors to write (1 mark each)",
+                "points": [
+                  "1. Snake size and species.",
+                  "2. Amount of venom injected (a 'dry bite' delivers none).",
+                  "3. Bite location and depth (head or trunk is worse).",
+                  "4. Patient age, size and health (the very young, very old and chronically ill are at higher risk).",
+                  "5. Time to treatment (antivenom)."
+                ]
+              },
+              {
+                "heading": "B. Other",
+                "points": [
+                  "6. Individual susceptibility."
+                ]
+              }
+            ],
+            "conclusion": "One factor per line.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Snake Bite Severity section)."
+          },
+          "warningNotice": "Exam trap: do not write the management; the question asks for factors.",
+          "memoryTips": [
+            "Memory tip 1: Snake, Site, Size, Time and venom amount."
+          ],
+          "mnemonics": [
+            {
+              "title": "Severity factors",
+              "summary": "From the notes.",
+              "source": "Lecture notes (snake bites)",
+              "table": {
+                "headers": [
+                  "Factor",
+                  "Worse when"
+                ],
+                "rows": [
+                  [
+                    "Snake",
+                    "Large, venomous species"
+                  ],
+                  [
+                    "Venom",
+                    "More venom injected"
+                  ],
+                  [
+                    "Site",
+                    "Head or trunk, deep bite"
+                  ],
+                  [
+                    "Patient",
+                    "Very young, very old, chronically ill"
+                  ],
+                  [
+                    "Time",
+                    "Delayed antivenom"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per factor.",
+              "Keywords the examiner looks for: species, venom, location, age, size, health, time to treatment."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_69",
+          "qNumber": "Q69",
+          "partId": "environmental-stroke-poisoning",
+          "partTitle": "Snake Bite, Drowning, Stroke and Poisoning II",
+          "tier": "Tier 3",
+          "topic": "Antivenin",
+          "text": "State four (4) nursing considerations when antivenin is used in snake bite.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium · Antivenin indications are a short paragraph in the notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q69",
+              "marks": 4,
+              "wording": "State four (4) nursing considerations when antivenin is used in snake bite."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Antivenin neutralises venom but must be used carefully.",
+            "subsections": [
+              {
+                "heading": "A. Four points to write (1 mark each)",
+                "points": [
+                  "1. Monitor the patient for at least 6 hours to decide on antivenin.",
+                  "2. Antivenin is not used for mild or resolving symptoms.",
+                  "3. It is indicated for any progressive pain, swelling or ecchymosis.",
+                  "4. It is made from animal serum and carries a risk of life-threatening allergic reactions."
+                ]
+              },
+              {
+                "heading": "B. Related",
+                "points": [
+                  "5. Send coagulation studies (PT/INR, aPTT, fibrinogen, D-dimer) and give tetanus prophylaxis."
+                ]
+              }
+            ],
+            "conclusion": "Write indications and precautions.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Antivenin section)."
+          },
+          "warningNotice": "Exam trap: antivenin is not given to every bite.",
+          "memoryTips": [
+            "Memory tip 1: Six hours of observation; give if progressing; beware allergy."
+          ],
+          "mnemonics": [
+            {
+              "title": "Antivenin",
+              "summary": "Indications.",
+              "source": "Lecture notes (snake bites: hospital management)",
+              "table": {
+                "headers": [
+                  "Give",
+                  "Do not give"
+                ],
+                "rows": [
+                  [
+                    "Progressive pain, swelling or ecchymosis",
+                    "Mild or resolving symptoms"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per point.",
+              "Keywords the examiner looks for: 6 hours, progressive swelling, ecchymosis, animal serum, allergic reaction."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_70",
+          "qNumber": "Q70",
+          "partId": "environmental-stroke-poisoning",
+          "partTitle": "Snake Bite, Drowning, Stroke and Poisoning II",
+          "tier": "Tier 3",
+          "topic": "Near Drowning",
+          "text": "State five (5) signs and symptoms of near drowning (submersion injury).",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Drowning steps were set in September 2023; signs have not been",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q70",
+              "marks": 5,
+              "wording": "State five (5) signs and symptoms of near drowning (submersion injury)."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Drowning (WHO) is the process of experiencing respiratory impairment from submersion or immersion in liquid.",
+            "subsections": [
+              {
+                "heading": "A. Five signs to write (1 mark each)",
+                "points": [
+                  "1. History of immersion.",
+                  "2. Respiratory or cardiopulmonary arrest.",
+                  "3. Dyspnoea that may worsen over hours.",
+                  "4. Cyanosis, crackles and wheeze.",
+                  "5. Cough with pink frothy sputum, tachycardia, and confusion or coma."
+                ]
+              },
+              {
+                "heading": "B. Key points",
+                "points": [
+                  "6. In 10 to 20% of drownings laryngospasm prevents aspiration.",
+                  "7. Even 1 to 3 mL/kg aspirated can alter surfactant and impair gas exchange."
+                ]
+              }
+            ],
+            "conclusion": "Choose five different signs.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Near Drowning section)."
+          },
+          "warningNotice": "Exam trap: do not write the management.",
+          "memoryTips": [
+            "Memory tip 1: Water in, air out: history, arrest, dyspnoea, blue, crackles, pink froth, fast pulse, confusion."
+          ],
+          "mnemonics": [
+            {
+              "title": "Signs",
+              "summary": "From the notes.",
+              "source": "Lecture notes (near drowning)",
+              "table": {
+                "headers": [
+                  "System",
+                  "Signs"
+                ],
+                "rows": [
+                  [
+                    "Breathing",
+                    "Dyspnoea, cyanosis, crackles, wheeze, cough with pink frothy sputum"
+                  ],
+                  [
+                    "Heart",
+                    "Tachycardia, arrest"
+                  ],
+                  [
+                    "Brain",
+                    "Confusion, coma"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per sign.",
+              "Keywords the examiner looks for: immersion, dyspnoea, cyanosis, crackles, pink frothy sputum, tachycardia, confusion."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_71",
+          "qNumber": "Q71",
+          "partId": "environmental-stroke-poisoning",
+          "partTitle": "Snake Bite, Drowning, Stroke and Poisoning II",
+          "tier": "Tier 3",
+          "topic": "Stroke",
+          "text": "State five (5) risk factors for stroke and the hospital treatment for an ischaemic stroke.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium · Stroke follows FAST in the MCQs",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q71",
+              "marks": 5,
+              "wording": "State five (5) risk factors for stroke and the hospital treatment for an ischaemic stroke."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Stroke is ischaemic (85%) or haemorrhagic (15%).",
+            "subsections": [
+              {
+                "heading": "A. Five points to write (1 mark each)",
+                "points": [
+                  "1. Hypertension (the leading cause).",
+                  "2. Smoking and heavy alcohol use.",
+                  "3. Diabetes and high cholesterol.",
+                  "4. Stress or depression.",
+                  "5. Hospital: IV alteplase within 3 hours for ischaemic stroke; thrombectomy; surgery for haemorrhagic stroke."
+                ]
+              },
+              {
+                "heading": "B. Extra",
+                "points": [
+                  "6. Signs: sudden numbness or weakness of the face, arm or leg, severe headache, dizziness, visual disturbance, confusion."
+                ]
+              }
+            ],
+            "conclusion": "Risk factors first, then treatment.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Stroke section)."
+          },
+          "warningNotice": "Exam trap: the alteplase window is 3 hours.",
+          "memoryTips": [
+            "Memory tip 1: HSDCS: Hypertension, Smoking and alcohol, Diabetes, Cholesterol, Stress."
+          ],
+          "mnemonics": [
+            {
+              "title": "Stroke",
+              "summary": "Risk factors and treatment.",
+              "source": "Lecture notes (first aid: stroke)",
+              "table": {
+                "headers": [
+                  "Item",
+                  "Detail"
+                ],
+                "rows": [
+                  [
+                    "Risk factors",
+                    "Hypertension, smoking, heavy alcohol, diabetes, high cholesterol, stress or depression"
+                  ],
+                  [
+                    "Treatment",
+                    "Alteplase within 3 h, thrombectomy, surgery for haemorrhagic stroke"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per point.",
+              "Keywords the examiner looks for: hypertension, smoking, alcohol, diabetes, cholesterol, alteplase, 3 hours."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set4_72",
+          "qNumber": "Q72",
+          "partId": "environmental-stroke-poisoning",
+          "partTitle": "Snake Bite, Drowning, Stroke and Poisoning II",
+          "tier": "Tier 3",
+          "topic": "Poisoning Definition",
+          "text": "Define poisoning and state four (4) common agents involved in poisoning.",
+          "marks": 3,
+          "marksText": "3 marks",
+          "frequencyText": "Predicted probability: Medium · Short definition-plus-list question",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set4",
+              "paper": "TNH Practice Paper (predicted), Set 4",
+              "ref": "Section B, Q72",
+              "marks": 3,
+              "wording": "Define poisoning and state four (4) common agents involved in poisoning."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Poisoning can be accidental or intentional.",
+            "subsections": [
+              {
+                "heading": "A. Three points to write",
+                "points": [
+                  "1. Definition: inhalation, ingestion, absorption, injection, or skin or mucous membrane contact with a toxic substance, either accidental or intentional.",
+                  "2. Common agents: analgesics, cosmetics and personal care products.",
+                  "3. Common agents: household cleaners and sedatives, hypnotics or antipsychotics."
+                ]
+              },
+              {
+                "heading": "B. Related",
+                "points": [
+                  "4. First aid: identify the substance, amount and timing (Q29)."
+                ]
+              }
+            ],
+            "conclusion": "Define and list.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Poisoning Definition section)."
+          },
+          "warningNotice": "Exam trap: include the routes in the definition.",
+          "memoryTips": [
+            "Memory tip 1: Five routes: breathe, swallow, absorb, inject, contact."
+          ],
+          "mnemonics": [
+            {
+              "title": "Poisoning",
+              "summary": "Definition and agents.",
+              "source": "Lecture notes (poisoning)",
+              "table": {
+                "headers": [
+                  "Item",
+                  "Detail"
+                ],
+                "rows": [
+                  [
+                    "Routes",
+                    "Inhalation, ingestion, absorption, injection, skin or mucous membrane contact"
+                  ],
+                  [
+                    "Agents",
+                    "Analgesics, cosmetics, household cleaners, sedatives, hypnotics, antipsychotics"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark for the definition and 1 mark each for two groups of agents.",
+              "Keywords the examiner looks for: toxic substance, accidental or intentional, analgesics, cosmetics, cleaners, sedatives."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 5,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    }
+  ],
+  "block": "Block 1",
+  "category": "TNH Practice"
+}

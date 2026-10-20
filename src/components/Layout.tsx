@@ -3,14 +3,21 @@
  * Primary Application Shell & Navigation Layout
  *
  * Provides a responsive header, desktop navigation tabs, mobile bottom navigation,
- * and standard content framing.
+ * clean footer, and standard content framing.
+ * All users have full, unrestricted access to all question banks and past papers.
  *
  * @author MULWA <martinmulwa95@gmail.com>
- * @version 1.0.0
+ * @version 3.0.0
  */
 
 import React from 'react';
-import { Home, BookOpen, AlertCircle, GraduationCap, FileText } from 'lucide-react';
+import {
+  Home,
+  BookOpen,
+  AlertCircle,
+  GraduationCap,
+  FileText
+} from 'lucide-react';
 import { AppNavTab } from '../types';
 
 interface LayoutProps {
@@ -31,12 +38,12 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
       <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-slate-200/80">
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-13 sm:h-15 flex items-center justify-between">
           
-          {/* Brand Heading / Logo: Centered on Mobile, Far Left on Tablet & Desktop */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0 md:left-auto md:top-auto flex items-center justify-center shrink-0 z-10">
+          {/* Brand Heading / Logo */}
+          <div className="flex items-center justify-start shrink-0 z-10 gap-2">
             <button 
               type="button"
               onClick={() => setActiveTab('home')}
-              className="flex items-center justify-center select-none cursor-pointer group text-center min-h-[40px] px-2 transition-transform active:scale-95"
+              className="flex items-center justify-center select-none cursor-pointer group text-center min-h-[40px] px-1 transition-transform active:scale-95"
               id="app-logo-container"
               aria-label="Home Dashboard"
             >
@@ -116,7 +123,7 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
 
       {/* Main Content Area */}
       <main className={`flex-1 max-w-4xl w-full mx-auto px-2.5 sm:px-6 lg:px-8 py-2.5 sm:py-4 ${
-        hideBottomNav ? 'pb-4 sm:pb-5' : 'pb-20 sm:pb-8'
+        hideBottomNav ? 'pb-4 sm:pb-5' : 'pb-16 sm:pb-6'
       }`}>
         <div className={`bg-white border border-slate-200/90 p-3 sm:p-4.5 md:p-5 rounded-2xl shadow-xs ${
           hideBottomNav ? 'min-h-0' : 'min-h-[400px]'
@@ -124,6 +131,15 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
           {children}
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className={`w-full py-4 px-4 sm:px-6 transition-all text-center ${
+        hideBottomNav ? '' : 'pb-24 md:pb-4'
+      }`}>
+        <div className="max-w-4xl mx-auto flex items-center justify-center text-xs text-slate-400 font-medium">
+          <span>MULWA · Clinical Examination Revision Portal</span>
+        </div>
+      </footer>
 
       {/* Mobile Bottom Tab Bar */}
       {!hideBottomNav && (
@@ -238,4 +254,3 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
     </div>
   );
 }
-

@@ -2,17 +2,17 @@
  * Mulwa Clinical Exam Portal
  * Single Past Paper View / Revision Set Selection View
  *
- * Displays only the set number and number of questions text per revision set card,
- * completely removing unnecessary tags, subtitle text, and descriptions.
+ * Displays the revision sets with question counts and progress indicators.
+ * All users have full, unrestricted access to all sets and questions.
  *
  * @author MULWA <martinmulwa95@gmail.com>
- * @version 6.0.0
+ * @version 7.0.0
  */
 
 import React from 'react';
 import { ArrowLeft, Inbox, CheckCircle, ChevronRight, Play } from 'lucide-react';
 import { SessionProgress } from '../types';
-import { findPaper, getRevisionSetsForPaper } from '../data/questions';
+import { findPaper, chunkQuestions } from '../data/questions';
 import { makeSetKey } from '../utils/storage';
 
 interface RevisionSetSelectionProps {
@@ -29,7 +29,7 @@ export default function RevisionSetSelection({
   onBack
 }: RevisionSetSelectionProps) {
   const matchedPaper = findPaper(paperId);
-  const sets = matchedPaper ? getRevisionSetsForPaper(matchedPaper.id) : [];
+  const sets = matchedPaper ? chunkQuestions(matchedPaper) : [];
 
   if (!matchedPaper) {
     return (
@@ -97,10 +97,10 @@ export default function RevisionSetSelection({
                     : 'border-slate-200/90 hover:border-[#0B1B3D] hover:shadow-xs'
                 }`}
               >
-                {/* Only set number and number of questions text */}
+                {/* Set number and question count */}
                 <div className="min-w-0">
                   <h2 className="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#0B1B3D] transition-colors leading-snug">
-                    {sets.length === 1 ? 'All Questions' : `Set ${set.setNumber}`}
+                    {sets.length === 1 ? 'Exam Questions' : `Set ${set.setNumber}`}
                   </h2>
                   <p className="text-xs sm:text-sm text-slate-500 font-medium mt-0.5">
                     {set.questions.length} Questions
@@ -112,14 +112,14 @@ export default function RevisionSetSelection({
                   {isCompleted && (
                     <span className="flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200/80 px-2.5 py-1 rounded-lg">
                       <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
-                      <span>{completedScore.toFixed(0)}/{set.questions.length}</span>
+                      <span>{`${completedScore.toFixed(0)}/${set.questions.length}`}</span>
                     </span>
                   )}
 
                   {inProgress && !isCompleted && (
                     <span className="flex items-center gap-1.5 text-xs font-semibold text-amber-800 bg-amber-50 border border-amber-200/80 px-2.5 py-1 rounded-lg">
                       <Play className="w-3 h-3 fill-amber-700 text-amber-700" />
-                      <span>{answeredCount}/{set.questions.length}</span>
+                      <span>{`${answeredCount}/${set.questions.length}`}</span>
                     </span>
                   )}
 

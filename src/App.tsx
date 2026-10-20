@@ -46,6 +46,11 @@ import {
 } from './data/questions';
 import { getQuestionMarks, chunkQuestions } from './utils/chunking';
 import { MISTAKE_THRESHOLD, RESOLVE_THRESHOLD } from './config/constants';
+import {
+  getScopedPaper,
+  getScopedQuestionsForSet,
+  getScopedSAQQuestions
+} from './utils/scopedData';
 
 export default function App() {
   // Navigation Routing States
@@ -64,6 +69,7 @@ export default function App() {
   );
   const [selectedSaqUnit, setSelectedSaqUnit] = useState<string | null>(null);
   const [selectedPaperUnit, setSelectedPaperUnit] = useState<string | null>(null);
+  const [tnhSelectedBank, setTnhSelectedBank] = useState<'mcq' | 'saq'>('mcq');
   const [saqQuestionIndexInCat, setSaqQuestionIndexInCat] = useState<number>(0);
   const [saqView, setSaqView] = useState<'library' | 'screen'>('library');
 
@@ -88,6 +94,7 @@ export default function App() {
     // When switching tabs or re-tapping active tab, reset scoped unit to root view
     if (tab === 'papers' || tab === 'tnh_practice') {
       setSelectedPaperUnit(null);
+      setTnhSelectedBank('mcq');
     }
     if (tab === 'saqs') {
       setSaqView('library');
@@ -95,6 +102,7 @@ export default function App() {
         setSelectedSaqUnit(null);
       }
     }
+    setSaqView('library');
     setActiveTab(tab);
     setView('tabs');
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
@@ -225,7 +233,7 @@ export default function App() {
    */
   const handleSubmitResult = (qId: string, result: QResult) => {
     const ratio = result.max > 0 ? result.earned / result.max : 0;
-    const questions = getQuestionsForSet(selectedPaperId, selectedSetId);
+    const questions = getScopedQuestionsForSet(selectedPaperId, selectedSetId);
     const q = questions.find(item => item.id === qId);
     const qType = q?.type || 'mcq';
 
@@ -308,7 +316,7 @@ export default function App() {
   };
 
   const handleNextQuestion = () => {
-    const questions = getQuestionsForSet(selectedPaperId, selectedSetId);
+    const questions = getScopedQuestionsForSet(selectedPaperId, selectedSetId);
 
     if (currentQuestionIndex + 1 < questions.length) {
       const nextIndex = currentQuestionIndex + 1;
@@ -462,12 +470,13 @@ export default function App() {
     }
   };
 
-  const currentQuestions = getQuestionsForSet(selectedPaperId, selectedSetId);
+  const currentQuestions = getScopedQuestionsForSet(selectedPaperId, selectedSetId);
   const activeQuestion = currentQuestions[currentQuestionIndex];
   const isCurrentBookmarked = activeQuestion
     ? progress.bookmarkedQuestions.includes(activeQuestion.id)
     : false;
-  const currentPaper = findPaper(selectedPaperId);
+  const rawCurrentPaper = findPaper(selectedPaperId);
+  const currentPaper = getScopedPaper(rawCurrentPaper);
   const currentSets = currentPaper ? chunkQuestions(currentPaper) : [];
   const currentSet = currentSets.find(s => s.id === selectedSetId) || {
     id: selectedSetId,
@@ -513,17 +522,42 @@ export default function App() {
           )}
 
           {activeTab === 'tnh_practice' && (
-            <PastPapersLibrary
-              progress={progress}
-              onSelectPaper={handleSelectPaper}
-              onBack={() => handleTabNavigation('home')}
-              activeSection="tnh_practice"
-              onSectionChange={(section) => {
-                setActiveTab(section === 'tnh_practice' ? 'tnh_practice' : 'papers');
-              }}
-              selectedUnit={selectedPaperUnit}
-              onSelectUnit={setSelectedPaperUnit}
-            />
+            saqView === 'screen' ? (
+              (() => {
+                const currentCategory = getCategoryById(selectedSaqCategoryId) || SAQ_CATEGORIES[0];
+                const rawCategoryQuestions = currentCategory ? currentCategory.questions : [];
+                const categoryQuestions = getScopedSAQQuestions(rawCategoryQuestions);
+                return (
+                  <SAQScreen
+                    categoryTitle={currentCategory ? currentCategory.title : 'TNH Practice SAQs'}
+                    frequencyBadge={currentCategory ? currentCategory.frequencyBadge : undefined}
+                    questions={categoryQuestions}
+                    currentQuestionIndex={saqQuestionIndexInCat}
+                    masteredIds={progress.masteredSAQs || []}
+                    bookmarkedIds={progress.bookmarkedQuestions}
+                    onSelectIndex={setSaqQuestionIndexInCat}
+                    onToggleMastered={handleToggleMasteredSAQ}
+                    onToggleBookmark={handleToggleBookmarkSAQ}
+                    onExit={handleExitSAQCategory}
+                  />
+                );
+              })()
+            ) : (
+              <PastPapersLibrary
+                progress={progress}
+                onSelectPaper={handleSelectPaper}
+                onBack={() => handleTabNavigation('home')}
+                activeSection="tnh_practice"
+                onSectionChange={(section) => {
+                  setActiveTab(section === 'tnh_practice' ? 'tnh_practice' : 'papers');
+                }}
+                selectedUnit={selectedPaperUnit}
+                onSelectUnit={setSelectedPaperUnit}
+                onSelectSAQCategory={handleSelectSAQCategory}
+                selectedBank={tnhSelectedBank}
+                onSelectBank={setTnhSelectedBank}
+              />
+            )
           )}
 
           {activeTab === 'saqs' && (
@@ -539,7 +573,8 @@ export default function App() {
               ) : (
                 (() => {
                   const currentCategory = getCategoryById(selectedSaqCategoryId) || SAQ_CATEGORIES[0];
-                  const categoryQuestions = currentCategory ? currentCategory.questions : [];
+                  const rawCategoryQuestions = currentCategory ? currentCategory.questions : [];
+                  const categoryQuestions = getScopedSAQQuestions(rawCategoryQuestions);
                   return (
                     <SAQScreen
                       categoryTitle={currentCategory ? currentCategory.title : 'SAQ Practice'}

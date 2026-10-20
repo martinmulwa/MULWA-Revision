@@ -1,0 +1,1553 @@
+{
+  "id": "tnh-practice-trauma-emergency-saqs-1",
+  "title": "TNH Practice: Trauma and Emergency Nursing SAQ Question Bank (Set 1 of 2)",
+  "subtitle": "Triage, primary and secondary survey and shock. Ordered by predicted probability of being tested (modelled on 5 Block One papers, September 2022 to April 2025 classes).",
+  "author": "TNH Practice Question Bank",
+  "version": "1.0.0",
+  "totalQuestions": 12,
+  "totalPastPaperSaqs": 12,
+  "rankingMethod": "Topics are ranked by predicted probability of being set as short answer questions. The ranking weighs (1) how often the topic or its sibling questions appeared in the 5 Block One papers (September 2022 to April 2025 classes), (2) how much space the topic takes in the lecture notes, and (3) topics that have only appeared as MCQs so far and are due to cross over into the SAQ section. Every question is answerable from the attached lecture notes only; the research additions are confined to the memory aids and exam tips. Question wording follows the command words of the real papers (State, Outline, List, Explain).",
+  "papersAnalysed": [
+    {
+      "paperId": "krn-block1-sept2022-trauma-emergency-nursing",
+      "paper": "September 2022 Class, Block One Exam (sat 13 March 2023)"
+    },
+    {
+      "paperId": "krn-block1-sept2023-trauma-emergency-nursing",
+      "paper": "September 2023 Class, First Block Exam (sat 2 April 2024)"
+    },
+    {
+      "paperId": "krn-block1-april2024-trauma-emergency-nursing",
+      "paper": "April 2024 Class, First Block Exam (sat 16 November 2023)"
+    },
+    {
+      "paperId": "krn-block1-sept2024-trauma-emergency-nursing",
+      "paper": "September 2024 Class, First Block Exam (sat 10 March 2025)"
+    },
+    {
+      "paperId": "krn-block1-april2025-trauma-emergency-nursing",
+      "paper": "April 2025 Class, Block One (sat 14 October 2025)"
+    }
+  ],
+  "parts": [
+    {
+      "id": "triage",
+      "partNumber": 1,
+      "title": "Triage in the Emergency Department",
+      "shortTitle": "Triage",
+      "condition": "Triage",
+      "tier": "Tier 1",
+      "frequencyBadge": "Predicted: Very High · Tested in 4 of 5 past papers",
+      "frequencyRank": 1,
+      "description": "Principles, requirements, high-risk groups and triage errors: the most repeated section of the paper.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set1_1",
+          "qNumber": "Q1",
+          "partId": "triage",
+          "partTitle": "Triage in the Emergency Department",
+          "tier": "Tier 1",
+          "topic": "Triage",
+          "text": "State five (5) principles of triage.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Very High · Triage appeared as an SAQ in 4 of 5 past papers",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q1",
+              "marks": 5,
+              "wording": "State five (5) principles of triage."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Triage is the rapid sorting of patients arriving at the emergency department to decide who must be seen immediately and who can safely wait. The principles are the rules that guide how that sorting is done. The lecture notes list six, so learn all six and write the five you can explain best.",
+            "subsections": [
+              {
+                "heading": "A. Five principles to write (1 mark each)",
+                "points": [
+                  "1. It is not first come, first served: patients are seen according to the urgency of their condition, not the order of arrival.",
+                  "2. Acuity is assessed and categorised against set criteria (for example CTAS), so decisions are objective and consistent.",
+                  "3. Set timelines for assessment are based on acuity (for example level 1 immediately, level 2 within 15 minutes).",
+                  "4. Treatment starts promptly for seriously ill or injured patients, even while they are still in the triage area.",
+                  "5. Triage is dynamic: a patient's status can change rapidly, so patients are reassessed and re-categorised."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable points",
+                "points": [
+                  "6. Triage relies on multidisciplinary teamwork between the triage nurse, doctors and the rest of the emergency team.",
+                  "7. The initial triage assessment is brief and should be completed within 5 minutes of arrival."
+                ]
+              }
+            ],
+            "conclusion": "Write each principle as one short, complete statement. The first principle, 'not first come, first served', is the one examiners expect to see.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Triage section)."
+          },
+          "warningNotice": "Exam trap: the question asks for PRINCIPLES (the rules of triage). Do not write the importance of triage (why it is done), the roles of the triage nurse (what she does) or the CTAS levels. Marks are deducted for information not asked for.",
+          "memoryTips": [
+            "Memory tip 1: Use the four-question frame to avoid mixing up triage questions: WHY (importance), WHAT the nurse does (roles), RULES (principles), WHAT IS NEEDED (requirements).",
+            "Memory tip 2: Principle number one is always 'not first come, first served'. Write it first and you secure the easiest mark.",
+            "Memory tip 3: Six principles, six letters: SORTED. If you blank in the exam, say SORTED and the points come back.",
+            "Memory tip 4: Remember that 'dynamic' means the triage category is not final. This links to the reassessment points in other triage questions."
+          ],
+          "mnemonics": [
+            {
+              "title": "SORTED (study aid for the six principles)",
+              "summary": "A home-made acrostic with one principle per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "S",
+                    "Sickest first (not first come, first served)",
+                    "Priority by urgency, not arrival time"
+                  ],
+                  [
+                    "O",
+                    "Objective criteria",
+                    "Acuity categorised against set criteria such as CTAS"
+                  ],
+                  [
+                    "R",
+                    "Respond promptly",
+                    "Treatment starts at once for the seriously ill or injured"
+                  ],
+                  [
+                    "T",
+                    "Timelines set by acuity",
+                    "Maximum waiting time for each category"
+                  ],
+                  [
+                    "E",
+                    "Evolving (dynamic) process",
+                    "Status can change; reassess and re-categorise"
+                  ],
+                  [
+                    "D",
+                    "Done as a team",
+                    "Multidisciplinary teamwork"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per distinct principle, so write exactly five numbered points. Extra points earn nothing and risk deductions.",
+              "Keywords the examiner looks for: not first come first served, acuity, set criteria, timelines, prompt treatment, dynamic or reassessment, teamwork.",
+              "Command word 'State' means one short line per point. No explanations or paragraphs.",
+              "Sibling questions to expect: importance of triage, requirements of a triage area, roles of the triage nurse, and high-risk patients. Learn them as a set because the same lecture section feeds all of them."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_2",
+          "qNumber": "Q2",
+          "partId": "triage",
+          "partTitle": "Triage in the Emergency Department",
+          "tier": "Tier 1",
+          "topic": "Triage",
+          "text": "State four (4) requirements of a triage area.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Very High · Same lecture section as the 4 triage SAQs already tested",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q2",
+              "marks": 4,
+              "wording": "State four (4) requirements of a triage area."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "A triage area must be set up so that patients can be assessed quickly, privately and safely, and so that the findings can be recorded against the right patient. The notes list six requirements; four are enough for this question.",
+            "subsections": [
+              {
+                "heading": "A. Four requirements to write (1 mark each)",
+                "points": [
+                  "1. A trained triage health worker (nurse) who can assess and categorise patients using the triage tool.",
+                  "2. A private room, to maintain patient confidentiality during the interview and examination.",
+                  "3. A desk with two chairs, or a couch, for the interview and for examining the patient.",
+                  "4. A monitor for blood pressure, heart rate, respiratory rate, oxygen saturation (SpO2) and temperature, to take triage vital signs."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable requirements",
+                "points": [
+                  "5. The patient record chart, to document the chief complaint, findings and triage category.",
+                  "6. Three patient identifiers: full (three) names, date of birth and hospital registration number, to make sure the right patient is matched to the right record."
+                ]
+              }
+            ],
+            "conclusion": "Name each requirement and add one short purpose where possible (for example 'private room for confidentiality'). If the examiner asks for five, add the record chart.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Triage section)."
+          },
+          "warningNotice": "Exam trap: 'requirements of a triage area' means what must be available there. Do not write the triage process, the principles or the roles of the nurse.",
+          "memoryTips": [
+            "Memory tip 1: Picture the triage cubicle and list what you see: a nurse, a room, a desk, a monitor, a chart and a wristband with three IDs.",
+            "Memory tip 2: The three identifiers are the full three names, date of birth and registration number. 'Name, Birthday, Number'.",
+            "Memory tip 3: The monitor measures the five physiological readings you will also need in other questions: BP, HR, RR, SpO2 and temperature.",
+            "Memory tip 4: PRIMED gives you all six requirements in one word."
+          ],
+          "mnemonics": [
+            {
+              "title": "PRIMED (study aid for the six requirements)",
+              "summary": "A home-made acrostic with one requirement per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "P",
+                    "Private room",
+                    "Confidentiality"
+                  ],
+                  [
+                    "R",
+                    "Record chart",
+                    "Patient record chart for documentation"
+                  ],
+                  [
+                    "I",
+                    "Identifiers (three)",
+                    "Full three names, date of birth, registration number"
+                  ],
+                  [
+                    "M",
+                    "Monitor",
+                    "BP, HR, RR, SpO2 and temperature"
+                  ],
+                  [
+                    "E",
+                    "Experienced (trained) triage worker",
+                    "Trained nurse"
+                  ],
+                  [
+                    "D",
+                    "Desk with two chairs or a couch",
+                    "For interview and examination"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per requirement. Write exactly the number asked (four) and stop.",
+              "Keywords the examiner looks for: trained nurse, private room or confidentiality, desk and chairs or couch, monitor (BP, HR, RR, SpO2, temperature), record chart, three identifiers.",
+              "Do not confuse requirements (what the area needs) with the equipment for scene safety (collar, backboard, oxygen, trauma bag), which belongs to a different question.",
+              "If the question changes to 'importance' or 'roles', switch to WHY and WHAT-SHE-DOES points."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_3",
+          "qNumber": "Q3",
+          "partId": "triage",
+          "partTitle": "Triage in the Emergency Department",
+          "tier": "Tier 1",
+          "topic": "Triage",
+          "text": "State three (3) categories of patients who are considered high risk during triage and give one example for each.",
+          "marks": 3,
+          "marksText": "3 marks",
+          "frequencyText": "Predicted probability: High · Short lecture list that fits a 3-mark SAQ",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q3",
+              "marks": 3,
+              "wording": "State three (3) categories of patients who are considered high risk during triage and give one example for each."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "High-risk patients are those who can deteriorate quickly or hide the seriousness of their illness. The triage nurse must be extra cautious with them and should not under-triage them.",
+            "subsections": [
+              {
+                "heading": "A. Three categories to write (1 mark each)",
+                "points": [
+                  "1. Children under 5 years: for example, an infant under 4 weeks old should be seen in under 10 minutes.",
+                  "2. Adults over 65 years: for example, an elderly patient with a minor-looking complaint who may have a serious hidden illness.",
+                  "3. Patients with comorbidities: for example, hypertension, diabetes, cardiac or respiratory disease, neurological deficits or sickle cell disease."
+                ]
+              },
+              {
+                "heading": "B. Why they need extra caution",
+                "points": [
+                  "4. Under-triage of these groups delays care and risks deterioration, so the triage nurse gives them a higher level of suspicion and reassesses them more often."
+                ]
+              }
+            ],
+            "conclusion": "Write the category and an example on the same line so that the examiner sees both parts of the question.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Triage section)."
+          },
+          "warningNotice": "Exam trap: do not list CTAS levels or the triage vital signs. The question asks only for the high-risk groups and an example for each.",
+          "memoryTips": [
+            "Memory tip 1: Remember 5-65-Co: under 5, over 65, and comorbid.",
+            "Memory tip 2: Infants under 4 weeks are the 'under 10 minutes' group. It is the one number in this list.",
+            "Memory tip 3: The comorbidity examples are the same illnesses you meet in nursing practice every day: HTN, DM, cardiac, respiratory, neuro and sickle cell."
+          ],
+          "mnemonics": [
+            {
+              "title": "5-65-Co (study aid for high-risk patients)",
+              "summary": "A number-based memory hook for the three high-risk groups. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Hook",
+                  "Group",
+                  "Example from the notes"
+                ],
+                "rows": [
+                  [
+                    "5",
+                    "Children under 5 years",
+                    "Infants under 4 weeks seen in under 10 minutes"
+                  ],
+                  [
+                    "65",
+                    "Adults over 65 years",
+                    "Elderly patient with atypical presentation"
+                  ],
+                  [
+                    "Co",
+                    "Comorbidities",
+                    "Hypertension, diabetes, cardiac or respiratory disease, neurological deficits, sickle cell"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per category with its example. Three lines, three marks.",
+              "Keywords the examiner looks for: under 5 years, over 65 years, comorbidities with a named example.",
+              "If the question asks 'why' these patients are high risk, add that they deteriorate quickly and are at risk of under-triage."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_4",
+          "qNumber": "Q4",
+          "partId": "triage",
+          "partTitle": "Triage in the Emergency Department",
+          "tier": "Tier 1",
+          "topic": "Triage",
+          "text": "Differentiate between under-triage and over-triage.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · Short 'severity rating' definitions from the triage notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q4",
+              "marks": 4,
+              "wording": "Differentiate between under-triage and over-triage."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Triage assigns each patient a severity rating. When the rating does not match the patient's true condition, the result is either under-triage or over-triage. Both are errors, but they harm patients and the department in different ways.",
+            "subsections": [
+              {
+                "heading": "A. Four points to write (2 marks for each term)",
+                "points": [
+                  "1. Under-triage: the patient is given a lower acuity level than the condition really needs (for example, a patient with chest pain and sweating is given a non-urgent category).",
+                  "2. Consequence of under-triage: care is delayed and the patient risks deterioration.",
+                  "3. Over-triage: the patient is given a higher acuity level than the condition really needs (for example, a patient with a mild sore throat is sent to the resuscitation area).",
+                  "4. Consequence of over-triage: it diverts resources (staff, rooms and equipment) from the patients who need them most."
+                ]
+              },
+              {
+                "heading": "B. How to reduce both errors",
+                "points": [
+                  "5. Use set criteria, take vital signs, apply extra caution with high-risk patients and reassess whenever the patient's condition changes."
+                ]
+              }
+            ],
+            "conclusion": "Define each term first, then give its effect. Compare them directly using the words 'lower' and 'higher'.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Triage section)."
+          },
+          "warningNotice": "Exam trap: 'Differentiate' needs both terms and their difference. A definition of triage alone earns no marks.",
+          "memoryTips": [
+            "Memory tip 1: UNDER means too low a level: the patient is in danger. OVER means too high a level: the system is overloaded.",
+            "Memory tip 2: Think of a scale that is set too low for the patient (under) or too high (over)."
+          ],
+          "mnemonics": [
+            {
+              "title": "Under vs over (study aid)",
+              "summary": "A side-by-side table for the two triage errors. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Feature",
+                  "Under-triage",
+                  "Over-triage"
+                ],
+                "rows": [
+                  [
+                    "Level given",
+                    "Lower than needed",
+                    "Higher than needed"
+                  ],
+                  [
+                    "Who is harmed",
+                    "The patient (delayed care, deterioration)",
+                    "Other patients and the department"
+                  ],
+                  [
+                    "Result",
+                    "Risk of deterioration",
+                    "Resources diverted from those who need them most"
+                  ],
+                  [
+                    "Memory hook",
+                    "UNDER = patient in danger",
+                    "OVER = system overloaded"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: a definition and a consequence for each term, so four points for four marks.",
+              "Keywords the examiner looks for: lower or higher acuity, delays care, risks deterioration, diverts resources.",
+              "Use the word 'whereas' or a two-column layout to show the difference clearly."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 4,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "primary-secondary-survey",
+      "partNumber": 2,
+      "title": "Trauma Assessment: Primary and Secondary Survey",
+      "shortTitle": "Trauma Assessment",
+      "condition": "Trauma Assessment",
+      "tier": "Tier 1",
+      "frequencyBadge": "Predicted: High · Tested in the MCQs every year, SAQ on history in 2024",
+      "frequencyRank": 2,
+      "description": "ABCDE interventions by letter, the open chest wound and the investigations done in the secondary survey.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set1_5",
+          "qNumber": "Q5",
+          "partId": "primary-secondary-survey",
+          "partTitle": "Trauma Assessment: Primary and Secondary Survey",
+          "tier": "Tier 1",
+          "topic": "Primary Survey: Airway",
+          "text": "Outline five (5) nursing interventions in the management of the airway of a trauma patient.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · Primary survey is tested every year in the MCQs and is ready to cross over to the SAQs",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q5",
+              "marks": 5,
+              "wording": "Outline five (5) nursing interventions in the management of the airway of a trauma patient."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "In the primary survey the airway comes first, with the cervical spine protected at the same time. The nurse looks for signs of airway trouble, such as secretions, a foreign body, bleeding, facial or neck injury, inability to speak, retractions, reduced consciousness or pale or cyanosed skin, and then acts at once.",
+            "subsections": [
+              {
+                "heading": "A. Five interventions to write (1 mark each)",
+                "points": [
+                  "1. Suction the airway and remove loose objects such as teeth and debris, to clear secretions, blood and foreign material.",
+                  "2. Open the airway with a jaw thrust (when head or neck injury is suspected) or a head-tilt chin-lift.",
+                  "3. Insert an oropharyngeal or nasopharyngeal airway to keep the airway open. Never use a nasopharyngeal airway when there is facial trauma.",
+                  "4. Anticipate and prepare for endotracheal intubation if the airway cannot be maintained.",
+                  "5. Immobilise the cervical spine in a neutral position, using a cervical collar and manual in-line support."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable points",
+                "points": [
+                  "6. Give oxygen once the airway is open and assess for signs of airway obstruction such as stridor, gurgling or inability to speak.",
+                  "7. Reassess the airway after every intervention."
+                ]
+              }
+            ],
+            "conclusion": "Name each intervention and add its purpose or condition in a few words. The jaw thrust and the nasopharyngeal airway warning are the two details that earn the mark.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Primary Survey: Airway section)."
+          },
+          "warningNotice": "Exam trap: stay within AIRWAY. Do not write oxygen by non-rebreather mask, chest dressings or IV fluids, which belong to Breathing and Circulation. Remember that a jaw thrust, not a head-tilt, is used when a neck injury is possible.",
+          "memoryTips": [
+            "Memory tip 1: Airway always goes together with the cervical spine: 'A = Airway AND C-spine'.",
+            "Memory tip 2: Nasopharyngeal airway is forbidden in facial trauma. Say 'no NPA in a broken face'.",
+            "Memory tip 3: Move from the simplest to the most invasive: suction, manoeuvre, adjunct, tube."
+          ],
+          "mnemonics": [
+            {
+              "title": "CLEAR (study aid for airway management in trauma)",
+              "summary": "A home-made acrostic with one intervention per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "C",
+                    "Collar and C-spine in neutral",
+                    "Cervical immobilisation"
+                  ],
+                  [
+                    "L",
+                    "Lift the jaw (jaw thrust)",
+                    "Or head-tilt chin-lift if no neck injury"
+                  ],
+                  [
+                    "E",
+                    "Evacuate: suction, remove debris and teeth",
+                    "Clear secretions and foreign bodies"
+                  ],
+                  [
+                    "A",
+                    "Adjunct: OPA or NPA",
+                    "No NPA with facial trauma"
+                  ],
+                  [
+                    "R",
+                    "Ready for intubation",
+                    "Anticipate a definitive airway"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Primary survey order: ABCDE",
+              "summary": "The primary survey sequence in the lecture notes. Treat any life threat before moving to the next letter.",
+              "source": "Lecture notes (trauma assessment); standard trauma teaching",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Component",
+                  "Priority concern"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Airway and C-spine immobilisation",
+                    "Obstruction, secretions, facial or neck injury"
+                  ],
+                  [
+                    "B",
+                    "Breathing",
+                    "Dyspnoea, SpO2 below 95%, chest wounds"
+                  ],
+                  [
+                    "C",
+                    "Circulation",
+                    "Bleeding, SBP below 90, capillary refill over 2 s"
+                  ],
+                  [
+                    "D",
+                    "Disability",
+                    "AVPU or GCS, pupils"
+                  ],
+                  [
+                    "E",
+                    "Exposure and environment",
+                    "Find hidden injuries, prevent hypothermia"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per intervention. Write exactly five and make each one an action (suction, open, insert, prepare, immobilise).",
+              "Keywords the examiner looks for: suction, jaw thrust, head-tilt chin-lift, oropharyngeal or nasopharyngeal airway, intubation, cervical spine immobilisation.",
+              "If a massive external haemorrhage is obvious, some guidelines control it first (C-ABCDE), but the notes follow ABCDE, so write the notes' order.",
+              "Related questions: 'state the interventions for breathing', 'for circulation', 'for disability' and 'components of the primary survey'. Use the same ABCDE frame for all of them."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_6",
+          "qNumber": "Q6",
+          "partId": "primary-secondary-survey",
+          "partTitle": "Trauma Assessment: Primary and Secondary Survey",
+          "tier": "Tier 1",
+          "topic": "Primary Survey: Breathing",
+          "text": "Outline four (4) immediate nursing interventions for a patient with an open (sucking) chest wound.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: High · Open chest wound and tension pneumothorax were tested in 3 past MCQs",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q6",
+              "marks": 4,
+              "wording": "Outline four (4) immediate nursing interventions for a patient with an open (sucking) chest wound."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "An open (sucking) chest wound lets air enter the pleural space with each breath, so the lung collapses and breathing becomes laboured. The nurse treats it as a Breathing problem in the primary survey and acts at once.",
+            "subsections": [
+              {
+                "heading": "A. Four interventions to write (1 mark each)",
+                "points": [
+                  "1. Cover the wound with a non-occlusive (vented) dressing taped on three sides, so that air can escape from the chest but cannot be sucked in.",
+                  "2. Give high-flow oxygen by non-rebreather mask at 10 to 15 L/min.",
+                  "3. Assist ventilation with a bag-valve mask if breathing is inadequate.",
+                  "4. Prepare for needle decompression or chest tube insertion if a tension pneumothorax develops."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable points",
+                "points": [
+                  "5. Monitor SpO2 (a value below 95% is a concern) and respiratory rate, and attach a cardiac monitor.",
+                  "6. Establish IV access and prepare for fluid resuscitation if there are signs of shock."
+                ]
+              }
+            ],
+            "conclusion": "Start with the dressing, because it is the intervention the examiners look for. Always say 'on three sides'.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Primary Survey: Breathing section)."
+          },
+          "warningNotice": "Exam trap: never seal the wound on all four sides, because this traps air and can cause a tension pneumothorax. The dressing is non-occlusive and taped on three sides.",
+          "memoryTips": [
+            "Memory tip 1: Three sides taped, one side free: the free side works like a one-way flutter valve.",
+            "Memory tip 2: Think of what the lungs need first: a sealed-in-one-direction wound, then oxygen, then help with breathing, then a plan for pressure.",
+            "Memory tip 3: The April 2024 MCQ asked for exactly this: a vented dressing sealed on three sides."
+          ],
+          "mnemonics": [
+            {
+              "title": "SUCK (study aid for the sucking chest wound)",
+              "summary": "A home-made acrostic with one intervention per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "S",
+                    "Seal on three sides (non-occlusive, vented dressing)",
+                    "Air out, not in"
+                  ],
+                  [
+                    "U",
+                    "Up the oxygen: NRM at 10 to 15 L/min",
+                    "High-flow oxygen"
+                  ],
+                  [
+                    "C",
+                    "Control breathing: assist with BVM",
+                    "If breathing is inadequate"
+                  ],
+                  [
+                    "K",
+                    "Keep ready for decompression or chest tube",
+                    "If tension pneumothorax develops"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per intervention, with the dressing as the key mark.",
+              "Keywords the examiner looks for: non-occlusive or vented dressing, three sides, oxygen by NRM, bag-valve mask, needle decompression, chest tube.",
+              "Do not write 'apply an airtight dressing'. It is unsafe and is marked wrong.",
+              "Related questions: 'manifestations of tension pneumothorax' (already asked) and 'management of tension pneumothorax' (needle decompression then chest tube)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_7",
+          "qNumber": "Q7",
+          "partId": "primary-secondary-survey",
+          "partTitle": "Trauma Assessment: Primary and Secondary Survey",
+          "tier": "Tier 1",
+          "topic": "Primary Survey: Disability",
+          "text": "Outline four (4) nursing interventions in the management of disability (D) in a trauma patient with a head injury.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · Disability is the least practised letter of ABCDE, so it is a likely 'gap' question",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q7",
+              "marks": 4,
+              "wording": "Outline four (4) nursing interventions in the management of disability (D) in a trauma patient with a head injury."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Disability is assessed with the AVPU scale or the Glasgow Coma Scale (GCS) and by checking the pupils. A history of loss of consciousness suggests a significant head injury. The aim of care is to protect the brain from raised intracranial pressure (ICP) and low oxygen or blood pressure.",
+            "subsections": [
+              {
+                "heading": "A. Four interventions to write (1 mark each)",
+                "points": [
+                  "1. Raise the head of the bed to 30 to 45 degrees (if there is no spinal injury, or once the spine has been cleared or stabilised), to lower the ICP.",
+                  "2. Maintain a systolic blood pressure above 100 mmHg and an oxygen saturation above 90%, to keep the brain perfused and oxygenated.",
+                  "3. Prepare mannitol for raised ICP.",
+                  "4. Reduce external stimuli (noise, light and unnecessary handling)."
+                ]
+              },
+              {
+                "heading": "B. Assessment points that support the answer",
+                "points": [
+                  "5. Assess the level of consciousness with AVPU or GCS and check the pupils for size, equality and reaction.",
+                  "6. Concerns to report: low GCS, unequal or sluggish pupils, one-sided weakness and abnormal posturing."
+                ]
+              }
+            ],
+            "conclusion": "Give the number with each intervention (30 to 45 degrees, SBP above 100, SpO2 above 90%), because the numbers are what the examiner marks.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Primary Survey: Disability section)."
+          },
+          "warningNotice": "Exam trap: the question asks for interventions. Do not spend your marks only on assessment (AVPU, GCS), which is the 'how to check', not the 'what to do'.",
+          "memoryTips": [
+            "Memory tip 1: The numbers: 30-45 for the bed angle, 100 for the systolic pressure, 90 for the saturation.",
+            "Memory tip 2: Head up lowers the pressure inside the head, the same logic as sitting up for a headache or a nosebleed.",
+            "Memory tip 3: AVPU: Alert, Verbal, Pain, Unresponsive. It is the fastest check of the level of consciousness."
+          ],
+          "mnemonics": [
+            {
+              "title": "HEAD (study aid for disability interventions)",
+              "summary": "A home-made acrostic with one intervention per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "H",
+                    "Head up 30 to 45 degrees",
+                    "If no spinal injury or once stabilised"
+                  ],
+                  [
+                    "E",
+                    "Ensure SBP above 100 and SpO2 above 90%",
+                    "Protect brain perfusion and oxygenation"
+                  ],
+                  [
+                    "A",
+                    "Administer (prepare) mannitol",
+                    "For raised intracranial pressure"
+                  ],
+                  [
+                    "D",
+                    "Dim the stimuli",
+                    "Reduce external stimuli"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "AVPU scale",
+              "summary": "The quickest level-of-consciousness check used in the primary survey and at triage.",
+              "source": "Lecture notes (triage vital signs; trauma assessment)",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Alert",
+                    "Eyes open, aware of surroundings"
+                  ],
+                  [
+                    "V",
+                    "Responds to Voice",
+                    "Opens eyes when spoken to"
+                  ],
+                  [
+                    "P",
+                    "Responds to Pain",
+                    "Reacts only to a painful stimulus"
+                  ],
+                  [
+                    "U",
+                    "Unresponsive",
+                    "No response at all"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per intervention. Write four, each with its number or purpose.",
+              "Keywords the examiner looks for: head of bed 30 to 45 degrees, SBP above 100, SpO2 above 90%, mannitol, reduce stimuli.",
+              "Do not raise the head of the bed if a spinal injury has not been excluded. The notes add 'if no spinal injury or once stabilised'.",
+              "Related question: 'outline the interventions for exposure': remove all clothing to find hidden injuries and prevent hypothermia."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_8",
+          "qNumber": "Q8",
+          "partId": "primary-secondary-survey",
+          "partTitle": "Trauma Assessment: Primary and Secondary Survey",
+          "tier": "Tier 1",
+          "topic": "Secondary Survey",
+          "text": "State five (5) investigations that may be done during the secondary survey of a trauma patient.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · The secondary survey has been tested as an SAQ (history) and is the natural next question",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q8",
+              "marks": 5,
+              "wording": "State five (5) investigations that may be done during the secondary survey of a trauma patient."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The secondary survey is a systematic head-to-toe examination done after the primary survey and life-saving interventions. Investigations help to find injuries that were not obvious at first. They are grouped into laboratory tests and imaging.",
+            "subsections": [
+              {
+                "heading": "A. Five investigations to write (1 mark each)",
+                "points": [
+                  "1. Group and cross-match (or screen), to prepare blood in case of haemorrhage.",
+                  "2. Full blood count, to assess blood loss and anaemia.",
+                  "3. Bedside glucose, because low glucose can mimic or worsen a head injury.",
+                  "4. Chest X-ray and pelvic X-ray, to find chest injuries and pelvic fractures.",
+                  "5. FAST (focused assessment with sonography for trauma) or CT of the head and C-spine, to find internal bleeding or head and neck injuries."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable investigations",
+                "points": [
+                  "6. Electrolytes and renal function, urinalysis and a pregnancy test (in women of reproductive age).",
+                  "7. Ethanol level and toxicology screen, and clotting studies.",
+                  "8. Lactate and base deficit, as markers of shock; MRI where indicated."
+                ]
+              }
+            ],
+            "conclusion": "Mix laboratory tests and imaging so that the answer covers both groups. Name each test and, where possible, give its purpose.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Secondary Survey section)."
+          },
+          "warningNotice": "Exam trap: do not include the steps of the head-to-toe examination or the interventions (NG tube, catheter, splints) from the same section. They are separate parts of the secondary survey.",
+          "memoryTips": [
+            "Memory tip 1: Group the list by body fluid: blood, sugar, salts, urine, toxins, then pictures.",
+            "Memory tip 2: The trauma imaging trio is chest, pelvis and FAST.",
+            "Memory tip 3: The secondary survey has six parts in order: history, head-to-toe, vital signs, labs, imaging, other interventions. Say 'H-H-V-L-I-O'."
+          ],
+          "mnemonics": [
+            {
+              "title": "Secondary survey investigations grouped (study aid)",
+              "summary": "The lecture notes' lists regrouped into families so that they are easier to recall.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Family",
+                  "Tests from the notes",
+                  "Why it is done"
+                ],
+                "rows": [
+                  [
+                    "Blood",
+                    "Group and cross-match, FBC, clotting studies",
+                    "Blood loss and bleeding risk"
+                  ],
+                  [
+                    "Chemistry",
+                    "Bedside glucose, electrolytes, renal function, lactate, base deficit",
+                    "Metabolic state and shock"
+                  ],
+                  [
+                    "Urine",
+                    "Urinalysis, pregnancy test",
+                    "Kidney injury, blood in urine, pregnancy"
+                  ],
+                  [
+                    "Toxins",
+                    "Ethanol level, toxicology",
+                    "Intoxication that masks signs"
+                  ],
+                  [
+                    "Imaging",
+                    "Chest X-ray, CT head and C-spine, pelvic X-ray, FAST, MRI",
+                    "Find injuries"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Six parts of the secondary survey",
+              "summary": "The order in the lecture notes. A question may ask for the components of the whole survey.",
+              "source": "Lecture notes (secondary survey)",
+              "table": {
+                "headers": [
+                  "Order",
+                  "Component",
+                  "Examples"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "History",
+                    "SAMPLE and mechanism of injury"
+                  ],
+                  [
+                    "2",
+                    "Head-to-toe examination",
+                    "Document injuries, cover wounds, splint fractures"
+                  ],
+                  [
+                    "3",
+                    "Full vital signs",
+                    "Both arms in suspected chest trauma"
+                  ],
+                  [
+                    "4",
+                    "Laboratory tests",
+                    "Group and cross-match, FBC, glucose"
+                  ],
+                  [
+                    "5",
+                    "Imaging",
+                    "Chest X-ray, CT, pelvic X-ray, FAST"
+                  ],
+                  [
+                    "6",
+                    "Other interventions",
+                    "NG tube, catheter, splints, tetanus, analgesia"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per investigation. Five different tests, mixing lab and imaging.",
+              "Keywords the examiner looks for: group and cross-match, FBC, glucose, electrolytes, urinalysis, pregnancy test, chest X-ray, pelvic X-ray, CT, FAST.",
+              "Never list two forms of the same test as separate points, for example 'X-ray of chest' and 'chest radiograph'.",
+              "Always state that the secondary survey starts only after the primary survey and life-saving interventions are complete."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 4,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "shock",
+      "partNumber": 3,
+      "title": "Shock",
+      "shortTitle": "Shock",
+      "condition": "Shock",
+      "tier": "Tier 1",
+      "frequencyBadge": "Predicted: Very High · MCQs in every paper, SAQs not yet set",
+      "frequencyRank": 3,
+      "description": "Early signs, management of hypovolaemic and anaphylactic shock, and the four types of shock.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set1_9",
+          "qNumber": "Q9",
+          "partId": "shock",
+          "partTitle": "Shock",
+          "tier": "Tier 1",
+          "topic": "Hypovolaemic Shock",
+          "text": "State five (5) early signs of hypovolaemic shock.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Very High · 'Early sign of shock' was an MCQ in 2 of 5 papers",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q9",
+              "marks": 5,
+              "wording": "State five (5) early signs of hypovolaemic shock."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Shock is a clinical syndrome from inadequate tissue perfusion, which creates an imbalance between oxygen and nutrient delivery and cellular needs. In hypovolaemic shock, fluid or blood loss lowers preload, stroke volume and cardiac output. The body compensates at first, so the EARLY signs reflect compensation, not collapse.",
+            "subsections": [
+              {
+                "heading": "A. Five early signs to write (1 mark each)",
+                "points": [
+                  "1. Anxiety, restlessness, agitation or combativeness (neurological, from reduced cerebral perfusion).",
+                  "2. Tachycardia, the compensatory rise in heart rate to maintain cardiac output.",
+                  "3. Tachypnoea or air hunger with a falling SpO2.",
+                  "4. Pallor with delayed capillary refill.",
+                  "5. Reduced urine output."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable early signs",
+                "points": [
+                  "6. Thirst, nausea and abdominal pain (gastrointestinal).",
+                  "7. Mean arterial pressure below 60 mmHg and a lactate above 2 mmol/L.",
+                  "8. Diaphoresis (sweating)."
+                ]
+              }
+            ],
+            "conclusion": "Late signs to avoid in this answer: hypotension and bradycardia, anuria, absent bowel sounds, dilated pupils, central cyanosis, unresponsiveness, mottled skin and a lactate above 4 mmol/L.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Hypovolaemic Shock section)."
+          },
+          "warningNotice": "Exam trap: hypotension is a LATE sign, because the body keeps the blood pressure up for as long as it can. A student who writes hypotension, anuria or unconsciousness has described late shock and loses the marks.",
+          "memoryTips": [
+            "Memory tip 1: Early shock is the body fighting: fast, restless, pale, thirsty and passing little urine.",
+            "Memory tip 2: Late shock is the body losing: slow, quiet, grey, mottled and not passing urine at all.",
+            "Memory tip 3: The April 2024 MCQ asked for the early sign of shock: the answer was tachycardia, not hypotension and not anuria."
+          ],
+          "mnemonics": [
+            {
+              "title": "RAPID (study aid for early signs of shock)",
+              "summary": "A home-made acrostic with one early sign per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "R",
+                    "Restless, anxious, agitated",
+                    "Neurological sign"
+                  ],
+                  [
+                    "A",
+                    "Air hunger (tachypnoea), falling SpO2",
+                    "Respiratory sign"
+                  ],
+                  [
+                    "P",
+                    "Pale with delayed capillary refill",
+                    "Circulatory sign"
+                  ],
+                  [
+                    "I",
+                    "Increased heart rate (tachycardia)",
+                    "Compensation for low output"
+                  ],
+                  [
+                    "D",
+                    "Diminished urine output",
+                    "Reduced renal perfusion"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Early versus late signs of hypovolaemic shock",
+              "summary": "The two lists from the lecture notes side by side.",
+              "source": "Lecture notes (shock)",
+              "table": {
+                "headers": [
+                  "System",
+                  "Early (compensated)",
+                  "Late (decompensated)"
+                ],
+                "rows": [
+                  [
+                    "Neurological",
+                    "Anxiety, restlessness, combativeness",
+                    "Unresponsive, dilated pupils"
+                  ],
+                  [
+                    "Respiratory",
+                    "Tachypnoea, air hunger, falling SpO2",
+                    "Central cyanosis, respiratory failure"
+                  ],
+                  [
+                    "Cardiovascular",
+                    "Tachycardia, pallor, delayed capillary refill",
+                    "Hypotension and bradycardia, absent pulses, mottled skin"
+                  ],
+                  [
+                    "Renal",
+                    "Reduced urine output",
+                    "Anuria"
+                  ],
+                  [
+                    "Lactate",
+                    "Above 2 mmol/L",
+                    "Above 4 mmol/L"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per distinct early sign. Choose from different systems so that you do not repeat yourself.",
+              "Keywords the examiner looks for: anxiety or restlessness, tachycardia, tachypnoea, pallor, delayed capillary refill, thirst, reduced urine output.",
+              "Check each point against the question: 'early' means compensated, so hypotension earns nothing.",
+              "Related questions: 'late signs of shock', 'management of hypovolaemic shock' (next question), and 'types of shock'."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_10",
+          "qNumber": "Q10",
+          "partId": "shock",
+          "partTitle": "Shock",
+          "tier": "Tier 1",
+          "topic": "Hypovolaemic Shock",
+          "text": "Outline five (5) nursing interventions in the management of hypovolaemic shock.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Very High · Hypovolaemic shock is the most common shock in trauma and was tested in the MCQs in 2024 and 2025",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q10",
+              "marks": 5,
+              "wording": "Outline five (5) nursing interventions in the management of hypovolaemic shock."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The aims of treatment are to stop the loss of blood or fluid, restore the circulating volume and oxygen delivery, and monitor the response.",
+            "subsections": [
+              {
+                "heading": "A. Five interventions to write (1 mark each)",
+                "points": [
+                  "1. Control the bleeding with direct pressure or surgery.",
+                  "2. Give high-flow oxygen.",
+                  "3. Insert large-bore IV access (16G or larger) and send blood for FBC, U&E, creatinine, group and cross-match and glucose.",
+                  "4. Give a normal saline bolus (500 to 1000 mL in adults, 10 mL/kg in children, over 5 to 20 minutes) and blood products as indicated.",
+                  "5. Put the patient on an ECG monitor with pulse oximetry, record vital signs every 15 to 30 minutes, and insert a urinary catheter to monitor hourly urine output."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable interventions",
+                "points": [
+                  "6. Prevent hypothermia, splint large bone injuries (femur, pelvis) and insert a gastric tube to prevent distension, vomiting and aspiration.",
+                  "7. Arrange imaging: chest X-ray, CT head and neck, pelvic X-ray and FAST.",
+                  "8. If there is a thermal injury, stop the burning process."
+                ]
+              }
+            ],
+            "conclusion": "Include the numbers (16G, 500 to 1000 mL, 10 mL/kg, hourly urine) because they distinguish a strong answer from a general one.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Hypovolaemic Shock section)."
+          },
+          "warningNotice": "Exam trap: do not write the management of cardiogenic shock (diuretics, vasodilators, dobutamine). In hypovolaemic shock the patient needs volume, not less volume.",
+          "memoryTips": [
+            "Memory tip 1: The sequence mirrors a leaking tank: plug the hole, give oxygen, open two big lines, refill the tank, and watch the gauges (monitor and urine).",
+            "Memory tip 2: Fluid bolus numbers: 500-1000 mL in adults and 10 mL/kg in children.",
+            "Memory tip 3: Hypovolaemic patients are thirsty and need fluid; cardiogenic patients are waterlogged and need the opposite. Do not mix them up."
+          ],
+          "mnemonics": [
+            {
+              "title": "BLEED (study aid for hypovolaemic shock)",
+              "summary": "A home-made acrostic with one intervention per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "B",
+                    "Bleeding control",
+                    "Direct pressure or surgery"
+                  ],
+                  [
+                    "L",
+                    "Large-bore IV (16G or more) and bloods",
+                    "FBC, U&E, creatinine, group and cross-match, glucose"
+                  ],
+                  [
+                    "E",
+                    "Extra oxygen: high-flow",
+                    "Improve oxygen delivery"
+                  ],
+                  [
+                    "E",
+                    "Expand the volume",
+                    "Saline bolus 500 to 1000 mL (10 mL/kg in children), blood products"
+                  ],
+                  [
+                    "D",
+                    "Drainage and data: catheter and monitoring",
+                    "Hourly urine output, ECG, SpO2, vital signs every 15 to 30 minutes"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Four types of shock and the first treatment",
+              "summary": "A quick comparison table that stops you from mixing up the treatments.",
+              "source": "Lecture notes (shock)",
+              "table": {
+                "headers": [
+                  "Type",
+                  "Problem",
+                  "First priority"
+                ],
+                "rows": [
+                  [
+                    "Hypovolaemic",
+                    "Volume lost",
+                    "Stop the loss, replace volume"
+                  ],
+                  [
+                    "Cardiogenic",
+                    "Pump failure",
+                    "Reduce workload: oxygen, morphine, nitrates, dobutamine, diuretics"
+                  ],
+                  [
+                    "Distributive",
+                    "Vessels dilated",
+                    "Treat the cause: epinephrine, antibiotics or vasopressors"
+                  ],
+                  [
+                    "Obstructive",
+                    "Blockage",
+                    "Relieve it: needle decompression, pericardiocentesis, anticoagulation"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per intervention. Five different actions, each with a number or a reason.",
+              "Keywords the examiner looks for: control bleeding, oxygen, large-bore IV or two IV lines, normal saline bolus, blood products, monitoring, urinary catheter.",
+              "If the question says 'nursing interventions', start each point with a verb (control, give, insert, monitor).",
+              "Calculation tip: for children use 10 mL/kg. A 20 kg child needs 200 mL."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_11",
+          "qNumber": "Q11",
+          "partId": "shock",
+          "partTitle": "Shock",
+          "tier": "Tier 1",
+          "topic": "Anaphylactic Shock",
+          "text": "Outline five (5) nursing interventions in the management of a patient with anaphylactic shock.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Very High · Anaphylaxis was tested in the MCQs in 3 of 5 papers (April 2024, September 2024 and April 2025) and has not yet been set as an SAQ",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q11",
+              "marks": 5,
+              "wording": "Outline five (5) nursing interventions in the management of a patient with anaphylactic shock."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Anaphylaxis is an acute, life-threatening hypersensitivity reaction. Triggers include shellfish, peanuts, bee stings, penicillin, latex and iodine contrast. Death can occur from airway swelling or circulatory collapse within minutes, so treatment is immediate.",
+            "subsections": [
+              {
+                "heading": "A. Five interventions to write (1 mark each)",
+                "points": [
+                  "1. Remove the causative agent and secure the airway (intubate if needed, because of upper airway oedema).",
+                  "2. Give intramuscular epinephrine 0.01 mg/kg of 1:1000 (1 mg/mL) into the mid-anterolateral thigh. Document the time. It can be repeated in 5 to 15 minutes.",
+                  "3. Give high-flow oxygen by non-rebreather mask at 10 to 15 L/min.",
+                  "4. Obtain IV access and, for hypotension, give 1 to 2 L of 0.9% saline (5 to 10 mL/kg in the first 5 to 10 minutes).",
+                  "5. Give an inhaled beta-2 agonist (albuterol) for bronchospasm, and antihistamines as an adjunct."
+                ]
+              },
+              {
+                "heading": "B. Recognition and other points",
+                "points": [
+                  "6. Signs: dyspnoea, cough, throat tightness, stridor, wheeze, urticaria, angioedema of the lips and tongue, syncope, palpitations, hypotension and tachycardia.",
+                  "7. Respiratory and cardiopulmonary arrest can follow, so be ready to start CPR."
+                ]
+              }
+            ],
+            "conclusion": "Epinephrine is the first-line drug and antihistamines are only adjuncts. Put epinephrine first in your answer.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Anaphylactic Shock section)."
+          },
+          "warningNotice": "Exam trap: antihistamines, steroids and fluids do not replace epinephrine. A student who gives an oral antihistamine as the first intervention loses the key mark. The correct route is IM, not IV, and the correct site is the mid-anterolateral thigh.",
+          "memoryTips": [
+            "Memory tip 1: Epinephrine goes into the muscle of the outer thigh because absorption there is faster than from the arm or under the skin.",
+            "Memory tip 2: The dose pair: 0.01 mg/kg of the 1:1000 strength (1 mg/mL). For a 20 kg child that is 0.2 mg or 0.2 mL.",
+            "Memory tip 3: Airway swelling is the killer, so the airway and oxygen move alongside the drug, not after it.",
+            "Memory tip 4: Repeat the epinephrine after 5 to 15 minutes if the patient has not improved."
+          ],
+          "mnemonics": [
+            {
+              "title": "EPI-ABC (study aid for anaphylaxis management)",
+              "summary": "A home-made acrostic that puts the drug first, followed by ABC. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "E",
+                    "Epinephrine IM, 0.01 mg/kg of 1:1000, mid-anterolateral thigh",
+                    "First-line; note the time; repeat in 5 to 15 minutes"
+                  ],
+                  [
+                    "P",
+                    "Prevent more exposure: remove the causative agent",
+                    "Stop the trigger"
+                  ],
+                  [
+                    "I",
+                    "IV access and saline",
+                    "1 to 2 L of 0.9% saline (5 to 10 mL/kg in the first 5 to 10 minutes) for hypotension"
+                  ],
+                  [
+                    "A",
+                    "Airway secured",
+                    "Intubate if there is airway oedema"
+                  ],
+                  [
+                    "B",
+                    "Breathing: oxygen by NRM 10 to 15 L/min, albuterol",
+                    "Treat bronchospasm"
+                  ],
+                  [
+                    "C",
+                    "Counter-adjuncts: antihistamines",
+                    "Adjunct only, never first"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Signs of anaphylaxis by system",
+              "summary": "Use this table to answer a 'signs and symptoms' version of the question.",
+              "source": "Lecture notes (distributive shock: anaphylactic)",
+              "table": {
+                "headers": [
+                  "System",
+                  "Signs"
+                ],
+                "rows": [
+                  [
+                    "Respiratory",
+                    "Dyspnoea, cough, throat tightness, stridor, wheeze, bronchospasm, upper airway oedema"
+                  ],
+                  [
+                    "Skin",
+                    "Urticaria, erythema, pruritus, angioedema of tongue and lips"
+                  ],
+                  [
+                    "Circulatory",
+                    "Syncope, palpitations, hypotension, tachycardia"
+                  ],
+                  [
+                    "Arrest",
+                    "Respiratory and cardiopulmonary arrest"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per intervention. Include the drug, dose, route and site in a single point to secure the full mark.",
+              "Keywords the examiner looks for: remove the causative agent, airway, epinephrine IM, 0.01 mg/kg, 1:1000, anterolateral thigh, oxygen by NRM, IV access, saline bolus, albuterol, antihistamines.",
+              "If the question asks for the 'priority' or 'initial' intervention, answer epinephrine IM first. For a pure airway problem, write airway and oxygen alongside it.",
+              "Related questions: 'signs of anaphylactic shock', 'triggers of anaphylaxis' and 'management of neurogenic or septic shock' (the other two distributive types)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set1_12",
+          "qNumber": "Q12",
+          "partId": "shock",
+          "partTitle": "Shock",
+          "tier": "Tier 1",
+          "topic": "Types of Shock",
+          "text": "Name the four (4) types of shock and state one cause of each.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: High · 'Types of shock' and 'cause of cardiogenic shock' were tested in the MCQs in 2024 and 2025",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set1",
+              "paper": "TNH Practice Paper (predicted), Set 1",
+              "ref": "Section B, Q12",
+              "marks": 4,
+              "wording": "Name the four (4) types of shock and state one cause of each."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Shock needs four intact components to maintain perfusion: the vessels, an adequate intravascular volume, adequate gas exchange in the lungs and a functioning heart. A failure in any one of them gives one of the four types of shock.",
+            "subsections": [
+              {
+                "heading": "A. Four types and a cause of each (1 mark each)",
+                "points": [
+                  "1. Hypovolaemic shock: loss of blood or fluid, for example haemorrhage from trauma, burns or severe diarrhoea.",
+                  "2. Cardiogenic shock: failure of the heart as a pump, for example myocardial infarction, dysrhythmias or cardiomyopathy.",
+                  "3. Distributive shock: vasodilation or pooling of blood, for example anaphylactic, septic or neurogenic shock.",
+                  "4. Obstructive shock: a physical blockage to blood flow, for example cardiac tamponade, pulmonary embolism or tension pneumothorax."
+                ]
+              },
+              {
+                "heading": "B. Key differences worth knowing",
+                "points": [
+                  "5. Neurogenic shock is the one with bradycardia, hypotension and warm, dry, flushed skin, usually from a spinal cord injury.",
+                  "6. Septic shock is the most common distributive shock and the last, most severe stage of sepsis.",
+                  "7. Cardiac output equals heart rate multiplied by stroke volume (about 5 L/min at rest)."
+                ]
+              }
+            ],
+            "conclusion": "Give the type, a one-line mechanism and one cause for each so that each mark is secure.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Types of Shock section)."
+          },
+          "warningNotice": "Exam trap: anaphylactic, septic and neurogenic shock are not separate types; they are the three subtypes of DISTRIBUTIVE shock. Do not list them as four of the types.",
+          "memoryTips": [
+            "Memory tip 1: Tank, pump, pipes, blockage: Hypovolaemic is the tank, cardiogenic the pump, distributive the pipes and obstructive the blockage.",
+            "Memory tip 2: A second hook is HCDO: Hypovolaemic, Cardiogenic, Distributive, Obstructive.",
+            "Memory tip 3: Tension pneumothorax and tamponade are obstructive because they stop blood from returning to or leaving the heart."
+          ],
+          "mnemonics": [
+            {
+              "title": "Tank, Pump, Pipes, Blockage (study aid for the four types)",
+              "summary": "A plumbing analogy that is widely used in nursing teaching. Use it to recall mechanism and cause together.",
+              "source": "Widely used student analogy for classifying shock; lecture notes (types of shock)",
+              "table": {
+                "headers": [
+                  "Analogy",
+                  "Type",
+                  "Mechanism",
+                  "Example cause"
+                ],
+                "rows": [
+                  [
+                    "Tank empty",
+                    "Hypovolaemic",
+                    "Volume lost",
+                    "Haemorrhage, burns, vomiting, diarrhoea"
+                  ],
+                  [
+                    "Pump fails",
+                    "Cardiogenic",
+                    "Heart cannot pump",
+                    "Myocardial infarction, dysrhythmia"
+                  ],
+                  [
+                    "Pipes too wide",
+                    "Distributive",
+                    "Vasodilation",
+                    "Anaphylactic, septic, neurogenic"
+                  ],
+                  [
+                    "Pipe blocked",
+                    "Obstructive",
+                    "Physical blockage",
+                    "Tamponade, pulmonary embolism, tension pneumothorax"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Key clue for each type",
+              "summary": "Short clue words that help in MCQs and in the SAQ.",
+              "source": "Lecture notes (shock); standard nursing teaching",
+              "table": {
+                "headers": [
+                  "Type",
+                  "Clue"
+                ],
+                "rows": [
+                  [
+                    "Hypovolaemic",
+                    "Thirst, cool pale skin, falling urine output"
+                  ],
+                  [
+                    "Cardiogenic",
+                    "Chest pain or crackles, a failed pump (diuretics and dobutamine)"
+                  ],
+                  [
+                    "Neurogenic",
+                    "Bradycardia with warm, dry skin after a spinal injury"
+                  ],
+                  [
+                    "Obstructive",
+                    "Raised neck veins; relieve the obstruction"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per type with its cause. Do not repeat the same cause.",
+              "Keywords the examiner looks for: hypovolaemic, cardiogenic, distributive (with anaphylactic, septic or neurogenic), obstructive, and a correct cause for each.",
+              "If asked for 'subtypes of distributive shock', write anaphylactic, neurogenic and septic.",
+              "Link: the most common type of shock in trauma is hypovolaemic (haemorrhagic) shock, a 2024 MCQ."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 4,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    }
+  ],
+  "block": "Block 1",
+  "category": "TNH Practice"
+}

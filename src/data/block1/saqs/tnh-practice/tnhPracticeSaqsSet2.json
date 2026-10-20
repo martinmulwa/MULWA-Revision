@@ -1,0 +1,1909 @@
+{
+  "id": "tnh-practice-trauma-emergency-saqs-2",
+  "title": "TNH Practice: Trauma and Emergency Nursing SAQ Question Bank (Set 2 of 2)",
+  "subtitle": "BLS, burns, first aid, paediatric emergencies and poisoning. Ordered by predicted probability of being tested (modelled on 5 Block One papers).",
+  "author": "TNH Practice Question Bank",
+  "version": "1.0.0",
+  "totalQuestions": 17,
+  "totalPastPaperSaqs": 12,
+  "rankingMethod": "Topics are ranked by predicted probability of being set as short answer questions. The ranking weighs (1) how often the topic or its sibling questions appeared in the 5 Block One papers (September 2022 to April 2025 classes), (2) how much space the topic takes in the lecture notes, and (3) topics that have only appeared as MCQs so far and are due to cross over into the SAQ section. Every question is answerable from the attached lecture notes only; the research additions are confined to the memory aids and exam tips. Question wording follows the command words of the real papers (State, Outline, List, Explain).",
+  "papersAnalysed": [
+    {
+      "paperId": "krn-block1-sept2022-trauma-emergency-nursing",
+      "paper": "September 2022 Class, Block One Exam (sat 13 March 2023)"
+    },
+    {
+      "paperId": "krn-block1-sept2023-trauma-emergency-nursing",
+      "paper": "September 2023 Class, First Block Exam (sat 2 April 2024)"
+    },
+    {
+      "paperId": "krn-block1-april2024-trauma-emergency-nursing",
+      "paper": "April 2024 Class, First Block Exam (sat 16 November 2023)"
+    },
+    {
+      "paperId": "krn-block1-sept2024-trauma-emergency-nursing",
+      "paper": "September 2024 Class, First Block Exam (sat 10 March 2025)"
+    },
+    {
+      "paperId": "krn-block1-april2025-trauma-emergency-nursing",
+      "paper": "April 2025 Class, Block One (sat 14 October 2025)"
+    }
+  ],
+  "parts": [
+    {
+      "id": "bls-cpr",
+      "partNumber": 4,
+      "title": "Basic Life Support and CPR",
+      "shortTitle": "BLS and CPR",
+      "condition": "Cardiac Arrest",
+      "tier": "Tier 2",
+      "frequencyBadge": "Predicted: High · MCQs in 4 of 5 papers",
+      "frequencyRank": 4,
+      "description": "High-quality CPR and the adult chain of survival.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set2_13",
+          "qNumber": "Q13",
+          "partId": "bls-cpr",
+          "partTitle": "Basic Life Support and CPR",
+          "tier": "Tier 2",
+          "topic": "Adult CPR",
+          "text": "State five (5) components of high-quality cardiopulmonary resuscitation (CPR) in an adult.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · CPR numbers were tested in the MCQs in 4 of 5 papers and have never been set as an SAQ",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q13",
+              "marks": 5,
+              "wording": "State five (5) components of high-quality cardiopulmonary resuscitation (CPR) in an adult."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "CPR is the external maintenance of circulation and respiration through chest compressions and artificial ventilation. Its quality decides survival: each minute of delayed resuscitation reduces survival by about 10%.",
+            "subsections": [
+              {
+                "heading": "A. Five components to write (1 mark each)",
+                "points": [
+                  "1. Rate of 100 to 120 compressions per minute.",
+                  "2. Depth of at least 5 cm (2 inches), with the heel of one hand on the lower half of the sternum, the other hand on top, arms straight and shoulders over the hands.",
+                  "3. Allow full chest recoil after every compression.",
+                  "4. Minimise interruptions: keep any pause to less than 10 seconds.",
+                  "5. Use a compression to ventilation ratio of 30:2, and swap compressors every 2 minutes (switch in under 5 seconds) to avoid fatigue."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable points",
+                "points": [
+                  "6. The victim lies supine on a firm, flat surface with the chest exposed.",
+                  "7. Reassess the pulse and breathing every 2 minutes (5 cycles).",
+                  "8. Give each breath over 1 second with visible chest rise."
+                ]
+              }
+            ],
+            "conclusion": "Give the number with each component: 100 to 120, 5 cm, 10 seconds, 30:2 and 2 minutes.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Adult CPR section)."
+          },
+          "warningNotice": "Exam trap: 'High quality' means the technique, not the sequence. Do not write Safety, Stimulate, Shout, Check pulse, which is the BLS sequence and a different question.",
+          "memoryTips": [
+            "Memory tip 1: Fast, deep, let it rise, do not stop, swap: that is the entire CPR quality checklist.",
+            "Memory tip 2: The numbers: 100-120, 5 cm, 30:2, 10 seconds, 2 minutes.",
+            "Memory tip 3: The compressor swaps every 2 minutes, which is also when the pulse is rechecked."
+          ],
+          "mnemonics": [
+            {
+              "title": "RATES (study aid for high-quality CPR)",
+              "summary": "A home-made acrostic with one component per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "R",
+                    "Rate 100 to 120 per minute",
+                    "Ratio 30:2"
+                  ],
+                  [
+                    "A",
+                    "Amount (depth) at least 5 cm",
+                    "Heel of hand on lower half of sternum"
+                  ],
+                  [
+                    "T",
+                    "Total recoil",
+                    "Allow the chest to rise fully"
+                  ],
+                  [
+                    "E",
+                    "Every 2 minutes swap and reassess",
+                    "Switch in under 5 s; reassess after 5 cycles"
+                  ],
+                  [
+                    "S",
+                    "Stops under 10 seconds",
+                    "Minimise interruptions"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "BLS sequence (adult)",
+              "summary": "The order for the 'sequence' version of the question.",
+              "source": "Lecture notes (adult BLS)",
+              "table": {
+                "headers": [
+                  "Step",
+                  "Action",
+                  "Detail"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Safety",
+                    "Scene, self and victim; PPE"
+                  ],
+                  [
+                    "2",
+                    "Stimulate",
+                    "Tap and shout 'are you OK?'"
+                  ],
+                  [
+                    "3",
+                    "Shout for help",
+                    "Ask for an AED and BVM"
+                  ],
+                  [
+                    "4",
+                    "Check pulse and breathing",
+                    "Carotid pulse, 5 to 10 seconds"
+                  ],
+                  [
+                    "5",
+                    "Airway",
+                    "Head-tilt chin-lift or jaw thrust"
+                  ],
+                  [
+                    "6",
+                    "Breathing",
+                    "2 breaths, 1 second each, visible chest rise"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per component, each with its number.",
+              "Keywords the examiner looks for: 100 to 120 per minute, at least 5 cm, full recoil, interruptions under 10 seconds, 30:2, change compressors every 2 minutes.",
+              "Common error: mixing the adult figures with the paediatric ones (depth one-third of the chest, 15:2 with two rescuers).",
+              "Related questions: BLS sequence, chain of survival (next question) and the recovery position."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_14",
+          "qNumber": "Q14",
+          "partId": "bls-cpr",
+          "partTitle": "Basic Life Support and CPR",
+          "tier": "Tier 2",
+          "topic": "Chain of Survival",
+          "text": "State the five (5) links in the adult chain of survival.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · The chain of survival was an MCQ in 2 of 5 papers (September 2023 and September 2024)",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q14",
+              "marks": 5,
+              "wording": "State the five (5) links in the adult chain of survival."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The chain of survival is the series of actions that, performed in order and without delay, give a person in sudden cardiac arrest the best chance of survival.",
+            "subsections": [
+              {
+                "heading": "A. Five links to write (1 mark each)",
+                "points": [
+                  "1. Early recognition of cardiac arrest.",
+                  "2. Activation of emergency medical services (EMS).",
+                  "3. Early CPR.",
+                  "4. Early defibrillation, within 3 to 5 minutes of collapse.",
+                  "5. Early advanced care."
+                ]
+              },
+              {
+                "heading": "B. Useful extra points",
+                "points": [
+                  "6. Each minute of delay in resuscitation reduces survival by about 10%.",
+                  "7. The paediatric chain is: prevention, early recognition, prompt EMS call, high-quality CPR, rapid defibrillation and advanced care, and integrated post-cardiac-arrest care."
+                ]
+              }
+            ],
+            "conclusion": "Write the links in the correct order. The order is tested in the MCQs.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Chain of Survival section)."
+          },
+          "warningNotice": "Exam trap: do not confuse the adult chain, which starts with recognition, with the paediatric chain, which starts with prevention.",
+          "memoryTips": [
+            "Memory tip 1: Recognise, Alert, Compress, Defibrillate, Advance: each link triggers the next.",
+            "Memory tip 2: The shock is delivered early (3 to 5 minutes) because the heart rhythm can only be corrected while it is still shockable.",
+            "Memory tip 3: Adult: recognition is first. Paediatric: prevention is first, because most child arrests are respiratory and preventable."
+          ],
+          "mnemonics": [
+            {
+              "title": "RACDA (study aid for the adult chain of survival)",
+              "summary": "A home-made acrostic, 'Rapid Action Can Defeat Arrest'. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "R",
+                    "Recognise cardiac arrest early",
+                    "Early recognition"
+                  ],
+                  [
+                    "A",
+                    "Alert EMS",
+                    "Activation of EMS"
+                  ],
+                  [
+                    "C",
+                    "Compress: CPR",
+                    "Early CPR"
+                  ],
+                  [
+                    "D",
+                    "Defibrillate",
+                    "Within 3 to 5 minutes of collapse"
+                  ],
+                  [
+                    "A",
+                    "Advanced care",
+                    "Early advanced care"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Adult and paediatric chains compared",
+              "summary": "The two chains in the notes.",
+              "source": "Lecture notes (BLS; paediatric BLS)",
+              "table": {
+                "headers": [
+                  "Link",
+                  "Adult",
+                  "Paediatric"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Early recognition",
+                    "Prevention"
+                  ],
+                  [
+                    "2",
+                    "Activation of EMS",
+                    "Early recognition"
+                  ],
+                  [
+                    "3",
+                    "Early CPR",
+                    "Prompt EMS call"
+                  ],
+                  [
+                    "4",
+                    "Early defibrillation",
+                    "High-quality CPR"
+                  ],
+                  [
+                    "5",
+                    "Early advanced care",
+                    "Rapid defibrillation and advanced care"
+                  ],
+                  [
+                    "6",
+                    "-",
+                    "Integrated post-cardiac-arrest care"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per link. Learn the correct order.",
+              "Keywords the examiner looks for: recognition, activation of EMS, CPR, defibrillation within 3 to 5 minutes, advanced care.",
+              "If the question says 'paediatric', start with prevention and add post-cardiac-arrest care.",
+              "Related questions: BLS sequence and components of high-quality CPR."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 2,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "burns",
+      "partNumber": 5,
+      "title": "Burns: Emergent Phase",
+      "shortTitle": "Burns",
+      "condition": "Burns",
+      "tier": "Tier 2",
+      "frequencyBadge": "Predicted: High · SAQ in April 2025; MCQs in 2 papers",
+      "frequencyRank": 5,
+      "description": "Parkland calculation, burn first aid, inhalation injury and Curling's ulcer.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set2_15",
+          "qNumber": "Q15",
+          "partId": "burns",
+          "partTitle": "Burns: Emergent Phase",
+          "tier": "Tier 2",
+          "topic": "Burns: Fluid Resuscitation",
+          "text": "A 60 kg adult has burns covering 40% of the total body surface area (TBSA). Using the Parkland formula, calculate (a) the total volume of fluid for the first 24 hours, (b) the volume to be given in the first 8 hours and the hourly rate, and (c) the volume for the next 16 hours.",
+          "marks": 3,
+          "marksText": "3 marks",
+          "frequencyText": "Predicted probability: High · Parkland appeared in the 2025 MCQs and the burn phase was set as an SAQ",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q15",
+              "marks": 3,
+              "wording": "A 60 kg adult has burns covering 40% of the total body surface area (TBSA). Using the Parkland formula, calculate (a) the total volume of fluid for the first 24 hours, (b) the volume to be given in the first 8 hours and the hourly rate, and (c) the volume for the next 16 hours."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The Parkland formula is used when the burn is larger than 20% TBSA. Ringer's lactate is given at 4 mL x % TBSA x weight in kg over 24 hours. Half is given in the first 8 hours from the time of the burn, and the other half over the next 16 hours.",
+            "subsections": [
+              {
+                "heading": "A. Working to write (show each step)",
+                "points": [
+                  "1. Total in 24 hours = 4 mL x 40 x 60 kg = 9,600 mL of Ringer's lactate.",
+                  "2. First 8 hours = 9,600 / 2 = 4,800 mL, which is 4,800 / 8 = 600 mL per hour.",
+                  "3. Next 16 hours = 4,800 mL, which is 4,800 / 16 = 300 mL per hour."
+                ]
+              },
+              {
+                "heading": "B. Points that protect the marks",
+                "points": [
+                  "4. The 8 hours are counted from the time of the burn, not from the time of arrival.",
+                  "5. Adjust the rate to the response and aim for a urine output of at least 30 mL per hour in adults.",
+                  "6. The modified Parkland formula uses 3 mL x % TBSA x weight (kg) of Hartmann's solution with the same split."
+                ]
+              }
+            ],
+            "conclusion": "Write the formula first, substitute the numbers, then give the answer with its units (mL and mL/hour).",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burns: Fluid Resuscitation section)."
+          },
+          "warningNotice": "Exam trap: read what the question asks. A first-8-hours question wants half of the 24-hour total, not the whole of it. The 2025 MCQ with the 50 kg patient (27%) had 5,400 mL as a distractor.",
+          "memoryTips": [
+            "Memory tip 1: Four times weight times percent, half now, half later: 4 x kg x %.",
+            "Memory tip 2: Half in the first 8 hours, half over the next 16 hours. Hourly rate = half divided by 8 for the first period and by 16 for the second.",
+            "Memory tip 3: Always check that the burn is above 20% TBSA before applying the formula."
+          ],
+          "mnemonics": [
+            {
+              "title": "Parkland worked examples (study aid)",
+              "summary": "Practice until the steps are automatic: weight x % x 4, divide by 2, divide by 8.",
+              "source": "Lecture notes (worked examples) and this question",
+              "table": {
+                "headers": [
+                  "Patient",
+                  "24-hour total",
+                  "First 8 hours",
+                  "Hourly rate (first 8 h)"
+                ],
+                "rows": [
+                  [
+                    "60 kg, 40% TBSA",
+                    "9,600 mL",
+                    "4,800 mL",
+                    "600 mL/h"
+                  ],
+                  [
+                    "70 kg, 50% TBSA",
+                    "14,000 mL",
+                    "7,000 mL",
+                    "875 mL/h"
+                  ],
+                  [
+                    "50 kg, 27% TBSA",
+                    "5,400 mL",
+                    "2,700 mL",
+                    "337.5 mL/h"
+                  ],
+                  [
+                    "20 kg child, 30% TBSA",
+                    "2,400 mL",
+                    "1,200 mL",
+                    "150 mL/h"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Rule of Nines (adult TBSA)",
+              "summary": "Used to estimate the percentage before the formula is applied. Use Lund and Browder for children.",
+              "source": "Lecture notes (classification by extent)",
+              "table": {
+                "headers": [
+                  "Body part",
+                  "% TBSA"
+                ],
+                "rows": [
+                  [
+                    "Head and neck",
+                    "9%"
+                  ],
+                  [
+                    "Each arm",
+                    "9%"
+                  ],
+                  [
+                    "Each leg",
+                    "18%"
+                  ],
+                  [
+                    "Anterior trunk",
+                    "18%"
+                  ],
+                  [
+                    "Posterior trunk",
+                    "18%"
+                  ],
+                  [
+                    "Genitalia",
+                    "1%"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: marks are given for the formula, the substitution and the correct answers with units. Show every line.",
+              "Keywords the examiner looks for: Parkland, 4 mL x %TBSA x weight, Ringer's lactate, half in 8 hours, half in 16 hours, urine output 30 mL/hour.",
+              "Always check which period is requested: first 8 hours, next 16 hours or the whole 24 hours.",
+              "Related question: 'state four nursing interventions in the emergent phase' (already asked) and 'estimation of burn size' (Rule of Nines, Lund and Browder, palmar method)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_16",
+          "qNumber": "Q16",
+          "partId": "burns",
+          "partTitle": "Burns: Emergent Phase",
+          "tier": "Tier 2",
+          "topic": "Burns: First Aid",
+          "text": "Outline five (5) first aid measures at the scene for a patient with a thermal burn.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · First aid is the newest SAQ trend (seizures, 2025) and burn scene care is a whole lecture section",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q16",
+              "marks": 5,
+              "wording": "Outline five (5) first aid measures at the scene for a patient with a thermal burn."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "First aid for burns stops the burning process, limits tissue damage and protects the patient until medical care is reached. Treat every burn as potentially life-threatening until it has been assessed.",
+            "subsections": [
+              {
+                "heading": "A. Five measures to write (1 mark each)",
+                "points": [
+                  "1. Stop the burning process: extinguish flames (stop, drop and roll, or smother with a blanket) and disconnect electrical sources.",
+                  "2. Cool the burn by soaking in cool running water for 10 to 15 minutes. Do not exceed this because of the risk of hypothermia.",
+                  "3. Remove restrictive items such as jewellery, piercings and clothing (adherent clothing may stay once cooled) to prevent constriction from oedema.",
+                  "4. Cover the wound with a clean, dry, loose dressing, to reduce contamination, keep the patient warm and reduce pain.",
+                  "5. Transfer to hospital without delay. For a chemical burn, brush off the chemical, remove clothes and irrigate continuously with water."
+                ]
+              },
+              {
+                "heading": "B. What NOT to do",
+                "points": [
+                  "6. Do not use ice, do not apply butter or greasy substances, do not break blisters and do not delay medical help.",
+                  "7. Standing still makes the person breathe flames and smoke, and running fans the flames, so use stop, drop and roll."
+                ]
+              }
+            ],
+            "conclusion": "List the actions in the order in which they are done at the scene.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burns: First Aid section)."
+          },
+          "warningNotice": "Exam trap: this is SCENE first aid, not hospital care. Do not write the Parkland formula, urinary catheters or IV morphine. Do not use ice.",
+          "memoryTips": [
+            "Memory tip 1: Stop the fire, cool the burn, take off the tight items, cover it, and carry the patient to hospital.",
+            "Memory tip 2: The cooling time is 10 to 15 minutes. Longer causes hypothermia.",
+            "Memory tip 3: Nothing greasy and nothing icy: butter and ice are both wrong."
+          ],
+          "mnemonics": [
+            {
+              "title": "The 5 Cs (study aid for burn first aid)",
+              "summary": "A home-made set of five C words, one per step. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "C",
+                    "Combustion stopped",
+                    "Stop, drop and roll; disconnect electricity"
+                  ],
+                  [
+                    "C",
+                    "Cool 10 to 15 minutes",
+                    "Cool running water, not longer"
+                  ],
+                  [
+                    "C",
+                    "Clear restrictive items",
+                    "Jewellery, piercings, clothing"
+                  ],
+                  [
+                    "C",
+                    "Cover loosely",
+                    "Clean, dry, loose dressing"
+                  ],
+                  [
+                    "C",
+                    "Carry to hospital",
+                    "Chemical burns: irrigate continuously first"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per measure. Write five actions and then, if space allows, one 'do not'.",
+              "Keywords the examiner looks for: stop the burning, cool running water 10 to 15 minutes, remove jewellery and clothing, clean dry dressing, transfer to hospital.",
+              "If the question says 'emergent phase nursing interventions', switch to hospital care: airway and oxygen, fluids by Parkland, pain relief and prevention of hypothermia.",
+              "Chemical burns: brush off the chemical first, then irrigate."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_17",
+          "qNumber": "Q17",
+          "partId": "burns",
+          "partTitle": "Burns: Emergent Phase",
+          "tier": "Tier 2",
+          "topic": "Burns: Inhalation Injury",
+          "text": "State five (5) clues that suggest an inhalation injury in a burn patient.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Inhalation injury accounts for 10 to 20% of burn centre admissions and is the main cause of death at fire scenes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q17",
+              "marks": 5,
+              "wording": "State five (5) clues that suggest an inhalation injury in a burn patient."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Inhalation injury is caused by superheated air and noxious gases such as carbon monoxide. It makes the airway swell, so early recognition and early intubation save lives.",
+            "subsections": [
+              {
+                "heading": "A. Five clues to write (1 mark each)",
+                "points": [
+                  "1. A history of a fire in an enclosed space.",
+                  "2. Facial or neck burns.",
+                  "3. Singed nasal hair.",
+                  "4. Hoarseness or stridor.",
+                  "5. Sooty or bloody sputum."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable clues and the action",
+                "points": [
+                  "6. Tachypnoea and hypoxaemia.",
+                  "7. Oral or pharyngeal blistering.",
+                  "8. Action: early intubation is advised for upper airway injury because the oedema progresses."
+                ]
+              }
+            ],
+            "conclusion": "Write the clues the nurse can see or hear at the bedside. Add one line about early intubation if there is space.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burns: Inhalation Injury section)."
+          },
+          "warningNotice": "Exam trap: clues are findings, not interventions. Do not spend the five marks on oxygen or fluids.",
+          "memoryTips": [
+            "Memory tip 1: Look at the face, listen to the voice, smell the smoke, and examine the sputum.",
+            "Memory tip 2: Hoarseness and stridor mean the airway is already narrowing, so call for help and prepare to intubate.",
+            "Memory tip 3: Carbon monoxide poisoning gives a normal-looking colour but a very sick patient."
+          ],
+          "mnemonics": [
+            {
+              "title": "FACE-SOOT (study aid for inhalation injury clues)",
+              "summary": "A home-made acrostic with one clue per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "F",
+                    "Facial and neck burns",
+                    "Look at the face"
+                  ],
+                  [
+                    "A",
+                    "Abnormal breathing: tachypnoea, hypoxaemia",
+                    "Respiratory distress"
+                  ],
+                  [
+                    "C",
+                    "Closed-space fire",
+                    "History"
+                  ],
+                  [
+                    "E",
+                    "Early hoarseness or stridor",
+                    "Airway oedema"
+                  ],
+                  [
+                    "S",
+                    "Singed nasal hair",
+                    "Look in the nose"
+                  ],
+                  [
+                    "O",
+                    "Oral or pharyngeal blistering",
+                    "Look in the mouth"
+                  ],
+                  [
+                    "O",
+                    "Overt soot in sputum (or bloody sputum)",
+                    "Examine the sputum"
+                  ],
+                  [
+                    "T",
+                    "Tube early",
+                    "Early intubation for upper airway injury"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per clue. Five different clues.",
+              "Keywords the examiner looks for: enclosed-space fire, facial or neck burns, singed nasal hair, hoarseness, stridor, sooty or bloody sputum, oral blistering, hypoxaemia.",
+              "Related questions: pathophysiology of burns (local versus systemic) and complications of burns."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_18",
+          "qNumber": "Q18",
+          "partId": "burns",
+          "partTitle": "Burns: Emergent Phase",
+          "tier": "Tier 2",
+          "topic": "Burns: Curling's Ulcer",
+          "text": "Describe Curling's ulcer, stating its cause, two (2) clinical manifestations and two (2) preventive measures.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · Curling's ulcer was an MCQ in April 2025",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q18",
+              "marks": 4,
+              "wording": "Describe Curling's ulcer, stating its cause, two (2) clinical manifestations and two (2) preventive measures."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Curling's ulcer is a duodenal erosion that develops within 24 hours of a major burn (more than 20% TBSA) because the stomach and duodenal lining lose their blood supply.",
+            "subsections": [
+              {
+                "heading": "A. Four points to write (1 mark each)",
+                "points": [
+                  "1. Cause: mucosal ischaemia of the gut caused by hypovolaemia and the stress response after the burn.",
+                  "2. Clinical manifestation: occult blood in the stool.",
+                  "3. Clinical manifestation: 'coffee-ground' vomit or bloody vomitus.",
+                  "4. Prevention: an H2 blocker or a proton pump inhibitor, with mucoprotectants such as sucralfate, and early enteral feeding."
+                ]
+              },
+              {
+                "heading": "B. Related points",
+                "points": [
+                  "5. Paralytic ileus is a separate GI complication, with reduced bowel sounds, distension, nausea and vomiting. It is treated with gastric decompression (NG tube).",
+                  "6. Patients with more than 20% burns are prone to gastric mucosal damage."
+                ]
+              }
+            ],
+            "conclusion": "Cover the four parts: cause, two signs and prevention.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Burns: Curling's Ulcer section)."
+          },
+          "warningNotice": "Exam trap: do not describe paralytic ileus as the signs of Curling's ulcer. Gastric distension and vomiting are ileus; occult blood and coffee-ground vomit are Curling's ulcer. Ranitidine, named in some slides, is withdrawn in many countries, so write 'H2 blocker or PPI'.",
+          "memoryTips": [
+            "Memory tip 1: Curling is a Burn ulcer; it Bleeds.",
+            "Memory tip 2: Occult blood in the stool plus coffee-ground vomit is the whole sign list.",
+            "Memory tip 3: Prevent it by cutting acid and feeding the gut early."
+          ],
+          "mnemonics": [
+            {
+              "title": "CURLING (study aid)",
+              "summary": "A home-made acrostic covering the cause, signs and prevention. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "C",
+                    "Coffee-ground vomit or bloody vomitus",
+                    "Sign"
+                  ],
+                  [
+                    "U",
+                    "Upper gut: duodenal ulcer within 24 hours",
+                    "Site and timing"
+                  ],
+                  [
+                    "R",
+                    "Reduced blood flow (mucosal ischaemia)",
+                    "Cause"
+                  ],
+                  [
+                    "L",
+                    "Look for occult blood in the stool",
+                    "Sign"
+                  ],
+                  [
+                    "ING",
+                    "Inhibit acid (H2 blocker or PPI), sucralfate, early enteral feeding",
+                    "Prevention"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: a mark each for the cause, two signs and prevention.",
+              "Keywords the examiner looks for: duodenal erosion, mucosal ischaemia, occult blood in stool, coffee-ground vomit, H2 blockers or PPIs, sucralfate, early enteral feeding.",
+              "Related question: GI management in the emergent phase of burns."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 4,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "first-aid",
+      "partNumber": 6,
+      "title": "First Aid",
+      "shortTitle": "First Aid",
+      "condition": "First Aid",
+      "tier": "Tier 2",
+      "frequencyBadge": "Predicted: High · SAQ on seizures in April 2025; four first aid MCQs",
+      "frequencyRank": 6,
+      "description": "Bleeding, stroke, hypoglycaemia, head injury and nosebleed.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set2_19",
+          "qNumber": "Q19",
+          "partId": "first-aid",
+          "partTitle": "First Aid",
+          "tier": "Tier 2",
+          "topic": "Bleeding",
+          "text": "Outline five (5) first aid measures for a person with severe external bleeding.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · First aid SAQ (seizures) appeared in April 2025 and bleeding is the first item in the first aid lecture",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q19",
+              "marks": 5,
+              "wording": "Outline five (5) first aid measures for a person with severe external bleeding."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Severe loss of blood leads to shock. First aid aims to stop the bleeding, keep the person calm and warm, and get medical help quickly.",
+            "subsections": [
+              {
+                "heading": "A. Five measures to write (1 mark each)",
+                "points": [
+                  "1. Call emergency help if the bleeding is severe or the wound is large.",
+                  "2. Apply firm direct pressure with a clean cloth or dressing.",
+                  "3. Elevate the limb above the level of the heart.",
+                  "4. Do not remove soaked dressings; add more dressings on top, because removal disrupts clotting.",
+                  "5. Keep the person warm and calm to prevent shock, and monitor breathing and consciousness."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable points",
+                "points": [
+                  "6. Apply pressure at a pressure point if trained.",
+                  "7. Use a tourniquet above the wound for severe limb bleeding if trained."
+                ]
+              }
+            ],
+            "conclusion": "Start with direct pressure, because it is the key action.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Bleeding section)."
+          },
+          "warningNotice": "Exam trap: do not write 'remove the soaked dressing and replace it'. Always add more on top.",
+          "memoryTips": [
+            "Memory tip 1: Press, raise, add, warm, call: that is the order.",
+            "Memory tip 2: Elevation to above the heart uses gravity to slow the bleeding.",
+            "Memory tip 3: A tourniquet is the last resort and only for a trained rescuer."
+          ],
+          "mnemonics": [
+            {
+              "title": "PRESS (study aid for bleeding control)",
+              "summary": "A home-made acrostic with one measure per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "P",
+                    "Phone for emergency help",
+                    "If severe or the wound is large"
+                  ],
+                  [
+                    "R",
+                    "Raise the limb above the heart",
+                    "Elevation"
+                  ],
+                  [
+                    "E",
+                    "Extra dressings on top",
+                    "Do not remove soaked dressings"
+                  ],
+                  [
+                    "S",
+                    "Squeeze: firm direct pressure",
+                    "Clean cloth or dressing"
+                  ],
+                  [
+                    "S",
+                    "Stay warm and calm; monitor",
+                    "Prevent shock; watch breathing and consciousness"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per measure.",
+              "Keywords the examiner looks for: call for help, direct pressure, elevate, do not remove dressings, keep warm, monitor, pressure point, tourniquet if trained.",
+              "Use the same 'Do, Do not, Call for help' frame for every first aid question."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_20",
+          "qNumber": "Q20",
+          "partId": "first-aid",
+          "partTitle": "First Aid",
+          "tier": "Tier 2",
+          "topic": "Stroke",
+          "text": "State what each letter of the acronym FAST stands for and outline two (2) other first aid measures for a person with a suspected stroke.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: High · FAST was an MCQ in April 2025",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q20",
+              "marks": 5,
+              "wording": "State what each letter of the acronym FAST stands for and outline two (2) other first aid measures for a person with a suspected stroke."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Stroke is either ischaemic (about 85%, from a blocked artery) or haemorrhagic (about 15%, from a burst vessel). The warning signs are recognised with the acronym FAST.",
+            "subsections": [
+              {
+                "heading": "A. FAST (4 marks) and two measures (1 mark)",
+                "points": [
+                  "1. F: Face drooping.",
+                  "2. A: Arm weakness.",
+                  "3. S: Speech difficulty.",
+                  "4. T: Time to call emergency services.",
+                  "5. Activate EMS, reassure the patient, use the recovery position if unconscious and start CPR if unresponsive."
+                ]
+              },
+              {
+                "heading": "B. Hospital treatment (extra)",
+                "points": [
+                  "6. IV alteplase is the drug of choice for ischaemic stroke within 3 hours; thrombectomy can remove the clot; surgery is used for haemorrhagic stroke.",
+                  "7. Risk factors: hypertension (leading cause), smoking, heavy alcohol use, diabetes, high cholesterol and stress or depression."
+                ]
+              }
+            ],
+            "conclusion": "Write each letter with its word, then the two actions.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Stroke section)."
+          },
+          "warningNotice": "Exam trap: S stands for Speech difficulty, not slowed breathing or seizures. T is Time to call, not 'treatment'.",
+          "memoryTips": [
+            "Memory tip 1: Face, Arm, Speech, Time: check them in that order.",
+            "Memory tip 2: Eighty-five blocked, fifteen burst.",
+            "Memory tip 3: Three hours is the alteplase window."
+          ],
+          "mnemonics": [
+            {
+              "title": "FAST (stroke recognition)",
+              "summary": "The acronym from the notes, with what to check.",
+              "source": "Lecture notes (first aid: stroke); popular stroke campaign acronym",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "What to check"
+                ],
+                "rows": [
+                  [
+                    "F",
+                    "Face drooping",
+                    "Ask the person to smile"
+                  ],
+                  [
+                    "A",
+                    "Arm weakness",
+                    "Ask them to raise both arms"
+                  ],
+                  [
+                    "S",
+                    "Speech difficulty",
+                    "Ask them to repeat a sentence"
+                  ],
+                  [
+                    "T",
+                    "Time to call emergency services",
+                    "Note the time the symptoms started"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: a mark per letter and a mark for the extra measures.",
+              "Keywords the examiner looks for: face drooping, arm weakness, speech difficulty, time, call EMS, recovery position.",
+              "Related questions: risk factors for stroke and hospital management (alteplase within 3 hours)."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_21",
+          "qNumber": "Q21",
+          "partId": "first-aid",
+          "partTitle": "First Aid",
+          "tier": "Tier 2",
+          "topic": "Diabetic Emergencies",
+          "text": "Outline the first aid management of a patient with hypoglycaemia.",
+          "marks": 3,
+          "marksText": "3 marks",
+          "frequencyText": "Predicted probability: Medium-High · Diabetic emergencies are a full table in the first aid lecture",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q21",
+              "marks": 3,
+              "wording": "Outline the first aid management of a patient with hypoglycaemia."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Hypoglycaemia (low blood sugar) is caused by a missed meal, too little food, extra exercise, vomiting or too much medication. Signs include weakness, hunger, confusion, sweating with cold clammy skin, rapid pulse, palpitations and trembling.",
+            "subsections": [
+              {
+                "heading": "A. Three points to write (1 mark each)",
+                "points": [
+                  "1. Rest the patient and give something sugary if the patient is alert.",
+                  "2. Call for help if the patient is not improving. If the patient is not fully alert, do not feed because of the risk of choking.",
+                  "3. If the patient is unresponsive, open the airway, check breathing and prepare for CPR."
+                ]
+              },
+              {
+                "heading": "B. How to tell it from hyperglycaemia",
+                "points": [
+                  "4. Hypoglycaemia gives cold, clammy skin and a rapid pulse. Hyperglycaemia gives warm, dry skin, fruity breath, excessive thirst and rapid breathing.",
+                  "5. For hyperglycaemia call for emergency help, check for a medical bracelet or card and monitor breathing and pulse."
+                ]
+              }
+            ],
+            "conclusion": "Keep to the actions. Do not write the long list of causes.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Diabetic Emergencies section)."
+          },
+          "warningNotice": "Exam trap: never put food or drink into the mouth of a patient who is not fully alert.",
+          "memoryTips": [
+            "Memory tip 1: Cold and clammy, give candy; hot and dry, sugar is high.",
+            "Memory tip 2: Alert gets sugar; drowsy gets airway; unresponsive gets CPR."
+          ],
+          "mnemonics": [
+            {
+              "title": "Hypo versus hyper (study aid)",
+              "summary": "The two diabetic emergencies side by side.",
+              "source": "Lecture notes (diabetic emergencies)",
+              "table": {
+                "headers": [
+                  "Feature",
+                  "Hypoglycaemia",
+                  "Hyperglycaemia"
+                ],
+                "rows": [
+                  [
+                    "Skin",
+                    "Cold and clammy, sweating",
+                    "Warm and dry"
+                  ],
+                  [
+                    "Breath",
+                    "Normal",
+                    "Fruity"
+                  ],
+                  [
+                    "Onset signs",
+                    "Hunger, trembling, confusion",
+                    "Thirst, drowsiness"
+                  ],
+                  [
+                    "First action",
+                    "Sugary food if alert",
+                    "Call emergency help"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per action.",
+              "Keywords the examiner looks for: rest, sugary food or drink if alert, call for help, do not feed if not fully alert, airway and CPR if unresponsive."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_22",
+          "qNumber": "Q22",
+          "partId": "first-aid",
+          "partTitle": "First Aid",
+          "tier": "Tier 2",
+          "topic": "Head Injury",
+          "text": "State four (4) signs of a significant head injury.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · Head injury links with the disability step of the primary survey",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q22",
+              "marks": 4,
+              "wording": "State four (4) signs of a significant head injury."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "A head injury may be open (a bleeding wound) or closed (no visible injury). A history of loss of consciousness suggests a significant head injury.",
+            "subsections": [
+              {
+                "heading": "A. Four signs to write (1 mark each)",
+                "points": [
+                  "1. Altered consciousness, which may improve and then deteriorate.",
+                  "2. Clear fluid (CSF) from the ears or nose, suggesting a basal skull fracture.",
+                  "3. Black eyes and bruising behind the ears.",
+                  "4. Pupil or vision changes (dilated pupils, double or blurred vision)."
+                ]
+              },
+              {
+                "heading": "B. Other signs and first aid",
+                "points": [
+                  "5. Skull deformity, nausea and vomiting.",
+                  "6. First aid: do not move the person unless in immediate danger, monitor airway and breathing, minimise head and neck movement, control scalp bleeding with direct pressure and start CPR if breathing or pulse stops."
+                ]
+              }
+            ],
+            "conclusion": "State the sign and, if you can, what it suggests.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Head Injury section)."
+          },
+          "warningNotice": "Exam trap: do not write the management when the question asks for signs.",
+          "memoryTips": [
+            "Memory tip 1: Black eyes and bruising behind the ears point to the base of the skull.",
+            "Memory tip 2: Clear fluid from the ear or nose is brain fluid, so do not block it."
+          ],
+          "mnemonics": [
+            {
+              "title": "BRAIN (study aid for head injury signs)",
+              "summary": "A home-made acrostic with one sign per letter. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "B",
+                    "Black eyes and bruising behind the ears",
+                    "Basal skull fracture"
+                  ],
+                  [
+                    "R",
+                    "Running clear fluid from ears or nose",
+                    "CSF leak"
+                  ],
+                  [
+                    "A",
+                    "Altered consciousness",
+                    "May improve then worsen"
+                  ],
+                  [
+                    "I",
+                    "Irregular pupils or vision changes",
+                    "Dilated pupils, double vision"
+                  ],
+                  [
+                    "N",
+                    "Nausea and vomiting",
+                    "Raised pressure"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per sign.",
+              "Keywords the examiner looks for: altered consciousness, clear fluid from ears or nose, black eyes, bruising behind the ears, pupil changes, vomiting, skull deformity."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_23",
+          "qNumber": "Q23",
+          "partId": "first-aid",
+          "partTitle": "First Aid",
+          "tier": "Tier 2",
+          "topic": "Nosebleed",
+          "text": "Outline the first aid management of a patient with a nosebleed (epistaxis).",
+          "marks": 3,
+          "marksText": "3 marks",
+          "frequencyText": "Predicted probability: Medium · A nosebleed true or false statement was set in April 2025",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q23",
+              "marks": 3,
+              "wording": "Outline the first aid management of a patient with a nosebleed (epistaxis)."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Nosebleeds are caused by trauma or picking, infections, dry air, high blood pressure, bleeding disorders, medications and altitude changes.",
+            "subsections": [
+              {
+                "heading": "A. Three points to write (1 mark each)",
+                "points": [
+                  "1. Sit the patient up and lean the head forward.",
+                  "2. Pinch the soft part of the nose.",
+                  "3. Get medical help if the bleeding persists."
+                ]
+              },
+              {
+                "heading": "B. What NOT to do",
+                "points": [
+                  "4. Do not tilt the head back or lie down; do not pick or blow the nose; do not swallow blood (spit it out)."
+                ]
+              }
+            ],
+            "conclusion": "Write what to do first and the 'do nots' only if there is space.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Nosebleed section)."
+          },
+          "warningNotice": "Exam trap: leaning backwards is wrong and was an April 2025 false statement.",
+          "memoryTips": [
+            "Memory tip 1: Forward and Firm: lean forward, pinch firmly.",
+            "Memory tip 2: Blood is spat out, never swallowed."
+          ],
+          "mnemonics": [
+            {
+              "title": "Nosebleed do and do not",
+              "summary": "The lists from the notes.",
+              "source": "Lecture notes (first aid: nosebleed)",
+              "table": {
+                "headers": [
+                  "Do",
+                  "Do not"
+                ],
+                "rows": [
+                  [
+                    "Lean the head forward",
+                    "Tilt the head back or lie down"
+                  ],
+                  [
+                    "Pinch the soft part of the nose",
+                    "Pick or blow the nose"
+                  ],
+                  [
+                    "Seek help if it persists",
+                    "Swallow blood"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per action.",
+              "Keywords the examiner looks for: lean forward, pinch the soft part, seek help if it persists."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 5,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "paediatric",
+      "partNumber": 7,
+      "title": "Paediatric Emergencies and Foreign Body Airway Obstruction",
+      "shortTitle": "Paediatric",
+      "condition": "Paediatric Emergencies",
+      "tier": "Tier 3",
+      "frequencyBadge": "Predicted: Medium · MCQs on paediatric CPR and FBAO",
+      "frequencyRank": 7,
+      "description": "Infant choking, paediatric airway anatomy and the PAT.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set2_24",
+          "qNumber": "Q24",
+          "partId": "paediatric",
+          "partTitle": "Paediatric Emergencies and Foreign Body Airway Obstruction",
+          "tier": "Tier 3",
+          "topic": "Paediatric FBAO",
+          "text": "Outline the management of a conscious infant with a foreign body airway obstruction and an ineffective cough.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium-High · Infant FBAO was an MCQ in April 2024 and paediatric CPR ratios in April 2025",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q24",
+              "marks": 4,
+              "wording": "Outline the management of a conscious infant with a foreign body airway obstruction and an ineffective cough."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Back slaps, chest thrusts and abdominal thrusts all raise the pressure inside the chest and can expel the object.",
+            "subsections": [
+              {
+                "heading": "A. Four steps to write (1 mark each)",
+                "points": [
+                  "1. If the cough is effective, encourage coughing and monitor for deterioration. If it is ineffective, act at once.",
+                  "2. Hold the infant face-down along the forearm with the head lower than the body and give 5 back slaps.",
+                  "3. Turn the infant upright on the thigh and give 5 chest thrusts with 2 to 3 fingers; check the airway and repeat.",
+                  "4. If the infant becomes unconscious, open the airway, give 5 breaths and start CPR."
+                ]
+              },
+              {
+                "heading": "B. Related points",
+                "points": [
+                  "5. For a child over 1 year, kneel behind and give 5 abdominal thrusts, repeating until the object comes out.",
+                  "6. Signs of severe obstruction: silent cough, inability to cry, stridor, cyanosis."
+                ]
+              }
+            ],
+            "conclusion": "Say 5 and 5.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Paediatric FBAO section)."
+          },
+          "warningNotice": "Exam trap: never give abdominal thrusts to an infant.",
+          "memoryTips": [
+            "Memory tip 1: Five slaps, five thrusts, look, repeat.",
+            "Memory tip 2: Under 1: back and chest. Over 1: belly."
+          ],
+          "mnemonics": [
+            {
+              "title": "Slap, Thrust, Look (study aid)",
+              "summary": "A three-word memory hook. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Step",
+                  "Action",
+                  "Detail"
+                ],
+                "rows": [
+                  [
+                    "Slap",
+                    "5 back slaps",
+                    "Face down, head low"
+                  ],
+                  [
+                    "Thrust",
+                    "5 chest thrusts",
+                    "Upright on the thigh, 2 to 3 fingers"
+                  ],
+                  [
+                    "Look",
+                    "Check the airway",
+                    "Repeat until clear"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per step.",
+              "Keywords the examiner looks for: effective cough, 5 back slaps, 5 chest thrusts, check the airway, CPR if unconscious."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_25",
+          "qNumber": "Q25",
+          "partId": "paediatric",
+          "partTitle": "Paediatric Emergencies and Foreign Body Airway Obstruction",
+          "tier": "Tier 3",
+          "topic": "Paediatric Airway",
+          "text": "State four (4) anatomical differences in children that make airway management difficult.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium · Paediatric anatomy is a listed section of the notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q25",
+              "marks": 4,
+              "wording": "State four (4) anatomical differences in children that make airway management difficult."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Children are not small adults. Their anatomy makes the airway easy to block.",
+            "subsections": [
+              {
+                "heading": "A. Four differences to write (1 mark each)",
+                "points": [
+                  "1. Smaller upper and lower airways and a smaller sub-glottic airway.",
+                  "2. In infants, a relatively large tongue obstructs the airway easily.",
+                  "3. A large occiput, so the sniffing position may obstruct the airway.",
+                  "4. Limited oxygen reserve."
+                ]
+              },
+              {
+                "heading": "B. Other differences",
+                "points": [
+                  "5. Large abdominal organs, especially in infants.",
+                  "6. A larger surface-area-to-volume ratio than adults."
+                ]
+              }
+            ],
+            "conclusion": "Give the feature and its effect.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Paediatric Airway section)."
+          },
+          "warningNotice": "Exam trap: write anatomy, not the BLS sequence.",
+          "memoryTips": [
+            "Memory tip 1: SMALL: Small airways, Massive tongue, Abdomen large, Low reserve, Large occiput."
+          ],
+          "mnemonics": [
+            {
+              "title": "SMALL (study aid)",
+              "summary": "A home-made acrostic. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "S",
+                    "Small airways (including sub-glottic)",
+                    "Easily blocked"
+                  ],
+                  [
+                    "M",
+                    "Massive tongue (infants)",
+                    "Obstructs the airway"
+                  ],
+                  [
+                    "A",
+                    "Abdominal organs large",
+                    "Splints the diaphragm"
+                  ],
+                  [
+                    "L",
+                    "Limited oxygen reserve",
+                    "Desaturates quickly"
+                  ],
+                  [
+                    "L",
+                    "Large occiput",
+                    "Sniffing position may obstruct"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per feature.",
+              "Keywords the examiner looks for: smaller airway, large tongue, large occiput, limited oxygen reserve."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_26",
+          "qNumber": "Q26",
+          "partId": "paediatric",
+          "partTitle": "Paediatric Emergencies and Foreign Body Airway Obstruction",
+          "tier": "Tier 3",
+          "topic": "Paediatric Assessment Triangle",
+          "text": "State the three (3) components of the Paediatric Assessment Triangle and one abnormal finding for each.",
+          "marks": 3,
+          "marksText": "3 marks",
+          "frequencyText": "Predicted probability: Medium · The PAT has its own table in the notes",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q26",
+              "marks": 3,
+              "wording": "State the three (3) components of the Paediatric Assessment Triangle and one abnormal finding for each."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "The Paediatric Assessment Triangle (PAT) is the initial 'critical look' at a child. It forms a general impression and sets the urgency of intervention.",
+            "subsections": [
+              {
+                "heading": "A. Three components (1 mark each)",
+                "points": [
+                  "1. Appearance: abnormal finding is a weak or absent cry, decreased responsiveness or floppy tone.",
+                  "2. Work of breathing: abnormal finding is nasal flaring, retractions, tracheal tug or noisy breathing.",
+                  "3. Circulation to skin: abnormal finding is cyanosis, mottling or pallor, or capillary refill over 2 seconds."
+                ]
+              },
+              {
+                "heading": "B. Extra",
+                "points": [
+                  "4. Normal capillary refill is 2 seconds or less."
+                ]
+              }
+            ],
+            "conclusion": "One component, one finding per line.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Paediatric Assessment Triangle section)."
+          },
+          "warningNotice": "Exam trap: do not write ABCDE.",
+          "memoryTips": [
+            "Memory tip 1: Appearance, Breathing effort, Circulation: A-B-C of the PAT."
+          ],
+          "mnemonics": [
+            {
+              "title": "PAT (study aid)",
+              "summary": "The three sides of the triangle.",
+              "source": "Lecture notes (paediatric emergencies)",
+              "table": {
+                "headers": [
+                  "Component",
+                  "Normal",
+                  "Abnormal"
+                ],
+                "rows": [
+                  [
+                    "Appearance",
+                    "Normal cry, good tone",
+                    "Weak cry, floppy"
+                  ],
+                  [
+                    "Work of breathing",
+                    "Quiet, easy",
+                    "Flaring, retractions"
+                  ],
+                  [
+                    "Circulation to skin",
+                    "Refill 2 s or less",
+                    "Pallor, mottling, cyanosis"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per component with a finding."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 3,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    },
+    {
+      "id": "poisoning",
+      "partNumber": 8,
+      "title": "Poisoning",
+      "shortTitle": "Poisoning",
+      "condition": "Poisoning",
+      "tier": "Tier 3",
+      "frequencyBadge": "Predicted: Medium-High · SAQ in September 2023; antidote MCQs",
+      "frequencyRank": 8,
+      "description": "Hospital management, antidotes and first aid for poisoning.",
+      "questions": [
+        {
+          "id": "saq_tnh-practice-set2_27",
+          "qNumber": "Q27",
+          "partId": "poisoning",
+          "partTitle": "Poisoning",
+          "tier": "Tier 3",
+          "topic": "Poisoning: Hospital Management",
+          "text": "Outline five (5) hospital management measures for a poisoned patient.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Organophosphate poisoning was an SAQ in September 2023 and the antidote table is long",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q27",
+              "marks": 5,
+              "wording": "Outline five (5) hospital management measures for a poisoned patient."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "Poisoning is the inhalation, ingestion, absorption, injection or skin or mucous membrane contact with a toxic substance.",
+            "subsections": [
+              {
+                "heading": "A. Five measures to write (1 mark each)",
+                "points": [
+                  "1. Support airway, breathing and circulation and give oxygen.",
+                  "2. Obtain IV access and infuse Ringer's lactate or normal saline; start continuous cardiac monitoring.",
+                  "3. Check the glucose and, if it is low, give dextrose 50% 50 mL IV.",
+                  "4. Decontaminate: activated charcoal, most effective within 1 hour; gastric lavage useful within 1 to 4 hours.",
+                  "5. Give the specific antidote, and benzodiazepines for agitation or seizures."
+                ]
+              },
+              {
+                "heading": "B. Other acceptable measures",
+                "points": [
+                  "6. Thiamine 50 to 100 mg IV in suspected chronic alcohol abuse.",
+                  "7. Naloxone 0.4 to 2 mg for suspected opioid exposure; haemodialysis in severe cases.",
+                  "8. Monitor urine output and repeat electrolytes, vital signs and neurological status."
+                ]
+              }
+            ],
+            "conclusion": "Name the measure and its timing where one is given.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Poisoning: Hospital Management section)."
+          },
+          "warningNotice": "Exam trap: do not induce vomiting.",
+          "memoryTips": [
+            "Memory tip 1: POISON: Protect ABC, Obtain IV, Investigate, Stomach decontamination, Offer antidote, Nephro monitoring."
+          ],
+          "mnemonics": [
+            {
+              "title": "POISON (study aid)",
+              "summary": "A home-made acrostic. It is a memory aid, not a published standard.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Letter",
+                  "Meaning",
+                  "Key words to write"
+                ],
+                "rows": [
+                  [
+                    "P",
+                    "Protect airway, breathing, circulation",
+                    "Oxygen"
+                  ],
+                  [
+                    "O",
+                    "Obtain IV access and fluids",
+                    "Ringer's lactate or saline"
+                  ],
+                  [
+                    "I",
+                    "Investigate: ECG, glucose, electrolytes",
+                    "Dextrose 50% if low"
+                  ],
+                  [
+                    "S",
+                    "Stomach decontamination",
+                    "Charcoal within 1 h; lavage 1 to 4 h"
+                  ],
+                  [
+                    "O",
+                    "Offer antidote",
+                    "Naloxone, atropine and others"
+                  ],
+                  [
+                    "N",
+                    "Nephro: monitor urine; dialysis if severe",
+                    "Hourly output"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per measure.",
+              "Keywords the examiner looks for: oxygen, IV access, glucose, activated charcoal, lavage, antidote."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_28",
+          "qNumber": "Q28",
+          "partId": "poisoning",
+          "partTitle": "Poisoning",
+          "tier": "Tier 3",
+          "topic": "Poisoning: Antidotes",
+          "text": "State the antidote for each of the following poisons: (a) paracetamol, (b) opioids, (c) iron, (d) warfarin, (e) heparin.",
+          "marks": 5,
+          "marksText": "5 marks",
+          "frequencyText": "Predicted probability: Medium-High · Antidotes appeared in MCQs in 2023 and 2024",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q28",
+              "marks": 5,
+              "wording": "State the antidote for each of the following poisons: (a) paracetamol, (b) opioids, (c) iron, (d) warfarin, (e) heparin."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "An antidote reverses or blocks the effect of a poison.",
+            "subsections": [
+              {
+                "heading": "A. Five pairs (1 mark each)",
+                "points": [
+                  "1. Paracetamol (acetaminophen): acetylcysteine.",
+                  "2. Opioids: naloxone.",
+                  "3. Iron: deferoxamine.",
+                  "4. Warfarin: vitamin K.",
+                  "5. Heparin: protamine sulfate."
+                ]
+              },
+              {
+                "heading": "B. Other pairs in the notes",
+                "points": [
+                  "6. Organophosphates: atropine. Methanol or ethylene glycol: fomepizole. Methaemoglobinaemia: methylene blue.",
+                  "7. Cyanide: hydroxocobalamin. Beta-blockers: glucagon. Magnesium sulfate: calcium gluconate. Lead, arsenic, mercury: EDTA, dimercaprol, penicillamine."
+                ]
+              }
+            ],
+            "conclusion": "Write the poison and antidote side by side.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Poisoning: Antidotes section)."
+          },
+          "warningNotice": "Exam trap: opioids need naloxone; organophosphates need atropine.",
+          "memoryTips": [
+            "Memory tip 1: Opioid: Narcan (N for narcotic). Warfarin: Vitamin K. Heparin: Protamine."
+          ],
+          "mnemonics": [
+            {
+              "title": "Antidote pairs (study aid)",
+              "summary": "The antidote table from the notes with a memory hook.",
+              "source": "Lecture notes (poisoning: antidotes)",
+              "table": {
+                "headers": [
+                  "Poison",
+                  "Antidote",
+                  "Hook"
+                ],
+                "rows": [
+                  [
+                    "Paracetamol",
+                    "Acetylcysteine",
+                    "Liver rescue"
+                  ],
+                  [
+                    "Opioids",
+                    "Naloxone",
+                    "Narcotic, naloxone"
+                  ],
+                  [
+                    "Organophosphates",
+                    "Atropine",
+                    "Dry up the secretions"
+                  ],
+                  [
+                    "Iron",
+                    "Deferoxamine",
+                    "Chelates iron"
+                  ],
+                  [
+                    "Warfarin",
+                    "Vitamin K",
+                    "W and K"
+                  ],
+                  [
+                    "Heparin",
+                    "Protamine sulfate",
+                    "H and P"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per correct pair.",
+              "Learn the table in pairs and write the poison and antidote together."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        },
+        {
+          "id": "saq_tnh-practice-set2_29",
+          "qNumber": "Q29",
+          "partId": "poisoning",
+          "partTitle": "Poisoning",
+          "tier": "Tier 3",
+          "topic": "Poisoning: First Aid",
+          "text": "Outline the first aid measures for poisoning according to the route of exposure.",
+          "marks": 4,
+          "marksText": "4 marks",
+          "frequencyText": "Predicted probability: Medium · The first aid section of poisoning is short and fits a 4-mark SAQ",
+          "askedIn": [
+            {
+              "paperId": "tnh-practice-paper-set2",
+              "paper": "TNH Practice Paper (predicted), Set 2",
+              "ref": "Section B, Q29",
+              "marks": 4,
+              "wording": "Outline the first aid measures for poisoning according to the route of exposure."
+            }
+          ],
+          "modelAnswer": {
+            "intro": "First aid is started at the scene before the patient reaches hospital.",
+            "subsections": [
+              {
+                "heading": "A. Four measures (1 mark each)",
+                "points": [
+                  "1. Identify the substance, the amount and the timing.",
+                  "2. Inhaled poison: move the patient to fresh air.",
+                  "3. Skin or eye contact: rinse with water for 15 to 20 minutes and remove contaminated clothing.",
+                  "4. Ingested poison: do not induce vomiting."
+                ]
+              },
+              {
+                "heading": "B. Extra",
+                "points": [
+                  "5. Take the patient to hospital with the container of the poison."
+                ]
+              }
+            ],
+            "conclusion": "Match each route to its action.",
+            "contentSupport": "Trauma, Emergency Nursing and First Aid consolidated summary (lecture notes by Joyce Muraguri, MSN, drawing on Sheehy's Emergency Nursing Principles and Practice, 7th ed., and AHA material) (Poisoning: First Aid section)."
+          },
+          "warningNotice": "Exam trap: inducing vomiting is wrong.",
+          "memoryTips": [
+            "Memory tip 1: Air for inhaled, water for skin and eyes, no vomiting for swallowed."
+          ],
+          "mnemonics": [
+            {
+              "title": "Route and action (study aid)",
+              "summary": "One action per route.",
+              "source": "Original study aid built from the attached lecture notes",
+              "table": {
+                "headers": [
+                  "Route",
+                  "Action"
+                ],
+                "rows": [
+                  [
+                    "Inhaled",
+                    "Fresh air"
+                  ],
+                  [
+                    "Skin or eyes",
+                    "Rinse 15 to 20 minutes, remove clothing"
+                  ],
+                  [
+                    "Ingested",
+                    "Do not induce vomiting"
+                  ]
+                ]
+              }
+            }
+          ],
+          "aceItTip": {
+            "title": "Examiner Scoring Key & Common Pitfalls",
+            "tips": [
+              "Marking rule: 1 mark per measure."
+            ]
+          },
+          "block": "Block 1",
+          "category": "TNH Practice"
+        }
+      ],
+      "questionCount": 3,
+      "block": "Block 1",
+      "category": "TNH Practice"
+    }
+  ],
+  "block": "Block 1",
+  "category": "TNH Practice"
+}

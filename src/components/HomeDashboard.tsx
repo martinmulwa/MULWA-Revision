@@ -27,6 +27,7 @@ import {
 import { SessionProgress, AppNavTab } from '../types';
 import { getPaperMetrics, getMetrics, getActivityLog, parseSetKey } from '../utils/storage';
 import { PAST_PAPERS, findPaper, BOARD_PAST_PAPERS, TNH_PRACTICE_PAPERS } from '../data/questions';
+import { NORMAL_SAQ_QUESTIONS, TNH_PRACTICE_SAQ_QUESTIONS } from '../data/saqData';
 
 interface HomeDashboardProps {
   progress: SessionProgress;
@@ -182,7 +183,7 @@ export default function HomeDashboard({
                   SAQ Bank
                 </h3>
                 <p className="text-[11px] font-medium text-slate-500 truncate mt-0.5">
-                  Block 1: Respiratory & Trauma · 31 SAQs
+                  Block 1 · {NORMAL_SAQ_QUESTIONS.length} SAQs across 2 Units
                 </p>
               </div>
             </div>
@@ -215,7 +216,7 @@ export default function HomeDashboard({
                   TNH Practice
                 </h3>
                 <p className="text-[11px] font-medium text-slate-500 truncate mt-0.5">
-                  MCQ & SAQ Banks · {TNH_PRACTICE_PAPERS.reduce((acc, p) => acc + (p.questions?.length || p.totalQuestions || 0), 0)} Questions
+                  {TNH_PRACTICE_PAPERS.length} MCQ Papers · {TNH_PRACTICE_SAQ_QUESTIONS.length} SAQ Questions
                 </p>
               </div>
             </div>

@@ -25,7 +25,8 @@ export type PaperCategory =
   | 'Block 1'
   | 'Respiratory Disorders'
   | 'Trauma and Emergency Nursing'
-  | 'Pharmacology 1';
+  | 'Pharmacology 1'
+  | 'TNH Practice';
 
 export type AppNavTab = 'home' | 'papers' | 'tnh_practice' | 'saqs' | 'review';
 

@@ -3,11 +3,12 @@
  * MCQ Past Papers & TNH Practice Library
  *
  * Streamlined, minimalist Block 1 navigation matching SAQ Library:
- * - Level 1: Block 1 unit list (Respiratory Disorders, Trauma & Emergency)
+ * - Level 1: Block 1 unit list (Respiratory Disorders, Trauma & Emergency, Pharmacology 1)
  * - Level 2: Unit's Past / Practice Papers listing (clean cards, zero icon/text clutter)
+ * - All candidates have full, unified access to all past papers and question sets.
  *
  * @author MULWA <martinmulwa95@gmail.com>
- * @version 12.0.0
+ * @version 13.0.0
  */
 
 import React, { useMemo, useState, useEffect } from 'react';
@@ -23,6 +24,7 @@ import {
 } from 'lucide-react';
 import { SessionProgress, PastPaper } from '../types';
 import { BOARD_PAST_PAPERS, TNH_PRACTICE_PAPERS, getRevisionSetsForPaper } from '../data/questions';
+import { getCategoriesByUnit } from '../data/saqData';
 import { makeSetKey } from '../utils/storage';
 
 interface PastPapersLibraryProps {
@@ -33,6 +35,9 @@ interface PastPapersLibraryProps {
   onSectionChange?: (section: 'past_papers' | 'tnh_practice') => void;
   selectedUnit?: string | null;
   onSelectUnit?: (unit: string | null) => void;
+  onSelectSAQCategory?: (categoryId: string) => void;
+  selectedBank?: 'mcq' | 'saq';
+  onSelectBank?: (bank: 'mcq' | 'saq') => void;
 }
 
 export default function PastPapersLibrary({
@@ -41,10 +46,13 @@ export default function PastPapersLibrary({
   onBack,
   activeSection = 'past_papers',
   selectedUnit: controlledSelectedUnit,
-  onSelectUnit: controlledOnSelectUnit
+  onSelectUnit: controlledOnSelectUnit,
+  onSelectSAQCategory,
+  selectedBank: controlledSelectedBank,
+  onSelectBank: controlledOnSelectBank
 }: PastPapersLibraryProps) {
   const [internalSelectedUnit, setInternalSelectedUnit] = React.useState<string | null>(null);
-  const [selectedBank, setSelectedBank] = useState<'mcq' | 'saq'>('mcq');
+  const [internalSelectedBank, setInternalSelectedBank] = useState<'mcq' | 'saq'>('mcq');
 
   const selectedUnit = controlledSelectedUnit !== undefined ? controlledSelectedUnit : internalSelectedUnit;
   const setSelectedUnit = (unit: string | null) => {
@@ -55,15 +63,19 @@ export default function PastPapersLibrary({
     }
   };
 
-  // Reset to MCQ Bank whenever the selected unit changes
-  useEffect(() => {
-    setSelectedBank('mcq');
-  }, [selectedUnit]);
+  const selectedBank = controlledSelectedBank !== undefined ? controlledSelectedBank : internalSelectedBank;
+  const setSelectedBank = (bank: 'mcq' | 'saq') => {
+    if (controlledOnSelectBank) {
+      controlledOnSelectBank(bank);
+    } else {
+      setInternalSelectedBank(bank);
+    }
+  };
 
   const isPastPapers = activeSection === 'past_papers';
   const sourcePapers = isPastPapers ? BOARD_PAST_PAPERS : TNH_PRACTICE_PAPERS;
 
-  // Block 1 Units Definitions
+  // Block 1 Units Definitions (Unified full access)
   const unitsDefinition = useMemo(() => {
     const respiratoryPapers = sourcePapers.filter(
       p => (p.unit || p.category) === 'Respiratory Disorders' || p.category === 'Respiratory Disorders'
@@ -75,33 +87,55 @@ export default function PastPapersLibrary({
       p => (p.unit || p.category) === 'Pharmacology 1' || p.category === 'Pharmacology 1' || p.unit === 'Pharmacology'
     );
 
-    return [
+    const allUnits = [
       {
         id: 'Respiratory Disorders',
         title: 'Respiratory Disorders',
         papersCount: respiratoryPapers.length,
         questionsCount: respiratoryPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0),
-        unitType: 'respiratory' as const
+        rawTotalPapers: respiratoryPapers.length,
+        unitType: 'respiratory' as const,
+        saqCount: 0
       },
       {
         id: 'Trauma and Emergency Nursing',
         title: 'Trauma and Emergency Nursing',
         papersCount: traumaPapers.length,
         questionsCount: traumaPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0),
-        unitType: 'trauma' as const
+        rawTotalPapers: traumaPapers.length,
+        unitType: 'trauma' as const,
+        saqCount: 72
       },
       {
         id: 'Pharmacology 1',
         title: 'Pharmacology 1',
         papersCount: pharmacologyPapers.length,
         questionsCount: pharmacologyPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0),
-        unitType: 'pharmacology' as const
+        rawTotalPapers: pharmacologyPapers.length,
+        unitType: 'pharmacology' as const,
+        saqCount: 0
       }
     ];
-  }, [sourcePapers]);
+
+    if (!isPastPapers) {
+      return allUnits.filter(u => u.papersCount > 0 || u.saqCount > 0);
+    }
+    return allUnits;
+  }, [sourcePapers, isPastPapers]);
+
+  const tnhSaqCategories = useMemo(() => {
+    if (selectedUnit === 'Trauma and Emergency Nursing') {
+      return getCategoriesByUnit('TNH Practice');
+    }
+    return [];
+  }, [selectedUnit]);
+
+  const tnhSaqTotalQuestions = useMemo(() => {
+    return tnhSaqCategories.flatMap(c => c.questions || []).length;
+  }, [tnhSaqCategories]);
 
   // Papers belonging to the currently selected Unit
-  const scopedUnitPapers = useMemo(() => {
+  const rawScopedUnitPapers = useMemo(() => {
     if (!selectedUnit) return [];
     return sourcePapers.filter(
       p => (p.unit || p.category) === selectedUnit || p.category === selectedUnit || (selectedUnit === 'Pharmacology 1' && p.unit === 'Pharmacology')
@@ -110,13 +144,13 @@ export default function PastPapersLibrary({
 
   // Sort papers chronologically (newest first) then by title
   const sortedPapers = useMemo(() => {
-    return [...scopedUnitPapers].sort((a, b) => {
+    return [...rawScopedUnitPapers].sort((a, b) => {
       if (a.year && b.year && a.year !== b.year) {
         return b.year.localeCompare(a.year, undefined, { numeric: true });
       }
       return a.title.localeCompare(b.title, undefined, { numeric: true });
     });
-  }, [scopedUnitPapers]);
+  }, [rawScopedUnitPapers]);
 
   // ==========================================
   // LEVEL 1: Block 1 Units List (Matching SAQ view)
@@ -189,7 +223,7 @@ export default function PastPapersLibrary({
                             ? `${unit.papersCount} ${unit.papersCount === 1 ? 'Paper' : 'Papers'} · ${unit.questionsCount} Questions`
                             : '0 Papers'
                         ) : (
-                          `MCQ Bank: ${unit.questionsCount} Qs · SAQ Bank: 0 Qs`
+                          `MCQ Bank: ${unit.questionsCount} Qs · SAQ Bank: ${unit.saqCount} Qs`
                         )}
                       </p>
                     </div>
@@ -228,7 +262,7 @@ export default function PastPapersLibrary({
               <span className="text-indigo-900 font-bold">Block 1</span>
               <span>·</span>
               <span>{isPastPapers ? 'MCQ Bank' : 'TNH Practice'}</span>
-              {!isPastPapers && (
+              {!isPastPapers && tnhSaqTotalQuestions > 0 && (
                 <>
                   <span>·</span>
                   <span className="text-teal-700 font-bold">{selectedBank === 'mcq' ? 'MCQ Bank' : 'SAQ Bank'}</span>
@@ -243,7 +277,7 @@ export default function PastPapersLibrary({
       </div>
 
       {/* TNH Practice Bank Selector: MCQ Bank vs SAQ Bank */}
-      {!isPastPapers && (
+      {!isPastPapers && tnhSaqTotalQuestions > 0 && (
         <div className="flex items-center p-1 bg-slate-100 rounded-xl border border-slate-200/90 gap-1.5" id="tnh-bank-selector">
           <button
             type="button"
@@ -262,7 +296,7 @@ export default function PastPapersLibrary({
                 ? 'bg-teal-50 text-teal-700 border border-teal-200/80'
                 : 'bg-slate-200 text-slate-600'
             }`}>
-              {scopedUnitPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0)} Qs
+              {sortedPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0)} Qs
             </span>
           </button>
 
@@ -283,7 +317,7 @@ export default function PastPapersLibrary({
                 ? 'bg-amber-50 text-amber-700 border border-amber-200/80'
                 : 'bg-slate-200 text-slate-600'
             }`}>
-              0 Qs
+              {tnhSaqTotalQuestions} Qs
             </span>
           </button>
         </div>
@@ -291,26 +325,74 @@ export default function PastPapersLibrary({
 
       {/* Content Rendering: If SAQ Bank in TNH Practice */}
       {!isPastPapers && selectedBank === 'saq' ? (
-        <div className="border border-slate-200/90 bg-white p-6 sm:p-8 rounded-xl flex flex-col items-center justify-center text-center space-y-3 shadow-2xs">
-          <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200/80 flex items-center justify-center text-amber-600 shrink-0">
-            <BookOpen className="w-6 h-6" />
+        tnhSaqCategories.length > 0 ? (
+          <div className="space-y-2">
+            <div className="flex items-center justify-between px-1 py-1">
+              <span className="text-xs uppercase tracking-wider font-extrabold text-slate-500">
+                Trauma & Emergency Nursing SAQ Modules (Sets 1–4)
+              </span>
+              <span className="text-xs font-semibold text-slate-500">
+                {tnhSaqCategories.length} Modules · {tnhSaqTotalQuestions} Questions
+              </span>
+            </div>
+            {tnhSaqCategories.map(category => {
+              const catQuestions = category.questions || [];
+              const displayCount = catQuestions.length;
+              const masteredInCat = catQuestions.filter(q => (progress.masteredSAQs || []).includes(q.id)).length;
+              const isAllMastered = catQuestions.length > 0 && masteredInCat === catQuestions.length;
+
+              return (
+                <button
+                  key={category.id}
+                  type="button"
+                  onClick={() => onSelectSAQCategory && onSelectSAQCategory(category.id)}
+                  className="w-full text-left bg-white border border-slate-200/90 hover:border-amber-400 p-3.5 sm:p-4 rounded-xl transition-all shadow-2xs hover:shadow-xs active:scale-[0.99] flex items-center justify-between gap-3 group cursor-pointer"
+                  id={`tnh-saq-category-${category.id}`}
+                >
+                  <div className="min-w-0 space-y-1">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-amber-950 transition-colors leading-snug">
+                        {category.title}
+                      </h3>
+                      {isAllMastered && (
+                        <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-emerald-100/80 text-emerald-900 border border-emerald-300 flex items-center gap-1">
+                          <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                          Mastered
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-xs text-slate-500 font-medium">
+                      {`${displayCount} ${displayCount === 1 ? 'Question' : 'Questions'}`}
+                      {masteredInCat > 0 && !isAllMastered && ` · ${masteredInCat} Mastered`}
+                    </p>
+                  </div>
+                  <ChevronRight className="w-4.5 h-4.5 text-slate-400 group-hover:text-amber-600 transition-colors shrink-0" />
+                </button>
+              );
+            })}
           </div>
-          <div className="space-y-1 max-w-md">
-            <h3 className="text-base font-bold text-slate-900">
-              SAQ Bank — {selectedUnit}
-            </h3>
-            <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
-              No SAQ questions available for this unit yet. For now, all practice questions for this unit are organized under the MCQ Bank.
-            </p>
+        ) : (
+          <div className="border border-slate-200/90 bg-white p-6 sm:p-8 rounded-xl flex flex-col items-center justify-center text-center space-y-3 shadow-2xs">
+            <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200/80 flex items-center justify-center text-amber-600 shrink-0">
+              <BookOpen className="w-6 h-6" />
+            </div>
+            <div className="space-y-1 max-w-md">
+              <h3 className="text-base font-bold text-slate-900">
+                SAQ Bank — {selectedUnit}
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
+                No SAQ questions available for this unit yet. For now, all practice questions for this unit are organized under the MCQ Bank.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setSelectedBank('mcq')}
+              className="px-4 py-2 bg-[#0B1B3D] text-white rounded-lg text-xs font-bold hover:bg-[#132A5E] transition-all cursor-pointer shadow-xs active:scale-95"
+            >
+              View MCQ Bank ({sortedPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0)} Questions)
+            </button>
           </div>
-          <button
-            type="button"
-            onClick={() => setSelectedBank('mcq')}
-            className="px-4 py-2 bg-[#0B1B3D] text-white rounded-lg text-xs font-bold hover:bg-[#132A5E] transition-all cursor-pointer shadow-xs active:scale-95"
-          >
-            View MCQ Bank ({scopedUnitPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0)} Questions)
-          </button>
-        </div>
+        )
       ) : sortedPapers.length === 0 ? (
         <div className="border border-slate-200/90 bg-white p-8 rounded-xl flex flex-col items-center justify-center text-center space-y-2.5 shadow-2xs">
           <p className="text-sm font-semibold text-slate-600">
@@ -383,7 +465,7 @@ export default function PastPapersLibrary({
                     </div>
 
                     <p className="text-xs text-slate-500 font-medium">
-                      {totalQuestions} Questions
+                      {`${totalQuestions} Questions`}
                       {completedSetsCount > 0 && !isAllCompleted && (
                         <span className="text-indigo-600 font-semibold">
                           {` · ${completedSetsCount}/${sets.length} Sets Completed`}

@@ -5,9 +5,10 @@
  * Minimal, distraction-free Block 1 navigation:
  * - Level 1: Block 1 unit list (clean buttons, zero text bloat)
  * - Level 2: Unit's conditions list (concise, instant launch)
+ * - Full, unrestricted access to all 112 SAQs across all units.
  *
  * @author MULWA <martinmulwa95@gmail.com>
- * @version 5.0.0
+ * @version 7.0.0
  */
 
 import React from 'react';
@@ -44,6 +45,9 @@ export default function SAQLibrary({
   const respiratoryQuestions = respiratoryCategories.flatMap(c => c.questions || []);
   const traumaQuestions = traumaCategories.flatMap(c => c.questions || []);
 
+  const respiratoryCount = respiratoryQuestions.length;
+  const traumaCount = traumaQuestions.length;
+
   const respiratoryMastered = respiratoryQuestions.filter(q => masteredIds.includes(q.id)).length;
   const traumaMastered = traumaQuestions.filter(q => masteredIds.includes(q.id)).length;
 
@@ -51,16 +55,18 @@ export default function SAQLibrary({
     {
       id: 'Respiratory Disorders',
       title: 'Respiratory Disorders',
-      questionsCount: respiratoryQuestions.length,
+      questionsCount: respiratoryCount,
       masteredCount: respiratoryMastered,
-      isRespiratory: true
+      iconType: 'respiratory' as const,
+      subunitsCount: respiratoryCategories.length
     },
     {
       id: 'Trauma and Emergency Nursing',
       title: 'Trauma and Emergency Nursing',
-      questionsCount: traumaQuestions.length,
+      questionsCount: traumaCount,
       masteredCount: traumaMastered,
-      isRespiratory: false
+      iconType: 'trauma' as const,
+      subunitsCount: traumaCategories.length
     }
   ];
 
@@ -98,6 +104,18 @@ export default function SAQLibrary({
           {/* List of Unit Buttons */}
           <div className="space-y-2">
             {unitsDefinition.map(unit => {
+              const iconBoxClass =
+                unit.iconType === 'respiratory'
+                  ? 'bg-sky-50 text-sky-600 border-sky-200/80 group-hover:bg-sky-100 group-hover:text-sky-700'
+                  : 'bg-rose-50 text-rose-600 border-rose-200/80 group-hover:bg-rose-100 group-hover:text-rose-700';
+
+              const unitIcon =
+                unit.iconType === 'respiratory' ? (
+                  <Wind className="w-4.5 h-4.5" />
+                ) : (
+                  <Activity className="w-4.5 h-4.5" />
+                );
+
               return (
                 <button
                   key={unit.id}
@@ -107,23 +125,15 @@ export default function SAQLibrary({
                   className="w-full text-left bg-white border border-slate-200/90 hover:border-[#0B1B3D] p-3.5 sm:p-4 rounded-xl transition-all shadow-2xs hover:shadow-xs active:scale-[0.99] flex items-center justify-between gap-3 group cursor-pointer"
                 >
                   <div className="flex items-center gap-3.5 min-w-0">
-                    <div className={`w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center shrink-0 border transition-all ${
-                      unit.isRespiratory
-                        ? 'bg-sky-50 text-sky-600 border-sky-200/80 group-hover:bg-sky-100 group-hover:text-sky-700'
-                        : 'bg-rose-50 text-rose-600 border-rose-200/80 group-hover:bg-rose-100 group-hover:text-rose-700'
-                    }`}>
-                      {unit.isRespiratory ? (
-                        <Wind className="w-4.5 h-4.5" />
-                      ) : (
-                        <Activity className="w-4.5 h-4.5" />
-                      )}
+                    <div className={`w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center shrink-0 border transition-all ${iconBoxClass}`}>
+                      {unitIcon}
                     </div>
                     <div className="min-w-0">
                       <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-[#0B1B3D] transition-colors leading-snug truncate">
                         {unit.title}
                       </h3>
                       <p className="text-xs text-slate-500 font-medium mt-0.5">
-                        {unit.questionsCount} Questions
+                        {`${unit.questionsCount} Questions across ${unit.subunitsCount} Sub-Units`}
                         {unit.masteredCount > 0 && ` · ${unit.masteredCount} Mastered`}
                       </p>
                     </div>
@@ -140,7 +150,7 @@ export default function SAQLibrary({
   }
 
   // ==========================================
-  // LEVEL 2: Unit's Conditions List (Clean & Minimal)
+  // LEVEL 2: Unit's Conditions / Sub-Units List
   // ==========================================
   const displayedCategories = getCategoriesByUnit(selectedUnit);
 
@@ -172,7 +182,7 @@ export default function SAQLibrary({
         </div>
       </div>
 
-      {/* Vertical list of Conditions */}
+      {/* Vertical list of Conditions (Sub-Units) */}
       {displayedCategories.length === 0 ? (
         <div className="bg-white border border-slate-200/90 rounded-2xl p-8 text-center text-slate-500 shadow-2xs">
           <p className="font-semibold text-slate-700 text-sm sm:text-base">No SAQ questions available for this unit.</p>
@@ -182,6 +192,7 @@ export default function SAQLibrary({
         <div className="space-y-2">
           {displayedCategories.map((category) => {
             const catQuestions = category.questions || [];
+            const displayCount = catQuestions.length;
             const masteredInCat = catQuestions.filter((q) => masteredIds.includes(q.id)).length;
             const isAllMastered = catQuestions.length > 0 && masteredInCat === catQuestions.length;
 
@@ -208,8 +219,8 @@ export default function SAQLibrary({
                   </div>
 
                   <p className="text-xs text-slate-500 font-medium">
-                    {catQuestions.length} {catQuestions.length === 1 ? 'Question' : 'Questions'}
-                    {masteredInCat > 0 && !isAllMastered && ` · ${masteredInCat}/${catQuestions.length} Mastered`}
+                    {`${displayCount} ${displayCount === 1 ? 'Question' : 'Questions'}`}
+                    {masteredInCat > 0 && !isAllMastered && ` · ${masteredInCat} Mastered`}
                   </p>
                 </div>
 
