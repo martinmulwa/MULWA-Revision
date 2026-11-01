@@ -38,12 +38,22 @@ import {
   BLOCK1_PHARMACOLOGY_1_PAPERS
 } from './pharmacology-1';
 
+import {
+  BLOCK1_PAEDIATRICS_1_PAPERS,
+  KRN_BLOCK1_APRIL2022_PAEDIATRICS_COMMUNICABLE_DISEASES,
+  KRN_BLOCK1_APRIL2022_PAEDIATRIC_MEDICAL_SURGICAL_CONDITIONS,
+  KRN_BLOCK1_APRIL2024_PAEDIATRIC_NURSING_I
+} from './paediatrics-1';
+
 export * from './respiratory-disorders';
 export * from './trauma-and-emergency-nursing';
 export * from './pharmacology-1';
+export * from './paediatrics-1';
 
 export const BLOCK1_ALL_PAPERS: PastPaper[] = [
   ...BLOCK1_RESPIRATORY_PAPERS,
   ...BLOCK1_TRAUMA_PAPERS,
-  ...BLOCK1_PHARMACOLOGY_1_PAPERS
+  ...BLOCK1_PHARMACOLOGY_1_PAPERS,
+  ...BLOCK1_PAEDIATRICS_1_PAPERS
 ];
+

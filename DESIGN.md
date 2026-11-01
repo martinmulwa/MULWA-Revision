@@ -40,3 +40,15 @@ Key design principles:
 * **Tab-Level Persistence:** Refreshing the tab maintains active tests, scores, and mistake queues.
 * **Clean Session Termination:** Closing the tab or browser automatically clears the session data, preventing stale multi-user contamination on shared clinical lab workstations.
 * **Manual Reset:** Candidates can reset their progress anytime from the dashboard via the "Clear Progress" modal.
+
+---
+
+## 4. Study Curriculum & Guide Presentation Architecture
+
+The Study curriculum follows strict presentation requirements detailed in [`STUDY_GUIDE_SPECIFICATION.md`](./STUDY_GUIDE_SPECIFICATION.md):
+
+* **5-Tier Hierarchy:** Homescreen Dashboard → Block Selection (Block 1 vs Block 2) → Unit Selection (Pharmacology 1, Respiratory, Trauma) → Subject Area (Antibiotics) → Topic Selection ("1. Foundations: Classification of Antibiotics") → Study Guide Reader.
+* **Zero Horizontal Scrolling Table Design:** All data tables use responsive dual-presentation: vertical stacked key-value cards on mobile (`sm:hidden`) and clean standard tables on desktop (`hidden sm:block`).
+* **Visible Section Filter Pills:** Guide section filters use a multi-line wrapping layout (`flex flex-wrap gap-1.5 sm:gap-2`) so all section buttons are 100% visible at all times with zero horizontal scrollbars.
+* **Mobile Typography:** Enhanced base font sizes (`text-sm sm:text-base` for body, stems, options, and rationales; `text-xs font-bold` for metadata tags) to ensure high visibility across all mobile devices.
+* **Zero Truncation Policy:** Never truncate question stems, answer options, table cells, or clinical explanations.

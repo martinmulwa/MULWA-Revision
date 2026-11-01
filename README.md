@@ -1,7 +1,7 @@
 # MULWA — Clinical Exam Portal
 
 **Author:** MULWA (<martinmulwa95@gmail.com>)  
-**Version:** 5.1.0  
+**Version:** 6.0.0  
 **Stack:** React 19 · TypeScript 5.8 · Vite 6 · Tailwind CSS v4 · Lucide Icons · Motion
 
 A high-yield, distraction-free examination revision and self-assessment platform built specifically for medical, clinical medicine, and nursing candidates (including Kenya Registered Nursing / KRCHN / KRN, End-of-Block, University, and Nursing Council Board Licensure examinations).
@@ -14,13 +14,38 @@ The portal combines 1,000+ past examination questions, physiological and pathoph
 
 | Metric | Count | Details |
 | :--- | :--- | :--- |
-| **Total Past Papers & Practice Modules** | **29 Papers** | Curated official exams and standardized practice modules |
-| **Total MCQ & True/False Items** | **1,072 Questions** | Validated stems with distractors and clinical rationales |
+| **Access Model** | **Open & Equal** | Universal access for all candidates; no administrative barriers or sign-in gates |
+| **Total Past Papers & Practice Modules** | **32 Papers** | Curated official exams and standardized practice modules |
+| **Total MCQ & True/False Items** | **1,134 Questions** | Validated stems with distractors and clinical rationales |
 | **High-Yield SAQ Items** | **112 Questions** | Model answers scaled to marks with examiner scoring tips |
-| **SAQ Condition Modules** | **30 Categories** | Structured across Respiratory, Trauma, and TNH Practice Sets 1–4 |
-| **Clinical Specialties (Block 1)** | **3 Units** | Respiratory Disorders, Trauma & Emergency, Pharmacology 1 |
+| **Clinical SAQ Units** | **2 Clinical Units** | Respiratory Disorders (29 SAQs) & Trauma and Emergency (11 SAQs) |
+| **TNH Practice SAQ Modules** | **16 Modules (72 SAQs)** | Dedicated Trauma & Emergency SAQs (Sets 1–4) under TNH Practice |
+| **Study Curriculum Hub** | **Block 1 Guides** | High-yield lecture transcriptions, mnemonics & exam pattern decoding |
+| **Clinical Specialties (Block 1)** | **4 Units** | Respiratory Disorders, Trauma & Emergency, Pharmacology 1, Paediatrics 1 |
 | **Active Practice Chunks** | **55+ Sets** | Standardized 15–30 question chunks for cognitive pacing |
 | **Workstation Privacy** | **Session-Isolated** | Zero lingering data on shared library or ward computers |
+
+---
+
+## 🏛️ Architecture & Access Model
+
+- **Universal Equal Access:** All candidates receive full, unrestricted access to the entire question repository, past papers, TNH practice modules, and SAQ libraries. Administrative logins and role divisions have been removed so every learner has identical access to all materials.
+- **Dedicated Study Section (`HomeDashboard.tsx` & `StudySection.tsx`):**
+  - Accessed via the **Study** button on the home dashboard through a strict 5-tier navigation flow:
+    1. **Block Selection:** Choose between **Block 1** (MSN 101, 102, 103) and **Block 2**.
+    2. **Unit Selection:** Select from Block 1 units (**Pharmacology 1**, **Respiratory Disorders**, **Trauma & Emergency Nursing**).
+    3. **Subject Area:** Choose **Antibiotics** under Pharmacology 1.
+    4. **Topic Selection:** Select **1. Foundations: Classification of Antibiotics**.
+    5. **Study Guide Reader:** Fully responsive reader with multi-line wrapping section filter pills (all section tags visible with zero horizontal scrolling), enhanced mobile font sizes, and complete clinical content.
+- **Dedicated TNH Practice Hub:**
+  - TNH Practice is organized in its own dedicated section (`TNH Practice`), supporting both **MCQ Practice Papers** and **SAQ Practice Modules**.
+  - **TNH Practice SAQs** (72 questions across 16 Modules in Sets 1–4) are accessed directly within TNH Practice under Trauma and Emergency Nursing via an interactive **MCQ Bank / SAQ Bank** toggle.
+  - The standard **SAQ Bank** remains cleanly focused on core past paper clinical units (Respiratory Disorders with 29 SAQs and Trauma & Emergency Nursing with 11 SAQs).
+- **Mobile-First Responsive Layout:**
+  - On smaller screens and mobile devices, the **MULWA** brand logo is always centered in the top navigation bar.
+  - Quick, ergonomic thumb navigation is enabled via a persistent bottom navigation bar (Home, Study, MCQs, Practice, SAQs, Mistakes).
+- **Workstation Privacy (`sessionStorage`):**
+  - Progress persists smoothly across refreshes and tab switches during a revision session, but clears when the browser tab closes, preventing student data leakage on shared nursing laboratory, hospital, and library computers.
 
 ---
 
@@ -102,37 +127,84 @@ The platform organizes content modularly under **Block 1**, divided into clinica
 
 ---
 
-### 4. Master SAQ Question Bank (112 Total Questions across 30 Modules)
-* **Single-Focus Revision Workspace:** Distraction-free 1-at-a-time display with instant "Reveal Solution" action.
-* **Mark-Sized Model Answers:** Sized directly to allocated examiner marks with physiological justifications.
-* **Clinical Mnemonics & Memory Aids:** Structured tabular references (e.g. `TUBES` for underwater seal chest drains, `MONA` for acute coronary syndrome, `SAMPLE` for trauma histories, `TICS` for snake bite prohibitions).
-* **Examiner Scoring Tips:** "Ace It" callout boxes emphasizing exact clinical grading keywords, marking rubrics, and high-frequency traps.
-* **Breakdown by Clinical Unit:**
-  * **Respiratory Disorders (29 SAQs across 6 condition categories):**
-    * Chest Drain & Underwater Seal Drainage (UWSD)
-    * Bronchial Asthma & Status Asthmaticus
-    * Pneumonia (Community-Acquired, Hospital-Acquired, Aspiration)
-    * Chronic Obstructive Pulmonary Disease (COPD)
-    * Thoracic Surgery & Post-Operative Management
-    * Pulmonary Tuberculosis, Pleural Effusion, Pulmonary Embolism & ARDS
-  * **Trauma and Emergency Nursing (11 SAQs across 8 condition categories):**
-    * Triage in the Emergency Department (CTAS levels, mass-casualty triage, nurse roles)
-    * Trauma Assessment & Nurse Roles (Primary survey ABCDE, secondary survey SAMPLE)
-    * Snake Bite (Envenomation first aid, 20WBCT protocol, hospital care, forbidden interventions)
-    * Tension Pneumothorax (Pathophysiology, obstructive shock signs, needle decompression)
-    * Emergent Burn Care (Inhalation injury, Parkland resuscitation formula, hypothermia prevention)
-    * Seizure First Aid (Stay/Safe/Side, status epilepticus timing, post-ictal positioning)
-    * Submersion Injury / Near Drowning (Hypoxia correction, rewarming, 24-hour observation)
-    * Organophosphate Poisoning (Atropine titration protocol, signs of atropinisation)
-  * **TNH Practice SAQ Bank (72 SAQs across 16 Modules, Sets 1–4):**
-    * *Set 1:* Triage in ED, Trauma Assessment Primary/Secondary Survey, Shock
-    * *Set 2:* Basic Life Support & CPR, Burns Emergent Phase, First Aid, Paediatric Emergencies & FBAO, Poisoning
-    * *Set 3:* Triage Process Tools & CTAS, Emergency & Trauma Fundamentals, Shock Pathophysiology & Types, Primary Survey (B, C, E & Re-evaluation)
-    * *Set 4:* Burns Classification & Care, BLS & Paediatric Resuscitation II, First Aid II, Snake Bite / Drowning / Stroke / Poisoning II
+### 4. Paediatrics 1 (PEN 101: Communicable Diseases & Medical-Surgical Conditions)
+* **Status:** 3 Curated Examination Papers (**62 total MCQs & True/False items**)
+* **Examinations & Modules Included:**
+  1. **April 2024 Class End of Block Exam** (`krn-block1-april2024-paediatric-nursing-i`) — 15 Questions (sat 11 November 2024, Part A, Q1 to Q15)
+  2. **April 2022 Class End of Block Exam — Medical-Surgical Conditions** (`krn-block1-april2022-paediatric-medical-surgical-conditions`) — 32 Questions (Part One, Q1 to Q30 including True/False subsets)
+  3. **April 2022 Class End of Block Exam — Communicable Diseases** (`krn-block1-april2022-paediatrics-communicable-diseases`) — 15 Questions (Part A, Q1 to Q15)
+* **Key Topics Covered:**
+  * **Developmental Milestones & Physical Assessment:** 3–4 months head control delay warning signs, 3–6 months visual tracking, 6–8 months unsupported sitting, 9–12 months fine pincer grasp; weight doubling by 6 months, quadrupling by 2 years
+  * **Pediatric Nursing Principles & Restraints:** Family-centered care partnerships and parental decision-making; minimizing separation anxiety (phases of protest, despair, detachment; rooming-in, familiar caregivers); restraint classifications (mechanical [mittens, elbow restraints, mummy wraps] vs. physical [holding during venipuncture] vs. environmental vs. chemical)
+  * **Pediatric Triage (ETAT) & Respiratory Distress:** Prioritization rules (Emergency signs vs. Priority signs [bilateral pedal pitting edema in kwashiorkor, urgent referral] vs. Non-urgent well-child attendances); age-specific fast breathing thresholds (<2 mo: ≥60 bpm; 2–12 mo: ≥50 bpm; 12 mo–5 yr: ≥40 bpm)
+  * **Fluid Resuscitation & Dehydration (IMCI/WHO):** Severe dehydration clinical criteria (sunken eyes, delayed skin pinch >2s, poor drinking, lethargy) managed via Plan C; hypovolemic shock emergency bolus calculation (Ringer's lactate or Normal Saline 20 mL/kg over 15 minutes); osmotic diarrhea mechanism in lactose intolerance
+  * **Congenital Gastrointestinal Anomalies:**
+    * **Tracheoesophageal Fistula (TEF) & Esophageal Atresia:** Clinical triad (the 3 Cs: coughing, choking, cyanosis with initial feeding), Gross classification (Type A pure atresia, Type B proximal fistula, Type C distal fistula [85% commonest])
+    * **Hypertrophic Pyloric Stenosis:** Projectile non-bilious vomiting (2–8 weeks), visible left-to-right gastric peristalsis waves, palpable olive-shaped epigastric mass, hypochloremic metabolic alkalosis, Ramstedt's pyloromyotomy
+    * **Hirschsprung's Disease (Congenital Aganglionic Megacolon):** Absence of ganglion cells in submucosal (Meissner's) and myenteric (Auerbach's) plexuses, failure to pass meconium within 24–48 hours, ribbon-like stools, rectal suction biopsy, surgical pull-through
+    * **Intussusception:** Ileocecal telescoping, severe colicky abdominal pain with screaming and leg flexion, currant jelly stools (blood and mucus), sausage-shaped mass, pneumatic/hydrostatic barium enema reduction
+    * **Abdominal Wall Defects:** Gastroschisis (right para-umbilical full-thickness defect, eviscerated bowel without covering sac; emergency warm sterile saline dressing and plastic wrap) vs. Omphalocele (peritoneal/amniotic membrane covered sac with umbilical cord insertion)
+    * **Cleft Lip & Palate:** Maternal alcohol/antiepileptic risk factors, Rule of 10s for cleft lip surgery (10 weeks, 10 lbs, 10 g/dL Hb), cleft palate repair at 6–12 months (cup feeding, soft elbow restraints, avoiding straws/spoons)
+  * **Pediatric Genitourinary Disorders:**
+    * **Cryptorchidism:** Undescended testis, orchidopexy timing (6–18 months, before age 2) to preserve spermatogenesis and reduce malignancy/torsion risks
+    * **Phimosis vs. Paraphimosis:** Phimosis (stenosis of prepuce; physiological up to 3–5 years, circumcision for recurrent balanitis/obstruction) vs. Paraphimosis (retracted foreskin trapped behind glans creating constricting ring; urological emergency)
+    * **Hypospadias vs. Epispadias:** Ventral urethral displacement with chordee (circumcision strictly contraindicated to preserve prepuce for reconstruction)
+    * **Wilms' Tumor (Nephroblastoma):** Firm painless abdominal mass not crossing midline; strict "DO NOT PALPATE" precaution to prevent capsular rupture; Stage V defined as bilateral renal involvement
+    * **Polycystic Kidney Disease:** Recessive vs. dominant forms, renal cyst expansion, hematuria, hypertension
+    * **Disorders of Sex Development (DSD):** Incompletely masculinized 46,XY males via Androgen Insensitivity Syndrome vs. 46,XX female virilization via Congenital Adrenal Hyperplasia
+  * **Pediatric ENT & Upper Airway Conditions:**
+    * **Acute Laryngotracheobronchitis (Croup):** Parainfluenza viral etiology, subglottic edema, barking seal-like cough, inspiratory stridor, dexamethasone/budesonide and nebulized adrenaline
+    * **Tonsillitis & Adenoiditis:** Adenovirus and Group A Beta-Hemolytic Streptococcus (*S. pyogenes*); adenoid hypertrophy causing mouth breathing, snoring, and halitosis
+  * **Pediatric Neurology & Afebrile Seizures:** Causes of nonfebrile convulsions (hypoxia/birth asphyxia, hypoglycemia, intracranial lesions/tumors, electrolyte disturbances) vs. febrile seizures
+  * **Pediatric Orthopedics:** Talipes calcaneus (excessive ankle dorsiflexion, heel weight-bearing) vs. talipes equinus; congenital clubfoot (talipes equinovarus) managed with Ponseti serial weekly casting and foot abduction braces
+  * **Communicable Pediatric Infections & TB:**
+    * **Diphtheria (*Corynebacterium diphtheriae*):** Bull's neck lymphadenitis, grey adherent pseudomembrane, antitoxin + penicillin
+    * **Mumps:** Parotitis aggravated by acidic citrus beverages; droplet transmission, nasopharyngeal viral replication
+    * **Measles:** Pathognomonic Koplik spots, descending rash, age-based Vitamin A supplementation (50,000 IU <6 mo; 100,000 IU 6–12 mo; 200,000 IU >1 yr), airborne isolation
+    * **Chickenpox & Pertussis:** Pruritic vesicles (aspirin avoidance to prevent Reye syndrome); whooping cough droplet precautions, catarrhal stage, erythromycin
+    * **Poliomyelitis:** Faecal-oral enteric transmission, anterior horn destruction, asymmetric flaccid paralysis, post-paralytic limb shortening
+    * **Neonatal Tetanus:** Unsterile delivery practices, inability to breastfeed (trismus/lockjaw), maternal tetanus toxoid vaccination and clean cord care
+    * **Pediatric Tuberculosis:** 2-month intensive phase (RHZE) followed by 4-month continuation phase (RH); Pyridoxine (B6) co-administration to prevent isoniazid peripheral neuropathy
 
 ---
 
-## 🚀 Key Architectural Features
+### 5. SAQ Question Banks & Categorization
+
+#### A. Core Clinical SAQ Bank (40 Total SAQs)
+Accessible via the **SAQ Bank** tab:
+* **Respiratory Disorders (29 SAQs across 6 condition categories):**
+  * Chest Drain & Underwater Seal Drainage (UWSD)
+  * Bronchial Asthma & Status Asthmaticus
+  * Pneumonia (Community-Acquired, Hospital-Acquired, Aspiration)
+  * Chronic Obstructive Pulmonary Disease (COPD)
+  * Thoracic Surgery & Post-Operative Management
+  * Pulmonary Tuberculosis, Pleural Effusion, Pulmonary Embolism & ARDS
+* **Trauma and Emergency Nursing (11 SAQs across 8 condition categories):**
+  * Triage in the Emergency Department (CTAS levels, mass-casualty triage, nurse roles)
+  * Trauma Assessment & Nurse Roles (Primary survey ABCDE, secondary survey SAMPLE)
+  * Snake Bite (Envenomation first aid, 20WBCT protocol, hospital care, forbidden interventions)
+  * Tension Pneumothorax (Pathophysiology, obstructive shock signs, needle decompression)
+  * Emergent Burn Care (Inhalation injury, Parkland resuscitation formula, hypothermia prevention)
+  * Seizure First Aid (Stay/Safe/Side, status epilepticus timing, post-ictal positioning)
+  * Submersion Injury / Near Drowning (Hypoxia correction, rewarming, 24-hour observation)
+  * Organophosphate Poisoning (Atropine titration protocol, signs of atropinisation)
+
+#### B. TNH Practice SAQ Bank (72 SAQs across 16 Modules)
+Accessible via the **TNH Practice** tab -> Trauma and Emergency Nursing -> **SAQ Bank**:
+* **Set 1 Modules:** Triage in ED, Trauma Assessment Primary/Secondary Survey, Shock
+* **Set 2 Modules:** Basic Life Support & CPR, Burns Emergent Phase, First Aid, Paediatric Emergencies & FBAO, Poisoning
+* **Set 3 Modules:** Triage Process Tools & CTAS, Emergency & Trauma Fundamentals, Shock Pathophysiology & Types, Primary Survey (B, C, E & Re-evaluation)
+* **Set 4 Modules:** Burns Classification & Care, BLS & Paediatric Resuscitation II, First Aid II, Snake Bite / Drowning / Stroke / Poisoning II
+
+Each SAQ module provides:
+* **Single-Focus Workspace:** 1-at-a-time display with instant "Reveal Solution" action.
+* **Mark-Sized Model Answers:** Sized directly to allocated examiner marks with physiological justifications.
+* **Clinical Mnemonics:** Memory aids (e.g. `TUBES` for chest drains, `MONA` for ACS, `SAMPLE` for trauma histories, `TICS` for snake bite prohibitions).
+* **Examiner Scoring Tips:** "Ace It" callout boxes emphasizing exact clinical grading keywords, marking rubrics, and high-frequency traps.
+
+---
+
+## 🚀 Key Application Features
 
 ### 1. Interactive Practice Workspace (`QuestionScreen.tsx`)
 * Single-choice (A, B, C, D) and authentic True/False interactive selectors.
@@ -158,18 +230,6 @@ The platform organizes content modularly under **Block 1**, divided into clinica
 * Breakdown by source (Original exam questions vs Derived questions).
 * Plain-text clipboard export for quick note-taking and revision logging.
 
-### 5. Automated Data Integrity Verification (`validator.ts`)
-* 9-point strict schema integrity validator ensuring every question adheres to:
-  1. Unique non-empty question ID
-  2. Question stem existence
-  3. Strict four-distractor (A, B, C, D) or True/False option structure
-  4. Valid answer index within range
-  5. Detailed explanation presence
-  6. Standardized set assignments (15–30 questions per set)
-  7. Correct paper ID referencing
-  8. Chronological / module metadata verification
-  9. Clean markdown formatting
-
 ---
 
 ## 🛠️ Tech Stack & Directory Structure
@@ -178,14 +238,15 @@ The platform organizes content modularly under **Block 1**, divided into clinica
 ├── src/
 │   ├── components/         # Clean UI views
 │   │   ├── HomeDashboard.tsx         # Analytics, resume card, recent activity logs
-│   │   ├── Layout.tsx                # Header, navigation tabs, session indicator
-│   │   ├── PastPapersLibrary.tsx     # Past papers archive, unit filters, set selectors
+│   │   ├── Layout.tsx                # Mobile-centered logo header, tabs, bottom bar
+│   │   ├── PastPapersLibrary.tsx     # Past papers archive, TNH practice with MCQ/SAQ switcher
 │   │   ├── QuestionScreen.tsx        # Interactive MCQ engine with instant rationale
 │   │   ├── ResultsScreen.tsx         # Scorecard, academic grade band, clipboard export
 │   │   ├── ReviewIncorrectScreen.tsx # Remediation queue with in-line retesting
 │   │   ├── RevisionSetSelection.tsx  # Chunked question set selection interface
-│   │   ├── SAQLibrary.tsx            # Unit & condition browser for SAQs
-│   │   └── SAQScreen.tsx             # 1-at-a-time SAQ workspace with mnemonics & tips
+│   │   ├── SAQLibrary.tsx            # Unit & condition browser for normal SAQ Bank
+│   │   ├── SAQScreen.tsx             # 1-at-a-time SAQ workspace with mnemonics & tips
+│   │   └── StudySection.tsx          # Responsive, minimalist Block 1 curriculum guides
 │   ├── config/             # Constants, grading thresholds, and UI configurations
 │   ├── data/
 │   │   ├── block1/
@@ -197,6 +258,9 @@ The platform organizes content modularly under **Block 1**, divided into clinica
 │   │   │       ├── respiratory-disorders/       # 29 Respiratory SAQs
 │   │   │       ├── tnh-practice/                # 72 TNH Practice SAQs (Sets 1–4)
 │   │   │       └── trauma-and-emergency-nursing/# 11 Trauma & Emergency SAQs
+│   │   ├── study/                            # Block 1 curriculum notes & lecture slide guides
+│   │   │   ├── antibioticsContent.ts         # Foundations & classification of antibiotics
+│   │   │   └── index.ts                      # Study curriculum aggregation
 │   │   ├── papers/         # Unified papers aggregator & exports
 │   │   ├── questions.ts    # Central query and slicing helpers
 │   │   ├── saqData.ts      # SAQ barrel provider & typed exports
@@ -206,6 +270,7 @@ The platform organizes content modularly under **Block 1**, divided into clinica
 │   ├── index.css           # Tailwind CSS v4 styling
 │   └── main.tsx            # Application entry point
 ├── DESIGN.md               # Design constitution & ergonomic vision
+├── STUDY_GUIDE_SPECIFICATION.md # Study section UI/UX, responsive layout & typography spec
 ├── PAST_PAPER_EXTRACTION_PROMPT.md # AI OCR past paper extraction prompt for new exams
 ├── metadata.json           # Application metadata & permissions
 └── README.md               # Project documentation

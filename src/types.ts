@@ -26,9 +26,10 @@ export type PaperCategory =
   | 'Respiratory Disorders'
   | 'Trauma and Emergency Nursing'
   | 'Pharmacology 1'
+  | 'Paediatrics 1'
   | 'TNH Practice';
 
-export type AppNavTab = 'home' | 'papers' | 'tnh_practice' | 'saqs' | 'review';
+export type AppNavTab = 'home' | 'study' | 'papers' | 'tnh_practice' | 'saqs' | 'review';
 
 export interface SAQTable {
   headers: string[];

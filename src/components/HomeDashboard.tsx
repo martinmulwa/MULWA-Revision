@@ -22,7 +22,8 @@ import {
   GraduationCap,
   AlertCircle,
   Award,
-  CheckCircle2
+  CheckCircle2,
+  Sparkles
 } from 'lucide-react';
 import { SessionProgress, AppNavTab } from '../types';
 import { getPaperMetrics, getMetrics, getActivityLog, parseSetKey } from '../utils/storage';
@@ -264,7 +265,41 @@ export default function HomeDashboard({
         </div>
       </div>
 
-      {/* 4. Activity Log Section */}
+      {/* 5. Study Section: Block 1 -> Pharmacology 1 -> Antibiotics */}
+      <div className="space-y-2" id="dashboard-study-section">
+        <h2 className="text-xs uppercase tracking-wider font-extrabold text-slate-500 px-1">
+          Study
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3">
+          <button
+            onClick={() => onNavigate('study')}
+            className="bg-white rounded-2xl border border-slate-200/90 hover:border-teal-400 p-3.5 sm:p-4 flex justify-between items-center transition-all text-left group min-h-[64px] shadow-2xs hover:shadow-xs active:scale-[0.99] cursor-pointer"
+            id="dashboard-study-btn"
+          >
+            <div className="flex items-center gap-3 min-w-0">
+              <div className="w-10 h-10 rounded-xl bg-teal-100/80 border border-teal-200/90 flex items-center justify-center text-teal-700 group-hover:bg-teal-600 group-hover:text-white transition-all shrink-0">
+                <BookOpen className="w-5 h-5" />
+              </div>
+              <div className="min-w-0">
+                <h3 className="font-bold text-base sm:text-lg text-slate-900 group-hover:text-teal-950 transition-colors leading-snug truncate">
+                  Study
+                </h3>
+                <p className="text-xs sm:text-sm font-medium text-slate-500 truncate mt-0.5">
+                  Curriculum & Lecture Notes
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-1.5 shrink-0 ml-1.5">
+              <ChevronRight
+                className="w-4 h-4 text-slate-300 group-hover:text-teal-600 group-hover:translate-x-0.5 transition-all"
+                strokeWidth={2}
+              />
+            </div>
+          </button>
+        </div>
+      </div>
+
+      {/* 6. Activity Log Section */}
       <div className="space-y-2.5 pt-1" id="section-recent-activity">
         <div className="flex items-center justify-between px-1">
           <h2 className="text-xs font-bold text-slate-400 uppercase tracking-wider">

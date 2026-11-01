@@ -19,6 +19,7 @@ import ResultsScreen from './components/ResultsScreen';
 import ReviewIncorrectScreen from './components/ReviewIncorrectScreen';
 import SAQLibrary from './components/SAQLibrary';
 import SAQScreen from './components/SAQScreen';
+import StudySection from './components/StudySection';
 import { SAQ_CATEGORIES, getCategoryById } from './data/saqData';
 
 import {
@@ -504,6 +505,15 @@ export default function App() {
               onNavigate={handleTabNavigation}
               onContinueSet={handleSelectSet}
               onClearProgress={handleClearProgress}
+            />
+          )}
+
+          {activeTab === 'study' && (
+            <StudySection
+              onBackToHome={() => handleTabNavigation('home')}
+              onNavigateToMcq={(paperId) => {
+                handleSelectPaper(paperId);
+              }}
             />
           )}
 

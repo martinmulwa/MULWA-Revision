@@ -8,3 +8,4 @@ export * from './papers';
 export * from './validator';
 export * from './saqData';
 export * from './block1';
+export * from './study';

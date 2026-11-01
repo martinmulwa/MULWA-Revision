@@ -16,7 +16,8 @@ import {
   BookOpen,
   AlertCircle,
   GraduationCap,
-  FileText
+  FileText,
+  Sparkles
 } from 'lucide-react';
 import { AppNavTab } from '../types';
 
@@ -38,12 +39,12 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
       <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-slate-200/80">
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-13 sm:h-15 flex items-center justify-between">
           
-          {/* Brand Heading / Logo */}
-          <div className="flex items-center justify-start shrink-0 z-10 gap-2">
+          {/* Brand Heading / Logo - centered on mobile, left-aligned on md+ */}
+          <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 flex items-center justify-center shrink-0 z-10 gap-2">
             <button 
               type="button"
               onClick={() => setActiveTab('home')}
-              className="flex items-center justify-center select-none cursor-pointer group text-center min-h-[40px] px-1 transition-transform active:scale-95"
+              className="flex items-center justify-center select-none cursor-pointer group text-center min-h-[40px] px-2 transition-transform active:scale-95"
               id="app-logo-container"
               aria-label="Home Dashboard"
             >
@@ -65,6 +66,19 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
               }`}
             >
               Dashboard
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setActiveTab('study')}
+              className={`px-2.5 sm:px-3 py-1.5 text-xs font-semibold transition-all rounded-xl min-h-[36px] cursor-pointer ${
+                activeTab === 'study'
+                  ? 'bg-[#0B1B3D] text-white shadow-xs'
+                  : 'text-slate-600 hover:text-[#0B1B3D] hover:bg-slate-100'
+              }`}
+              id="nav-tab-study"
+            >
+              Study
             </button>
 
             <button
@@ -122,10 +136,10 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
       </header>
 
       {/* Main Content Area */}
-      <main className={`flex-1 max-w-4xl w-full mx-auto px-2.5 sm:px-6 lg:px-8 py-2.5 sm:py-4 ${
+      <main className={`flex-1 max-w-4xl w-full mx-auto px-2.5 sm:px-6 lg:px-8 py-2.5 sm:py-4 overflow-x-hidden min-w-0 ${
         hideBottomNav ? 'pb-4 sm:pb-5' : 'pb-16 sm:pb-6'
       }`}>
-        <div className={`bg-white border border-slate-200/90 p-3 sm:p-4.5 md:p-5 rounded-2xl shadow-xs ${
+        <div className={`bg-white border border-slate-200/90 p-3 sm:p-4.5 md:p-5 rounded-2xl shadow-xs w-full max-w-full overflow-hidden min-w-0 ${
           hideBottomNav ? 'min-h-0' : 'min-h-[400px]'
         }`}>
           {children}
@@ -147,7 +161,7 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
           className="md:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/90 z-40 pb-safe shadow-lg"
           aria-label="Mobile Navigation"
         >
-          <div className="grid grid-cols-5 items-center h-15 max-w-md mx-auto px-1">
+          <div className="grid grid-cols-6 items-center h-15 max-w-lg mx-auto px-1">
             <button
               type="button"
               onClick={() => setActiveTab('home')}
@@ -159,12 +173,33 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
               title="Dashboard"
             >
               <div className={`p-1 rounded-lg ${activeTab === 'home' ? 'bg-indigo-100 text-indigo-900' : ''}`}>
-                <Home className="w-4.5 h-4.5" strokeWidth={activeTab === 'home' ? 2.5 : 2} />
+                <Home className="w-4 h-4 sm:w-4.5 sm:h-4.5" strokeWidth={activeTab === 'home' ? 2.5 : 2} />
               </div>
-              <span className={`text-[10px] sm:text-[11px] leading-tight mt-0.5 ${
+              <span className={`text-[9px] sm:text-[11px] leading-tight mt-0.5 ${
                 activeTab === 'home' ? 'font-bold text-indigo-950' : 'font-medium text-slate-500'
               }`}>
                 Home
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setActiveTab('study')}
+              className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all min-h-[44px] cursor-pointer ${
+                activeTab === 'study'
+                  ? 'text-emerald-950 font-bold'
+                  : 'text-slate-500 hover:text-slate-700'
+              }`}
+              title="Study"
+              id="mobile-nav-tab-study"
+            >
+              <div className={`p-1 rounded-lg ${activeTab === 'study' ? 'bg-emerald-100 text-emerald-900' : ''}`}>
+                <Sparkles className="w-4 h-4 sm:w-4.5 sm:h-4.5" strokeWidth={activeTab === 'study' ? 2.5 : 2} />
+              </div>
+              <span className={`text-[9px] sm:text-[11px] leading-tight mt-0.5 ${
+                activeTab === 'study' ? 'font-bold text-emerald-950' : 'font-medium text-slate-500'
+              }`}>
+                Study
               </span>
             </button>
 
@@ -179,9 +214,9 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
               title="MCQ Bank"
             >
               <div className={`p-1 rounded-lg ${activeTab === 'papers' ? 'bg-blue-100 text-blue-900' : ''}`}>
-                <BookOpen className="w-4.5 h-4.5" strokeWidth={activeTab === 'papers' ? 2.5 : 2} />
+                <BookOpen className="w-4 h-4 sm:w-4.5 sm:h-4.5" strokeWidth={activeTab === 'papers' ? 2.5 : 2} />
               </div>
-              <span className={`text-[10px] sm:text-[11px] leading-tight mt-0.5 ${
+              <span className={`text-[9px] sm:text-[11px] leading-tight mt-0.5 ${
                 activeTab === 'papers' ? 'font-bold text-blue-950' : 'font-medium text-slate-500'
               }`}>
                 MCQs
@@ -199,9 +234,9 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
               title="TNH Practice"
             >
               <div className={`p-1 rounded-lg ${activeTab === 'tnh_practice' ? 'bg-teal-100 text-teal-900' : ''}`}>
-                <GraduationCap className="w-4.5 h-4.5" strokeWidth={activeTab === 'tnh_practice' ? 2.5 : 2} />
+                <GraduationCap className="w-4 h-4 sm:w-4.5 sm:h-4.5" strokeWidth={activeTab === 'tnh_practice' ? 2.5 : 2} />
               </div>
-              <span className={`text-[10px] sm:text-[11px] leading-tight mt-0.5 ${
+              <span className={`text-[9px] sm:text-[11px] leading-tight mt-0.5 ${
                 activeTab === 'tnh_practice' ? 'font-bold text-teal-950' : 'font-medium text-slate-500'
               }`}>
                 Practice
@@ -219,9 +254,9 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
               title="SAQ Bank"
             >
               <div className={`p-1 rounded-lg ${activeTab === 'saqs' ? 'bg-purple-100 text-purple-900' : ''}`}>
-                <FileText className="w-4.5 h-4.5" strokeWidth={activeTab === 'saqs' ? 2.5 : 2} />
+                <FileText className="w-4 h-4 sm:w-4.5 sm:h-4.5" strokeWidth={activeTab === 'saqs' ? 2.5 : 2} />
               </div>
-              <span className={`text-[10px] sm:text-[11px] leading-tight mt-0.5 ${
+              <span className={`text-[9px] sm:text-[11px] leading-tight mt-0.5 ${
                 activeTab === 'saqs' ? 'font-bold text-purple-950' : 'font-medium text-slate-500'
               }`}>
                 SAQs
@@ -239,9 +274,9 @@ export default function Layout({ children, activeTab, setActiveTab, hideBottomNa
               title="Mistakes"
             >
               <div className={`p-1 rounded-lg ${activeTab === 'review' ? 'bg-rose-100 text-rose-900' : ''}`}>
-                <AlertCircle className="w-4.5 h-4.5" strokeWidth={activeTab === 'review' ? 2.5 : 2} />
+                <AlertCircle className="w-4 h-4 sm:w-4.5 sm:h-4.5" strokeWidth={activeTab === 'review' ? 2.5 : 2} />
               </div>
-              <span className={`text-[10px] sm:text-[11px] leading-tight mt-0.5 ${
+              <span className={`text-[9px] sm:text-[11px] leading-tight mt-0.5 ${
                 activeTab === 'review' ? 'font-bold text-rose-950' : 'font-medium text-slate-500'
               }`}>
                 Mistakes

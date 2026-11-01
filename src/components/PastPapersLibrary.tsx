@@ -18,6 +18,7 @@ import {
   Wind,
   Activity,
   Pill,
+  Baby,
   CheckCircle2,
   BookOpen,
   Layers
@@ -86,6 +87,14 @@ export default function PastPapersLibrary({
     const pharmacologyPapers = sourcePapers.filter(
       p => (p.unit || p.category) === 'Pharmacology 1' || p.category === 'Pharmacology 1' || p.unit === 'Pharmacology'
     );
+    const paediatricsPapers = sourcePapers.filter(
+      p => (p.unit || p.category) === 'Paediatrics 1' ||
+           p.category === 'Paediatrics 1' ||
+           p.unit === 'Paediatrics Communicable Diseases' ||
+           p.unit === 'Paediatric Medical Surgical Conditions' ||
+           p.unit === 'Paediatric Nursing I' ||
+           p.id.includes('paediatric')
+    );
 
     const allUnits = [
       {
@@ -114,6 +123,15 @@ export default function PastPapersLibrary({
         rawTotalPapers: pharmacologyPapers.length,
         unitType: 'pharmacology' as const,
         saqCount: 0
+      },
+      {
+        id: 'Paediatrics 1',
+        title: 'Paediatrics 1',
+        papersCount: paediatricsPapers.length,
+        questionsCount: paediatricsPapers.reduce((sum, p) => sum + (p.questions?.length || p.totalQuestions || 0), 0),
+        rawTotalPapers: paediatricsPapers.length,
+        unitType: 'paediatrics' as const,
+        saqCount: 0
       }
     ];
 
@@ -138,7 +156,17 @@ export default function PastPapersLibrary({
   const rawScopedUnitPapers = useMemo(() => {
     if (!selectedUnit) return [];
     return sourcePapers.filter(
-      p => (p.unit || p.category) === selectedUnit || p.category === selectedUnit || (selectedUnit === 'Pharmacology 1' && p.unit === 'Pharmacology')
+      p => (p.unit || p.category) === selectedUnit ||
+           p.category === selectedUnit ||
+           (selectedUnit === 'Pharmacology 1' && p.unit === 'Pharmacology') ||
+           (selectedUnit === 'Paediatrics 1' && (
+             p.unit === 'Paediatrics 1' ||
+             p.category === 'Paediatrics 1' ||
+             p.unit === 'Paediatrics Communicable Diseases' ||
+             p.unit === 'Paediatric Medical Surgical Conditions' ||
+             p.unit === 'Paediatric Nursing I' ||
+             p.id.includes('paediatric')
+           ))
     );
   }, [selectedUnit, sourcePapers]);
 
@@ -198,6 +226,10 @@ export default function PastPapersLibrary({
                 pharmacology: {
                   box: 'bg-emerald-50 text-emerald-600 border-emerald-200/80 group-hover:bg-emerald-100 group-hover:text-emerald-700',
                   icon: <Pill className="w-4.5 h-4.5" />
+                },
+                paediatrics: {
+                  box: 'bg-amber-50 text-amber-600 border-amber-200/80 group-hover:bg-amber-100 group-hover:text-amber-700',
+                  icon: <Baby className="w-4.5 h-4.5" />
                 }
               }[unit.unitType];
 
