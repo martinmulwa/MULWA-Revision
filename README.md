@@ -15,8 +15,8 @@ The portal combines 1,000+ past examination questions, physiological and pathoph
 | Metric | Count | Details |
 | :--- | :--- | :--- |
 | **Access Model** | **Open & Equal** | Universal access for all candidates; no administrative barriers or sign-in gates |
-| **Total Past Papers & Practice Modules** | **32 Papers** | Curated official exams and standardized practice modules |
-| **Total MCQ & True/False Items** | **1,134 Questions** | Validated stems with distractors and clinical rationales |
+| **Total Past Papers & Practice Modules** | **40 Papers** | Curated official exams and standardized practice modules |
+| **Total MCQ & True/False Items** | **1,245 Questions** | Validated stems with distractors and clinical rationales |
 | **High-Yield SAQ Items** | **112 Questions** | Model answers scaled to marks with examiner scoring tips |
 | **Clinical SAQ Units** | **2 Clinical Units** | Respiratory Disorders (29 SAQs) & Trauma and Emergency (11 SAQs) |
 | **TNH Practice SAQ Modules** | **16 Modules (72 SAQs)** | Dedicated Trauma & Emergency SAQs (Sets 1–4) under TNH Practice |
@@ -128,14 +128,22 @@ The platform organizes content modularly under **Block 1**, divided into clinica
 ---
 
 ### 4. Paediatrics 1 (PEN 101: Communicable Diseases & Medical-Surgical Conditions)
-* **Status:** 3 Curated Examination Papers (**62 total MCQs & True/False items**)
+* **Status:** 11 Curated Examination Papers (**173 total MCQs & True/False items**)
 * **Examinations & Modules Included:**
-  1. **April 2024 Class End of Block Exam** (`krn-block1-april2024-paediatric-nursing-i`) — 15 Questions (sat 11 November 2024, Part A, Q1 to Q15)
-  2. **April 2022 Class End of Block Exam — Medical-Surgical Conditions** (`krn-block1-april2022-paediatric-medical-surgical-conditions`) — 32 Questions (Part One, Q1 to Q30 including True/False subsets)
-  3. **April 2022 Class End of Block Exam — Communicable Diseases** (`krn-block1-april2022-paediatrics-communicable-diseases`) — 15 Questions (Part A, Q1 to Q15)
+  1. **April 2025 Class End of Block 1 Special/Supplementary Exam** (`krn-block1-april2025-paediatric-nursing-i-supplementary`) — 15 Questions (PEN 101: Paediatric Nursing I, sat 18 December 2025, Section A, Q1 to Q15)
+  2. **April 2024 Class End of Block Exam** (`krn-block1-april2024-paediatric-nursing-i`) — 15 Questions (PEN 101: Paediatric Nursing I, sat 11 November 2024, Part A, Q1 to Q15)
+  3. **April 2024 Class End of Block Supplementary Exam — Medical-Surgical** (`krn-block1-april2024-paediatric-medical-surgical-supplementary`) — 31 Questions (PEN 101: Paediatric Medical-Surgical, sat 19 December 2024, Section A, Q1 to Q30)
+  4. **September 2023 Class First Block Supplementary Exam** (`krn-block1-september2023-paediatrics-i-supplementary`) — 15 Questions (PEN 101: Paediatrics I, sat 29 May 2024, Part A, Q1 to Q15)
+  5. **April 2022 Class End of Block Exam — Medical-Surgical Conditions** (`krn-block1-april2022-paediatric-medical-surgical-conditions`) — 32 Questions (PEN 101: Paediatric Medical Surgical Conditions, Part One, Q1 to Q30)
+  6. **April 2022 Class End of Block Exam — Communicable Diseases** (`krn-block1-april2022-paediatrics-communicable-diseases`) — 15 Questions (PEN 101: Paediatrics Communicable Diseases, Part A, Q1 to Q15)
+  7. **September 2021 Class Paediatrics Communicable Diseases Exam** (`krn-block1-september2021-paediatrics-communicable-diseases`) — 15 Questions (PEN 101: Paediatrics Communicable Diseases, sat 20 April 2022, Part A, Q1 to Q15)
+  8. **September 2019 Class End of Block 1 Exam** (`krn-block1-september2019-paediatrics-i-end-of-block`) — 10 Questions (Paediatrics 1, sat 4 November 2020, Part A, Q1 to Q10)
+  9. **September 2019 Class End of Block 1 Special Exam** (`krn-block1-september2019-paediatrics-i-special`) — 10 Questions (Paediatrics 1, sat 14 January 2021, Part A, Q1 to Q10)
+  10. **September 2019 Class PTS Block Exam: Introduction to Paediatrics** (`krn-pts-september2019-introduction-to-paediatrics`) — 5 Questions (Introduction to Paediatrics, sat 6 December 2019, Part A, Q1 to Q5)
+  11. **April 2019 Class End of Block 1 Supplementary Exam** (`krn-block1-april2019-paediatrics-i-supplementary`) — 10 Questions (Paediatrics 1, sat 17 January 2020, Part A, Q1 to Q10)
 * **Key Topics Covered:**
-  * **Developmental Milestones & Physical Assessment:** 3–4 months head control delay warning signs, 3–6 months visual tracking, 6–8 months unsupported sitting, 9–12 months fine pincer grasp; weight doubling by 6 months, quadrupling by 2 years
-  * **Pediatric Nursing Principles & Restraints:** Family-centered care partnerships and parental decision-making; minimizing separation anxiety (phases of protest, despair, detachment; rooming-in, familiar caregivers); restraint classifications (mechanical [mittens, elbow restraints, mummy wraps] vs. physical [holding during venipuncture] vs. environmental vs. chemical)
+  * **Developmental Milestones & Physical Assessment:** 3–4 months head control delay warning signs, 3–6 months visual tracking, 6–8 months unsupported sitting, 9–12 months fine pincer grasp; weight doubling by 6 months, quadrupling by 2 years; neonate definitions (first 28 days of life); primary, secondary, and tertiary prevention scopes; deciduous tooth eruption timelines (18–20 teeth at 2 years); MUAC nutritional screening (6–59 months: <11.5 cm severe acute malnutrition); pediatric-specific history taking (nutrition/weaning, birth history, developmental milestones)
+  * **Pediatric Nursing Principles & Restraints:** Family-centered care partnerships and parental decision-making; minimizing separation anxiety (phases of protest, despair, detachment; rooming-in, familiar caregivers); fear management in adolescents (assent for parental presence); restraint classifications (mechanical [mittens, elbow restraints, papoose boards for blood exchange/transfusions] vs. physical [holding during injection] vs. environmental vs. chemical); bundled care in neonatal tetanus (reducing sensory spasm triggers)
   * **Pediatric Triage (ETAT) & Respiratory Distress:** Prioritization rules (Emergency signs vs. Priority signs [bilateral pedal pitting edema in kwashiorkor, urgent referral] vs. Non-urgent well-child attendances); age-specific fast breathing thresholds (<2 mo: ≥60 bpm; 2–12 mo: ≥50 bpm; 12 mo–5 yr: ≥40 bpm)
   * **Fluid Resuscitation & Dehydration (IMCI/WHO):** Severe dehydration clinical criteria (sunken eyes, delayed skin pinch >2s, poor drinking, lethargy) managed via Plan C; hypovolemic shock emergency bolus calculation (Ringer's lactate or Normal Saline 20 mL/kg over 15 minutes); osmotic diarrhea mechanism in lactose intolerance
   * **Congenital Gastrointestinal Anomalies:**
